@@ -1,10 +1,10 @@
 {
-  "name": "testdb",
+  "name": "databaseseed",
   "version": "1.0.0",
   "description": "",
-  "main": "importData.js",
+  "main": "app.js",
   "scripts": {
-    "seed-db": "node app.js"
+    "seed-db": "node app.ts"
   },
   "keywords": [],
   "author": "",
