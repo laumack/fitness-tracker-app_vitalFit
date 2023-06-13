@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 665734,
+          "imageType": "jpg",
+          "title": "Zucchini Chicken Omelette",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/zucchini-chicken-omelette-665734"
+        },
+        {
+          "id": 1502521,
+          "imageType": "jpg",
+          "title": "Crack Chicken Chili",
+          "readyInMinutes": 30,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/crack-chicken-chili-1502521"
+        },
+        {
+          "id": 650397,
+          "imageType": "jpg",
+          "title": "Low Fat Fettuccine Alfredo With Fiddleheads",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/low-fat-fettuccine-alfredo-with-fiddleheads-650397"
+        }
+      ],
+      "nutrients": {
+        "calories": 1600.05,
+        "protein": 87.04,
+        "fat": 69.27,
+        "carbohydrates": 159.35
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 665667,
+          "imageType": "jpg",
+          "title": "Zomppa's Blueberry Muffins",
+          "readyInMinutes": 45,
+          "servings": 18,
+          "sourceUrl": "https://spoonacular.com/zomppas-blueberry-muffins-665667"
+        },
+        {
+          "id": 642730,
+          "imageType": "jpg",
+          "title": "Fettuccine With Beans & Broccoli & Mushrooms",
+          "readyInMinutes": 20,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/fettuccine-with-beans-broccoli-mushrooms-642730"
+        },
+        {
+          "id": 662089,
+          "imageType": "jpg",
+          "title": "Stuffed Shells With Smoked Whitefish In A Lemon Béchamel Sauce",
+          "readyInMinutes": 45,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/stuffed-shells-with-smoked-whitefish-in-a-lemon-bchamel-sauce-662089"
+        }
+      ],
+      "nutrients": {
+        "calories": 1599.93,
+        "protein": 77.25,
+        "fat": 67.33,
+        "carbohydrates": 178.14
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 657917,
+          "imageType": "jpg",
+          "title": "Raspberry Walnut Coffee Cake",
+          "readyInMinutes": 35,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/raspberry-walnut-coffee-cake-657917"
+        },
+        {
+          "id": 715769,
+          "imageType": "jpg",
+          "title": "Broccolini Quinoa Pilaf",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/broccolini-quinoa-pilaf-715769"
+        },
+        {
+          "id": 645422,
+          "imageType": "jpg",
+          "title": "Sausages with Green Cabbage Mash",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/sausages-with-green-cabbage-mash-645422"
+        }
+      ],
+      "nutrients": {
+        "calories": 1599.97,
+        "protein": 47.08,
+        "fat": 75.82,
+        "carbohydrates": 191.15
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 653270,
+          "imageType": "jpg",
+          "title": "Nori Seaweed Muffins",
+          "readyInMinutes": 45,
+          "servings": 12,
+          "sourceUrl": "https://spoonacular.com/nori-seaweed-muffins-653270"
+        },
+        {
+          "id": 643789,
+          "imageType": "jpg",
+          "title": "Fried Salmon Cakes",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/fried-salmon-cakes-643789"
+        },
+        {
+          "id": 654527,
+          "imageType": "jpg",
+          "title": "Paneer And Farro Casserole",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/paneer-and-farro-casserole-654527"
+        }
+      ],
+      "nutrients": {
+        "calories": 1599.97,
+        "protein": 56.55,
+        "fat": 89.04,
+        "carbohydrates": 151.13
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 637645,
+          "imageType": "jpg",
+          "title": "Cheesy Cauliflower Pancakes",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/cheesy-cauliflower-pancakes-637645"
+        },
+        {
+          "id": 1516713,
+          "imageType": "jpg",
+          "title": "Instant Pot Crack Chicken Chili",
+          "readyInMinutes": 16,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/instant-pot-crack-chicken-chili-1516713"
+        },
+        {
+          "id": 639585,
+          "imageType": "jpg",
+          "title": "Classic Beef Pasta Stroganoff",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/classic-beef-pasta-stroganoff-639585"
+        }
+      ],
+      "nutrients": {
+        "calories": 1599.96,
+        "protein": 71.25,
+        "fat": 110.48,
+        "carbohydrates": 85.94
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 656481,
+          "imageType": "jpg",
+          "title": "Poached Egg With Spinach and Tomato",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/poached-egg-with-spinach-and-tomato-656481"
+        },
+        {
+          "id": 652417,
+          "imageType": "jpg",
+          "title": "Moroccan chickpea and lentil stew",
+          "readyInMinutes": 30,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/moroccan-chickpea-and-lentil-stew-652417"
+        },
+        {
+          "id": 633452,
+          "imageType": "jpg",
+          "title": "Baked Bean Fritters",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/baked-bean-fritters-633452"
+        }
+      ],
+      "nutrients": {
+        "calories": 1599.9,
+        "protein": 63.66,
+        "fat": 88.93,
+        "carbohydrates": 145.54
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 716417,
+          "imageType": "jpg",
+          "title": "Strawberry Shortcake w. Mini Strawberry PopTarts",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/strawberry-shortcake-w-mini-strawberry-poptarts-716417"
+        },
+        {
+          "id": 1098240,
+          "imageType": "jpg",
+          "title": "Lemon Fresh Spaghetti with Garden Sauce & Pumpkin Flowers",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/lemon-fresh-spaghetti-with-garden-sauce-pumpkin-flowers-1098240"
+        },
+        {
+          "id": 664961,
+          "imageType": "jpg",
+          "title": "Warm Goat Cheese Salad",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/warm-goat-cheese-salad-664961"
+        }
+      ],
+      "nutrients": {
+        "calories": 1600,
+        "protein": 48.08,
+        "fat": 78.89,
+        "carbohydrates": 178.18
+      }
+    }
+  }
+}
