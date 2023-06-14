@@ -1,27 +1,15 @@
-import express from "express";
-import db from "./utils/connection";
+import express, { Express } from 'express';
+import apiRouter from './routes/api.router';
+import cors from 'cors';
+import { customErr, errLog } from './error-handler';
 
-const app = express();
-const port = 3009;
+const app: Express = express();
+app.use(express.json());
+app.use(cors());
 
-app.get("/api/exercises", async (req, res) => {
-  const exerciseRef = db.collection("exercises");
-  const snapshot = await exerciseRef.get();
+app.use("/api", apiRouter);
 
-  if (snapshot.empty) {
-    console.log("No matching exercises.");
-    res.status(404).send("No exercises found");
-    return;
-  }
+app.use(customErr);
+app.use(errLog);
 
-  const exercises: FirebaseFirestore.DocumentData[] = [];
-  snapshot.forEach((doc) => {
-    exercises.push({ id: doc.id, ...doc.data() });
-  });
-
-  res.status(200).json(exercises);
-});
-
-app.listen(port, () => {
-  console.log(`Server started at http://localhost:${port}`);
-});
+export default app;
