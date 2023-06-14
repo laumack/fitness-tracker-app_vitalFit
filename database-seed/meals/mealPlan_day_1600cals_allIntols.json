@@ -1,0 +1,38 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 986003,
+          "imageType": "jpg",
+          "title": "Instant Pot Chicken Tacos",
+          "readyInMinutes": 25,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/instant-pot-chicken-tacos-986003"
+        },
+        {
+          "id": 651585,
+          "imageType": "jpg",
+          "title": "Mexican Chicken Lettuce Wraps",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/mexican-chicken-lettuce-wraps-651585"
+        }
+      ],
+      "nutrients": {
+        "calories": 1600.45,
+        "protein": 131.87,
+        "fat": 68.98,
+        "carbohydrates": 115.44
+      }
+    }
+  }
+}

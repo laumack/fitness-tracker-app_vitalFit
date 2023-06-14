@@ -10,8 +10,8 @@ Vegan:
 1200    1600    2000    2500
 
 All intolerances:
-    1200✅ - ONLY ONE DAY OF DATA AVAILABLE
-    1600
+    1200✅ - only ONE DAY of data available (3 meals)
+    1600✅ - only ONE DAY of data available (3 meals)
     2000
     2500
 
