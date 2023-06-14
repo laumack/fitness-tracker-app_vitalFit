@@ -1,0 +1,680 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 29,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 15,
+    "healthScore": 7,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 293.95,
+    "id": 1100990,
+    "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+    "readyInMinutes": 30,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/35NX6PZB/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan",
+    "image": "https://spoonacular.com/recipeImages/1100990-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan takes about <b>30 minutes</b> from beginning to end. This recipe serves 2 and costs $2.94 per serving. One portion of this dish contains around <b>13g of protein</b>, <b>43g of fat</b>, and a total of <b>775 calories</b>. This recipe is liked by 15 foodies and cooks. Head to the store and pick up cacao nibs, himalayan sea salt, tapioca/arrowroot flour, and a few other things to make it today. It works well as a breakfast. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 66%</b>, which is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1403565\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1394639\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, and <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1386631\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "fodmap friendly",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Combine the almond, coconut, tapioca/arrowroot flour, baking powder, sugar and salt together and mix all the ingredients well before adding the milk and paste/extract and ensuring that all of the ingredients are whisked together to form a smooth batter.Allow to sit for approximately 10-15 minutes.",
+            "ingredients": [
+              {
+                "id": 20003,
+                "name": "arrowroot",
+                "localizedName": "arrowroot",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 18369,
+                "name": "baking powder",
+                "localizedName": "baking powder",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 12104,
+                "name": "coconut",
+                "localizedName": "coconut",
+                "image": "coconut.jpg"
+              },
+              {
+                "id": 0,
+                "name": "extract",
+                "localizedName": "extract",
+                "image": ""
+              },
+              {
+                "id": 20068,
+                "name": "tapioca",
+                "localizedName": "tapioca",
+                "image": "sago-pearls.png"
+              },
+              {
+                "id": 12061,
+                "name": "almonds",
+                "localizedName": "almonds",
+                "image": "almonds.jpg"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Heat a small amount of coconut oil into a frying pan/skillet and pour a small enough amount of the batter into the middle of the pan.Allow the batter to cook sufficiently for a few minutes (the edges should start to brown and the top of the batter should start to bubble) on one side before sprinkling on a few blueberries and flipping the pancake over to cook on the other side.Immediately sprinkle on some of the cacao nibs and dark chocolate on top and continue to cook thoroughly for a few minutes before removing the pancake and setting aside.Repeat with the remaining batter until finished.",
+            "ingredients": [
+              {
+                "id": 19904,
+                "name": "dark chocolate",
+                "localizedName": "dark chocolate",
+                "image": "dark-chocolate-pieces.jpg"
+              },
+              {
+                "id": 9050,
+                "name": "blueberries",
+                "localizedName": "blueberries",
+                "image": "blueberries.jpg"
+              },
+              {
+                "id": 4047,
+                "name": "coconut oil",
+                "localizedName": "coconut oil",
+                "image": "oil-coconut.jpg"
+              },
+              {
+                "id": 98846,
+                "name": "cocoa nibs",
+                "localizedName": "cocoa nibs",
+                "image": "cacao-nibs.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Pour over the agave, give thanks and enjoy!",
+            "ingredients": [
+              {
+                "id": 19912,
+                "name": "agave",
+                "localizedName": "agave",
+                "image": "agave.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 774.664, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 8,
+    "gaps": "no",
+    "preparationMinutes": 5,
+    "cookingMinutes": 20,
+    "aggregateLikes": 7,
+    "healthScore": 32,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 444.51,
+    "id": 986003,
+    "title": "Instant Pot Chicken Tacos",
+    "readyInMinutes": 25,
+    "servings": 6,
+    "sourceUrl": "https://www.pinkwhen.com/instant-pot-chicken-tacos/",
+    "image": "https://spoonacular.com/recipeImages/986003-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many main course recipes, so give Instant Pot Chicken Tacos a try. Watching your figure? This gluten free, dairy free, and whole 30 recipe has <b>546 calories</b>, <b>97g of protein</b>, and <b>12g of fat</b> per serving. This recipe serves 6. For <b>$4.45 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. 7 people have tried and liked this recipe. This recipe is typical of Mexican cuisine. It is brought to you by Pink When. From preparation to the plate, this recipe takes around <b>25 minutes</b>. A mixture of pepper, chicken breasts, lime juice, and a handful of other ingredients are all it takes to make this recipe so yummy. Overall, this recipe earns a <b>tremendous spoonacular score of 82%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-tacos-shredded-chicken-tacos-1070868\">Instant Pot Chicken Tacos (shredded chicken tacos)</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-tacos-shredded-chicken-tacos-1368623\">Instant Pot Chicken Tacos (shredded chicken tacos)</a>, and <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-tacos-1655889\">Instant Pot Chicken Tacos</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "whole 30"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Season both sides of the chicken with pepper and taco seasoning.",
+            "ingredients": [
+              {
+                "id": 2073,
+                "name": "taco seasoning mix",
+                "localizedName": "taco seasoning mix",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Place chicken into the bottom of the Instant Pot.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Top chicken with onion and salsa.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 6164,
+                "name": "salsa",
+                "localizedName": "salsa",
+                "image": "salsa.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Secure Instant Pot lid into the lock position.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Place the lid onto the Instant Pot and turn on the Poultry setting. Set for 12 minutes.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "poultry",
+                "localizedName": "poultry",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ],
+            "length": { "number": 12, "unit": "minutes" }
+          },
+          {
+            "number": 6,
+            "step": "Once finished, allow the Instant Pot to naturally release pressure for 20 minutes.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ],
+            "length": { "number": 20, "unit": "minutes" }
+          },
+          {
+            "number": 7,
+            "step": "Remove chicken from the Instant Pot and shred.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "step": "Sprinkle with lime juice.",
+            "ingredients": [
+              {
+                "id": 9160,
+                "name": "lime juice",
+                "localizedName": "lime juice",
+                "image": "lime-juice.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 9,
+            "step": "Serve over rice or with tortillas for some amazingly easy and delicious tacos.",
+            "ingredients": [
+              {
+                "id": 18364,
+                "name": "tortilla",
+                "localizedName": "tortilla",
+                "image": "flour-tortilla.jpg"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-chicken-tacos-986003",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 546.302, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 40,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 217.21,
+    "id": 649764,
+    "title": "Lemon Roasted Chicken",
+    "readyInMinutes": 120,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/8KK3LR24/lemon-roasted-chicken",
+    "image": "https://spoonacular.com/recipeImages/649764-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "If you want to add more <b>gluten free, dairy free, and whole 30</b> recipes to your recipe box, Lemon Roasted Chicken might be a recipe you should try. This recipe makes 4 servings with <b>681 calories</b>, <b>37g of protein</b>, and <b>44g of fat</b> each. For <b>$2.17 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes approximately <b>2 hours</b>. This recipe is liked by 1 foodies and cooks. It works well as a main course. This recipe from Foodista requires paprika, rosemary, salt and pepper, and roasting chicken. With a spoonacular <b>score of 83%</b>, this dish is outstanding. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/roasted-lemon-pepper-herb-chicken-thighs-with-lemon-wine-pan-sauce-1065434\">Roasted Lemon Pepper Herb Chicken Thighs with Lemon Wine Pan Sauce</a>, <a href=\"https://spoonacular.com/recipes/lemon-roasted-chicken-244556\">Lemon Roasted Chicken</a>, and <a href=\"https://spoonacular.com/recipes/roasted-lemon-chicken-116226\">Roasted Lemon Chicken</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "whole 30"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat oven to 425F.Quarter the lemon and squeeze juice into a small bowl. Save lemon sections.Rinse chicken in cold water, inside and out; pat dry.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1019016,
+                "name": "juice",
+                "localizedName": "juice",
+                "image": "apple-juice.jpg"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "lemon.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 425, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Place chicken in a roasting pan and season cavity with salt and pepper.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404629,
+                "name": "roasting pan",
+                "localizedName": "roasting pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Place lemon sections, garlic, rosemary and thyme in cavity.Tie legs with twine and tuck wings underneath chicken. By sealing the cavity, the spices will steam from the inside out.",
+            "ingredients": [
+              {
+                "id": 2036,
+                "name": "rosemary",
+                "localizedName": "rosemary",
+                "image": "rosemary.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 2035,
+                "name": "spices",
+                "localizedName": "spices",
+                "image": "spices.png"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "lemon.png"
+              },
+              {
+                "id": 2049,
+                "name": "thyme",
+                "localizedName": "thyme",
+                "image": "thyme.jpg"
+              },
+              {
+                "id": 5100,
+                "name": "chicken wings",
+                "localizedName": "chicken wings",
+                "image": "chicken-wings.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404733,
+                "name": "kitchen twine",
+                "localizedName": "kitchen twine",
+                "image": "kitchen-string.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Brush entire chicken with about 2 tablespoons oil and sprinkle with salt, pepper and paprika.Surround chicken with potatoes and drizzle them with the remaining oil.",
+            "ingredients": [
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 2028,
+                "name": "paprika",
+                "localizedName": "paprika",
+                "image": "paprika.jpg"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Combine chicken broth with lemon juice and pour over potatoes.",
+            "ingredients": [
+              {
+                "id": 6194,
+                "name": "chicken broth",
+                "localizedName": "chicken broth",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 9152,
+                "name": "lemon juice",
+                "localizedName": "lemon juice",
+                "image": "lemon-juice.jpg"
+              },
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Place pan in oven and roast for 20 minutes. Then reduce temperature to 350F and roast another 1-1 1/2  hours, basting with pan juices every 15 minutes. When done, a meat thermometer placed in the joint of the body and leg should read 180F.",
+            "ingredients": [
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404789,
+                "name": "kitchen thermometer",
+                "localizedName": "kitchen thermometer",
+                "image": "food-thermometer.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 350, "unit": "Fahrenheit" }
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 35, "unit": "minutes" }
+          },
+          {
+            "number": 7,
+            "step": "Let chicken set 10 minutes before carving.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 8,
+            "step": "Serve with pan juices.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/lemon-roasted-chicken-649764",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 680.628, "unit": "kcal" }]
+    }
+  }
+]
