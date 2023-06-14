@@ -7,16 +7,16 @@ No diet:
     2500✅ - 7 days
 
 Vegan:
-1200    1600    2000    2500
+    1200    1600    2000    2500
 
 All intolerances:
     1200✅ - only ONE DAY of data available (3 meals)
     1600✅ - only ONE DAY of data available (3 meals)
     2000✅ - only ONE DAY of data available (3 meals)
-    2500
+    2500✅ - only ONE DAY of data available (3 meals)
 
 Vegan & all intolerances:
-1200    1600    2000    2500
+    1200    1600    2000    2500
 
 16 in total
 
