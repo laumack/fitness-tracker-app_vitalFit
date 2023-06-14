@@ -9,7 +9,7 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-const directoryPath = path.join(__dirname, "recipies");
+const directoryPath = path.join(__dirname, "mealPlans");
 
 fs.readdir(
   directoryPath,
@@ -31,17 +31,17 @@ fs.readdir(
           }
           try {
             const data = JSON.parse(jsonString || "[]");
-            data.forEach((item: any) => {
-              db.collection("recipes")
-                .doc(`${item.id}`)
-                .set(item)
-                .then((res: FirebaseFirestore.WriteResult) => {
-                  console.log(`Document ${item.id} is successfully written!`);
-                })
-                .catch((error: any) => {
-                  console.error(`Error writing document: ${error}`);
-                });
-            });
+
+            let docName = path.basename(file, path.extname(file));
+            db.collection("mealplans")
+              .doc(docName)
+              .set(data)
+              .then((res: FirebaseFirestore.WriteResult) => {
+                console.log(`Document ${docName} is successfully written!`);
+              })
+              .catch((error: any) => {
+                console.error(`Error writing document: ${error}`);
+              });
           } catch (err) {
             console.log("Error parsing JSON string:", err);
           }

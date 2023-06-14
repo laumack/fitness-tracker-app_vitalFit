@@ -6,7 +6,8 @@
   "scripts": {
     "seed-exercises": "node exercises.js",
     "seed-users": "node users.js",
-    "seed-meals": "node meals.js"
+    "seed-meals": "node meals.js",
+    "seed-plan": "node mealplans.js"
   },
   "keywords": [],
   "author": "",
