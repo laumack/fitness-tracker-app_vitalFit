@@ -1,6 +1,7 @@
 [
   {
     "name": "Basic Cardio Routine",
+    "category": "beginner",
     "description": "A simple routine suitable for beginners to increase heart rate and burn calories.",
     "exercises": [
       {
@@ -26,6 +27,7 @@
   },
   {
     "name": "Intermediate Cardio Routine",
+    "category": "intermediate",
     "description": "A slightly more challenging routine designed to push your cardiovascular fitness.",
     "exercises": [
       {
@@ -51,6 +53,7 @@
   },
   {
     "name": "Advanced Cardio Routine",
+    "category": "advanced",
     "description": "A high intensity routine for advanced individuals. Not recommended for beginners.",
     "exercises": [
       {

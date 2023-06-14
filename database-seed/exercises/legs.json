@@ -1,6 +1,7 @@
 [
   {
     "name": "Beginner Leg Routine",
+    "category": "beginner",
     "description": "A simple routine suitable for beginners to start strengthening the leg muscles.",
     "exercises": [
       {
@@ -26,6 +27,7 @@
   },
   {
     "name": "Intermediate Leg Routine",
+    "category": "intermediate",
     "description": "A more challenging routine suitable for users with moderate fitness levels.",
     "exercises": [
       {
@@ -52,6 +54,7 @@
   },
   {
     "name": "Advanced Leg Routine",
+    "category": "advanced",
     "description": "A high-intensity routine for advanced users to further strengthen and challenge their leg muscles.",
     "exercises": [
       {

@@ -1,6 +1,7 @@
 [
   {
     "name": "Beginner Chest & Arms Routine",
+    "category": "beginner",
     "description": "A basic routine suitable for beginners to start strengthening the chest and arms muscles.",
     "exercises": [
       {
@@ -25,6 +26,7 @@
   },
   {
     "name": "Intermediate Chest & Arms Routine",
+    "category": "intermediate",
     "description": "A slightly more challenging routine suitable for users with moderate fitness levels.",
     "exercises": [
       {
@@ -50,6 +52,7 @@
 
   {
     "name": "Advanced Chest & Arms Routine",
+    "category": "advanced",
     "description": "A high-intensity routine for advanced users to really challenge their chest and arm muscles.",
     "exercises": [
       {

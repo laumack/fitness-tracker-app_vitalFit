@@ -1,6 +1,7 @@
 [
   {
     "name": "Beginner Abs Routine",
+    "category": "beginner",
     "description": "A simple routine suitable for beginners to start strengthening the core and abs.",
     "exercises": [
       {
@@ -26,6 +27,7 @@
   },
   {
     "name": "Intermediate Abs Routine",
+    "category": "intermediate",
     "description": "A more challenging routine for users who are already somewhat fit.",
     "exercises": [
       {
@@ -53,6 +55,7 @@
   },
   {
     "name": "Advanced Abs Routine",
+    "category": "advanced",
     "description": "A high-intensity routine for users with strong core strength.",
     "exercises": [
       {
