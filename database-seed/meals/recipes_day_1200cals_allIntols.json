@@ -1,0 +1,559 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 29,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 15,
+    "healthScore": 7,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 293.95,
+    "id": 1100990,
+    "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+    "readyInMinutes": 30,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/35NX6PZB/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan",
+    "image": "https://spoonacular.com/recipeImages/1100990-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan takes about <b>30 minutes</b> from beginning to end. This recipe serves 2 and costs $2.94 per serving. One portion of this dish contains around <b>13g of protein</b>, <b>43g of fat</b>, and a total of <b>775 calories</b>. This recipe is liked by 15 foodies and cooks. Head to the store and pick up cacao nibs, himalayan sea salt, tapioca/arrowroot flour, and a few other things to make it today. It works well as a breakfast. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 66%</b>, which is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1403565\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1394639\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, and <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1386631\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "fodmap friendly",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Combine the almond, coconut, tapioca/arrowroot flour, baking powder, sugar and salt together and mix all the ingredients well before adding the milk and paste/extract and ensuring that all of the ingredients are whisked together to form a smooth batter.Allow to sit for approximately 10-15 minutes.",
+            "ingredients": [
+              {
+                "id": 20003,
+                "name": "arrowroot",
+                "localizedName": "arrowroot",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 18369,
+                "name": "baking powder",
+                "localizedName": "baking powder",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 12104,
+                "name": "coconut",
+                "localizedName": "coconut",
+                "image": "coconut.jpg"
+              },
+              {
+                "id": 0,
+                "name": "extract",
+                "localizedName": "extract",
+                "image": ""
+              },
+              {
+                "id": 20068,
+                "name": "tapioca",
+                "localizedName": "tapioca",
+                "image": "sago-pearls.png"
+              },
+              {
+                "id": 12061,
+                "name": "almonds",
+                "localizedName": "almonds",
+                "image": "almonds.jpg"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Heat a small amount of coconut oil into a frying pan/skillet and pour a small enough amount of the batter into the middle of the pan.Allow the batter to cook sufficiently for a few minutes (the edges should start to brown and the top of the batter should start to bubble) on one side before sprinkling on a few blueberries and flipping the pancake over to cook on the other side.Immediately sprinkle on some of the cacao nibs and dark chocolate on top and continue to cook thoroughly for a few minutes before removing the pancake and setting aside.Repeat with the remaining batter until finished.",
+            "ingredients": [
+              {
+                "id": 19904,
+                "name": "dark chocolate",
+                "localizedName": "dark chocolate",
+                "image": "dark-chocolate-pieces.jpg"
+              },
+              {
+                "id": 9050,
+                "name": "blueberries",
+                "localizedName": "blueberries",
+                "image": "blueberries.jpg"
+              },
+              {
+                "id": 4047,
+                "name": "coconut oil",
+                "localizedName": "coconut oil",
+                "image": "oil-coconut.jpg"
+              },
+              {
+                "id": 98846,
+                "name": "cocoa nibs",
+                "localizedName": "cocoa nibs",
+                "image": "cacao-nibs.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Pour over the agave, give thanks and enjoy!",
+            "ingredients": [
+              {
+                "id": 19912,
+                "name": "agave",
+                "localizedName": "agave",
+                "image": "agave.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 774.664, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 2,
+    "gaps": "GAPS_FULL",
+    "preparationMinutes": 10,
+    "cookingMinutes": 8,
+    "aggregateLikes": 1,
+    "healthScore": 21,
+    "creditsText": "Jen West",
+    "sourceName": "Pink When",
+    "pricePerServing": 153.42,
+    "id": 1050444,
+    "title": "How to Make the Perfect Instant Pot Chicken",
+    "readyInMinutes": 18,
+    "servings": 6,
+    "sourceUrl": "https://www.pinkwhen.com/instant-pot-chicken/",
+    "image": "https://spoonacular.com/recipeImages/1050444-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe How to Make the Perfect Instant Pot Chicken can be made <b>in approximately 18 minutes</b>. For <b>$1.53 per serving</b>, you get a main course that serves 6. Watching your figure? This gluten free, dairy free, paleolithic, and primal recipe has <b>157 calories</b>, <b>25g of protein</b>, and <b>4g of fat</b> per serving. Head to the store and pick up avocado oil, chicken breasts, himalayan salt, and a few other things to make it today. 1 person has tried and liked this recipe. It is brought to you by Pink When. With a spoonacular <b>score of 70%</b>, this dish is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/perfect-instant-pot-chicken-breasts-1073792\">Perfect Instant Pot Chicken Breasts</a>, <a href=\"https://spoonacular.com/recipes/perfect-instant-pot-new-york-cheesecake-1017997\">Perfect Instant Pot New York Cheesecake</a>, and <a href=\"https://spoonacular.com/recipes/instant-pot-carnitas-perfect-every-time-1471125\">Instant Pot Carnitas - perfect every time!</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "primal",
+      "fodmap friendly",
+      "whole 30"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat the bottom of the instant pot using saut mode. Once it has heated up, add the oil and seasonings before placing the chicken into the oil in a single layer.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Brown each side for 1-2 minutes to create a rich flavor and then cancel the saut mode.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Pour in the stock or broth and deglaze the bottom of the pan. Slide the chicken over to scape up any little browned bits on the pot as this is flavor you want. Return the chicken to a single layer.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1006615,
+                "name": "broth",
+                "localizedName": "broth",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 1006615,
+                "name": "stock",
+                "localizedName": "stock",
+                "image": "chicken-broth.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Twist on the locking lid and ensure the steam valve is set to sealing. Then, select the manual setting to cook for 4 minutes. Be sure to adjust your cooking time depending on the size and thickness of your breasts.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 4, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "When the chicken has finished cooking, allow it to natural pressure release for 10 minutes. When the time is up, carefully release any remaining pressure and remove the lid.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 6,
+            "step": "Remove your chicken from the instant pot and shred the chicken using forks or a hand mixer. The leftover liquid from cooking can be saved for future recipes if used within 3-4 days. Enjoy!",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              },
+              {
+                "id": 404628,
+                "name": "hand mixer",
+                "localizedName": "hand mixer",
+                "image": "hand-mixer.png"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/how-to-make-the-perfect-instant-pot-chicken-1050444",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 156.778, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 5,
+    "gaps": "no",
+    "preparationMinutes": 5,
+    "cookingMinutes": 8,
+    "aggregateLikes": 0,
+    "healthScore": 11,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 150.89,
+    "id": 1502523,
+    "title": "Instant Pot Chicken Thighs",
+    "readyInMinutes": 13,
+    "servings": 4,
+    "sourceUrl": "https://www.pinkwhen.com/instant-pot-chicken-thighs/",
+    "image": "https://spoonacular.com/recipeImages/1502523-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Instant Pot Chicken Thighs is a <b>gluten free, dairy free, paleolithic, and primal</b> recipe with 4 servings. One portion of this dish contains approximately <b>33g of protein</b>, <b>14g of fat</b>, and a total of <b>270 calories</b>. For <b>$1.51 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 1 foodies and cooks. This recipe from Pink When requires olive oil, oregano, thyme, and garlic powder. It works best as a main course, and is done in roughly <b>13 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 52%</b>, which is solid. <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-thighs-1736595\">Instant Pot Chicken Thighs</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-thighs-1021270\">Instant Pot Chicken Thighs</a>, and <a href=\"https://spoonacular.com/recipes/instant-pot-chicken-thighs-1515979\">Instant Pot Chicken Thighs</a> are very similar to this recipe.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "paleolithic", "primal", "whole 30"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Combine the seasonings in a small bowl. Rub chicken with seasoning. Turn the Instant Pot on",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1012034,
+                "name": "dry seasoning rub",
+                "localizedName": "dry seasoning rub",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Saute mode and allow it to warm for a minute.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add olive oil and seasoned chicken. Cook chicken thighs for 3-4 minutes on each side until lightly browned. ",
+            "ingredients": [
+              {
+                "id": 5091,
+                "name": "chicken thighs",
+                "localizedName": "chicken thighs",
+                "image": "chicken-thigh.jpg"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 4, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Remove the chicken thighs to a plate.",
+            "ingredients": [
+              {
+                "id": 5091,
+                "name": "chicken thighs",
+                "localizedName": "chicken thighs",
+                "image": "chicken-thigh.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Turn the Instant Pot off and add 1 cup of water to the bottom of the pot. Use a scraper to remove all of the brown bits from the bottom of the pot. ",
+            "ingredients": [
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              },
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Place the trivet into the bottom of the Instant Pot.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Add the chicken to the trivet.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Close and lock the lid securely and close the vent. Set the Instant Pot on Manual Pressure to high for 8 minutes.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ],
+            "length": { "number": 8, "unit": "minutes" }
+          },
+          {
+            "number": 9,
+            "step": "Once the Instant Pot has finished, allow a natural release for 10 minutes, and then carefully release the remaining pressure. ",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 10,
+            "step": "Once the pin has dropped you can safely remove the lid. ",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 11,
+            "step": "Serve with your favorite sides. ",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-chicken-thighs-1502523",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 269.696, "unit": "kcal" }]
+    }
+  }
+]

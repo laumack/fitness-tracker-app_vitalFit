@@ -11,7 +11,7 @@ When all steps are completed, the "recipeTitles..." file created in step two can
 const fs = require("fs");
 const axios = require("axios");
 
-const apiKey = "e80578b09f76422fbfb320e0bdcb2fea"; ///////////////////////////////////////////////////////////////////// *1 API-key-here
+const apiKey = "e80578b09f76422fbfb320e0bdcb2fea"; ///////////////////////////////////////////////////////////////// *1 API-key-here
 
 function readJSONFile(filePath) {
   const fileData = fs.readFileSync(filePath);
@@ -19,7 +19,9 @@ function readJSONFile(filePath) {
 }
 
 async function makeAPICall(title) {
-  const url = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&addRecipeInformation=true&minCalories=0&titleMatch=${encodeURIComponent(title)}`; // Must keep minCalories = 0 otherwise calorie information will not be returned
+  const url = `https://api.spoonacular.com/recipes/complexSearch?apiKey=${apiKey}&addRecipeInformation=true&minCalories=0&titleMatch=${encodeURIComponent(
+    title
+  )}`; // Must keep minCalories = 0 otherwise calorie information will not be returned
 
   try {
     const response = await axios.get(url);
@@ -31,7 +33,7 @@ async function makeAPICall(title) {
 }
 
 async function processRecipeTitles() {
-  const filePath = "recipeTitles_week_2500cals.json"; /////////////////////////////////////////////////// **2
+  const filePath = "recipeTitles_week_1200cals_allIntols.json"; ///////////////////////////////////// **2
 
   const titles = readJSONFile(filePath);
 
@@ -45,13 +47,17 @@ async function processRecipeTitles() {
   }
 
   const resultsFileContent = JSON.stringify(results);
-  fs.writeFile("recipes_week_2500cals.json", resultsFileContent, (err) => { //////////////////////////// ***3
-    if (err) {
-      console.error("Error writing file:", err);
-    } else {
-      console.log("Recipe results saved to json file");
+  fs.writeFile(
+    "recipeTitles_week_1200cals_allIntols.json", ////////////////////////////////////////////////// ***3
+    resultsFileContent,
+    (err) => {
+      if (err) {
+        console.error("Error writing file:", err);
+      } else {
+        console.log("Recipe results saved to json file");
+      }
     }
-  });
+  );
 }
 
 processRecipeTitles();
