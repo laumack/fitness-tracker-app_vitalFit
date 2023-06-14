@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 658134,
+          "imageType": "jpg",
+          "title": "Redneck Breakfast on a Croissant",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/redneck-breakfast-on-a-croissant-658134"
+        },
+        {
+          "id": 1460497,
+          "imageType": "jpg",
+          "title": "Taco Casserole",
+          "readyInMinutes": 30,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/taco-casserole-1460497"
+        },
+        {
+          "id": 649073,
+          "imageType": "jpg",
+          "title": "Korean Saewoo Bokkeumbap (Shrimp Fried Rice)",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/korean-saewoo-bokkeumbap-shrimp-fried-rice-649073"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.03,
+        "protein": 73.72,
+        "fat": 45.82,
+        "carbohydrates": 124.02
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 665734,
+          "imageType": "jpg",
+          "title": "Zucchini Chicken Omelette",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/zucchini-chicken-omelette-665734"
+        },
+        {
+          "id": 642777,
+          "imageType": "jpg",
+          "title": "Fig and Goat Cheese Pizza With Pesto",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/fig-and-goat-cheese-pizza-with-pesto-642777"
+        },
+        {
+          "id": 664748,
+          "imageType": "jpg",
+          "title": "Veggie Meatloaf",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/veggie-meatloaf-664748"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.06,
+        "protein": 55.43,
+        "fat": 83.38,
+        "carbohydrates": 53.94
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 1646939,
+          "imageType": "jpg",
+          "title": "Strawberry Scones",
+          "readyInMinutes": 45,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/strawberry-scones-1646939"
+        },
+        {
+          "id": 1160166,
+          "imageType": "jpg",
+          "title": "How to Make an Amazing Chicken Salad with Apples and Celery",
+          "readyInMinutes": 10,
+          "servings": 3,
+          "sourceUrl": "https://spoonacular.com/how-to-make-an-amazing-chicken-salad-with-apples-and-celery-1160166"
+        },
+        {
+          "id": 640229,
+          "imageType": "jpg",
+          "title": "Cous Cous Tofu Salad With Creamy Herb Dressing",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/cous-cous-tofu-salad-with-creamy-herb-dressing-640229"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.01,
+        "protein": 81.21,
+        "fat": 57.46,
+        "carbohydrates": 97.96
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 649300,
+          "imageType": "jpg",
+          "title": "Latkes; Fried Vegetable Pancakes from Europe and the Middle East",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/latkes-fried-vegetable-pancakes-from-europe-and-the-middle-east-649300"
+        },
+        {
+          "id": 715421,
+          "imageType": "jpg",
+          "title": "Cheesy Chicken Enchilada Quinoa Casserole",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/cheesy-chicken-enchilada-quinoa-casserole-715421"
+        },
+        {
+          "id": 640424,
+          "imageType": "jpg",
+          "title": "Cranberry Turkey Cutlets With Fresh Chavrie",
+          "readyInMinutes": 15,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/cranberry-turkey-cutlets-with-fresh-chavrie-640424"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.02,
+        "protein": 68.16,
+        "fat": 54.43,
+        "carbohydrates": 118.19
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 660015,
+          "imageType": "jpg",
+          "title": "Shrimp Udon w Fish Cakes & Poached Egg",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/shrimp-udon-w-fish-cakes-poached-egg-660015"
+        },
+        {
+          "id": 622598,
+          "imageType": "jpg",
+          "title": "Pittata - Pizza Frittata",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/pittata-pizza-frittata-622598"
+        },
+        {
+          "id": 655793,
+          "imageType": "jpg",
+          "title": "Peruvian Roast Chicken",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/peruvian-roast-chicken-655793"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.01,
+        "protein": 91.93,
+        "fat": 84.38,
+        "carbohydrates": 15.14
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 648013,
+          "imageType": "jpg",
+          "title": "Iron - Rich Gluten Free Vegan Muffins",
+          "readyInMinutes": 45,
+          "servings": 16,
+          "sourceUrl": "https://spoonacular.com/iron-rich-gluten-free-vegan-muffins-648013"
+        },
+        {
+          "id": 642583,
+          "imageType": "jpg",
+          "title": "Farfalle with Peas, Ham and Cream",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/farfalle-with-peas-ham-and-cream-642583"
+        },
+        {
+          "id": 649403,
+          "imageType": "jpg",
+          "title": "Lebanese Kibbeh",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/lebanese-kibbeh-649403"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.99,
+        "protein": 50.86,
+        "fat": 64.94,
+        "carbohydrates": 105.67
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 634141,
+          "imageType": "jpg",
+          "title": "Banana Oatmeal Breakfast Muffins",
+          "readyInMinutes": 45,
+          "servings": 12,
+          "sourceUrl": "https://spoonacular.com/banana-oatmeal-breakfast-muffins-634141"
+        },
+        {
+          "id": 1098240,
+          "imageType": "jpg",
+          "title": "Lemon Fresh Spaghetti with Garden Sauce & Pumpkin Flowers",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/lemon-fresh-spaghetti-with-garden-sauce-pumpkin-flowers-1098240"
+        },
+        {
+          "id": 511707,
+          "imageType": "jpg",
+          "title": "Turkey Kale Tacos",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/turkey-kale-tacos-511707"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.08,
+        "protein": 69.46,
+        "fat": 35.49,
+        "carbohydrates": 155.45
+      }
+    }
+  }
+}

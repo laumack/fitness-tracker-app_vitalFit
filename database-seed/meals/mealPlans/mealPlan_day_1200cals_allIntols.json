@@ -1,0 +1,38 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 1050444,
+          "imageType": "jpg",
+          "title": "How to Make the Perfect Instant Pot Chicken",
+          "readyInMinutes": 18,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/how-to-make-the-perfect-instant-pot-chicken-1050444"
+        },
+        {
+          "id": 1502523,
+          "imageType": "jpg",
+          "title": "Instant Pot Chicken Thighs",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-chicken-thighs-1502523"
+        }
+      ],
+      "nutrients": {
+        "calories": 1201.14,
+        "protein": 70.65,
+        "fat": 60.76,
+        "carbohydrates": 96.74
+      }
+    }
+  }
+}

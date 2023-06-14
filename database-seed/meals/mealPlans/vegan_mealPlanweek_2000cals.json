@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 658624,
+          "imageType": "jpg",
+          "title": "Roasted Plum Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.64,
+        "protein": 68.57,
+        "fat": 104.41,
+        "carbohydrates": 214.26
+      }
+    }
+  }
+}

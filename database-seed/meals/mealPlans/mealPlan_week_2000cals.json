@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 657178,
+          "imageType": "jpg",
+          "title": "Protein Packed Carrot Muffins",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/protein-packed-carrot-muffins-657178"
+        },
+        {
+          "id": 668492,
+          "imageType": "jpg",
+          "title": "Creamy zucchini and ham pasta",
+          "readyInMinutes": 25,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/creamy-zucchini-and-ham-pasta-668492"
+        },
+        {
+          "id": 1096010,
+          "imageType": "jpg",
+          "title": "Egg Salad Wrap",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/egg-salad-wrap-1096010"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.98,
+        "protein": 83.36,
+        "fat": 124.49,
+        "carbohydrates": 141.09
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 1747693,
+          "imageType": "jpg",
+          "title": "Your Basic Low Carb Breakfast",
+          "readyInMinutes": 7,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/your-basic-low-carb-breakfast-1747693"
+        },
+        {
+          "id": 668492,
+          "imageType": "jpg",
+          "title": "Creamy zucchini and ham pasta",
+          "readyInMinutes": 25,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/creamy-zucchini-and-ham-pasta-668492"
+        },
+        {
+          "id": 664748,
+          "imageType": "jpg",
+          "title": "Veggie Meatloaf",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/veggie-meatloaf-664748"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000,
+        "protein": 82.08,
+        "fat": 141.05,
+        "carbohydrates": 100.56
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 632949,
+          "imageType": "jpg",
+          "title": "Asparagus Quiche",
+          "readyInMinutes": 45,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/asparagus-quiche-632949"
+        },
+        {
+          "id": 1697583,
+          "imageType": "jpg",
+          "title": "Crispy Ravioli Formaggi",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/crispy-ravioli-formaggi-1697583"
+        },
+        {
+          "id": 716311,
+          "imageType": "jpg",
+          "title": "Mango Fried Rice",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/mango-fried-rice-716311"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.09,
+        "protein": 57.79,
+        "fat": 124.12,
+        "carbohydrates": 166.42
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 653910,
+          "imageType": "jpg",
+          "title": "Orange Marmalade Muffins",
+          "readyInMinutes": 45,
+          "servings": 12,
+          "sourceUrl": "https://spoonacular.com/orange-marmalade-muffins-653910"
+        },
+        {
+          "id": 1697751,
+          "imageType": "jpg",
+          "title": "Ridiculously Easy Gourmet Tuna Sandwich",
+          "readyInMinutes": 15,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/ridiculously-easy-gourmet-tuna-sandwich-1697751"
+        },
+        {
+          "id": 640592,
+          "imageType": "jpg",
+          "title": "Creamy Bacon Mac and Cheese",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/creamy-bacon-mac-and-cheese-640592"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000.08,
+        "protein": 73.76,
+        "fat": 140.87,
+        "carbohydrates": 114.86
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 663867,
+          "imageType": "jpg",
+          "title": "Tropical Steel Cut Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-steel-cut-oatmeal-663867"
+        },
+        {
+          "id": 643789,
+          "imageType": "jpg",
+          "title": "Fried Salmon Cakes",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/fried-salmon-cakes-643789"
+        },
+        {
+          "id": 650523,
+          "imageType": "jpg",
+          "title": "Macadamia Crusted Whitefish",
+          "readyInMinutes": 25,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/macadamia-crusted-whitefish-650523"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.92,
+        "protein": 82.09,
+        "fat": 86.22,
+        "carbohydrates": 231.21
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 654274,
+          "imageType": "jpg",
+          "title": "Overnight Steel Cut Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/overnight-steel-cut-oatmeal-654274"
+        },
+        {
+          "id": 1697535,
+          "imageType": "jpg",
+          "title": "Panera Spicy Thai Salad",
+          "readyInMinutes": 20,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/panera-spicy-thai-salad-1697535"
+        },
+        {
+          "id": 661094,
+          "imageType": "jpg",
+          "title": "Spicy Eggplant Spaghetti",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/spicy-eggplant-spaghetti-661094"
+        }
+      ],
+      "nutrients": {
+        "calories": 2000,
+        "protein": 126.73,
+        "fat": 83.39,
+        "carbohydrates": 192.72
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 640398,
+          "imageType": "jpg",
+          "title": "Cranberry Orange Scones",
+          "readyInMinutes": 45,
+          "servings": 24,
+          "sourceUrl": "https://spoonacular.com/cranberry-orange-scones-640398"
+        },
+        {
+          "id": 1697583,
+          "imageType": "jpg",
+          "title": "Crispy Ravioli Formaggi",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/crispy-ravioli-formaggi-1697583"
+        },
+        {
+          "id": 511785,
+          "imageType": "jpg",
+          "title": "Easy Chicken Fricassee",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/easy-chicken-fricassee-511785"
+        }
+      ],
+      "nutrients": {
+        "calories": 1999.97,
+        "protein": 75.29,
+        "fat": 119.23,
+        "carbohydrates": 160.8
+      }
+    }
+  }
+}

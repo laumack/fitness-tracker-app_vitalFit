@@ -1,0 +1,4292 @@
+[
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 13,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 4,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 156.09,
+    "id": 658134,
+    "title": "Redneck Breakfast on a Croissant",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "https://www.foodista.com/recipe/T58SBZQ4/redneck-breakfast-on-a-croissant",
+    "image": "https://spoonacular.com/recipeImages/658134-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many breakfast recipes, so give Redneck Breakfast on a Croissant a try. For <b>$1.56 per serving</b>, this recipe <b>covers 12%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>14g of protein</b>, <b>22g of fat</b>, and a total of <b>368 calories</b>. This recipe serves 1. This recipe from Foodista requires kosher salt and pepper, corned beef hash, egg, and butter. 1 person were impressed by this recipe. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 31%</b>, which is rather bad. Similar recipes include <a href=\"https://spoonacular.com/recipes/redneck-breakfast-on-a-croissant-1452739\">Redneck Breakfast on a Croissant</a>, <a href=\"https://spoonacular.com/recipes/holiday-breakfast-ham-and-cheese-croissant-breakfast-casserole-746478\">Holiday Breakfast: Ham-and-Cheese Croissant Breakfast Casserole</a>, and <a href=\"https://spoonacular.com/recipes/croissant-breakfast-casserole-409683\">Croissant Breakfast Casserole</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Split the croissant in half and toast.",
+            "ingredients": [
+              {
+                "id": 18239,
+                "name": "croissant",
+                "localizedName": "croissant",
+                "image": "croissants.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sandwich bread",
+                "localizedName": "sandwich bread",
+                "image": "white-bread.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Heat a non stick pan over medium high heat, add the corned beef hash.  Cook the has until it is brown and crisp on one side (3 to 5 minutes), then flip with a turner and cook the other side until it is crisps and browns, another 3 to 5 minutes.  Note: While cooking the has push it together and flatten it so it makes a little patty, its much easier to flip and serve that way.",
+            "ingredients": [
+              {
+                "id": 13346,
+                "name": "corned beef",
+                "localizedName": "corned beef",
+                "image": "corned-beef.png"
+              },
+              {
+                "id": 0,
+                "name": "chips",
+                "localizedName": "chips",
+                "image": ""
+              },
+              {
+                "id": 11390,
+                "name": "hash browns",
+                "localizedName": "hash browns",
+                "image": "hash-brown-potatoes.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404642,
+                "name": "spatula",
+                "localizedName": "spatula",
+                "image": "spatula-or-turner.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 6, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Place the corned beef hash patty on the bottom half of the toasted croissant.",
+            "ingredients": [
+              {
+                "id": 13346,
+                "name": "corned beef",
+                "localizedName": "corned beef",
+                "image": "corned-beef.png"
+              },
+              {
+                "id": 18239,
+                "name": "croissant",
+                "localizedName": "croissant",
+                "image": "croissants.jpg"
+              },
+              {
+                "id": 11390,
+                "name": "hash browns",
+                "localizedName": "hash browns",
+                "image": "hash-brown-potatoes.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "In the same pan, melt the butter and add the egg, fry according to taste.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Sprinkle the egg with a little salt and pepper and place on top of the corned beef hash patty.  On the top side of the croissant, squeeze a layer of canned cheese over it.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 13346,
+                "name": "corned beef",
+                "localizedName": "corned beef",
+                "image": "corned-beef.png"
+              },
+              {
+                "id": 18239,
+                "name": "croissant",
+                "localizedName": "croissant",
+                "image": "croissants.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 11390,
+                "name": "hash browns",
+                "localizedName": "hash browns",
+                "image": "hash-brown-potatoes.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Place the top layer over the bottom half.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Serve immediately.",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/redneck-breakfast-on-a-croissant-658134",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 368.451, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 21,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 18,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 385.42,
+    "id": 1098303,
+    "title": "Zesty Taco Casserole",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/ZXY3FRGR/zesty-taco-casserole",
+    "image": "https://spoonacular.com/recipeImages/1098303-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Zesty Taco Casserole can be made <b>in about 45 minutes</b>. Watching your figure? This gluten free recipe has <b>679 calories</b>, <b>28g of protein</b>, and <b>35g of fat</b> per serving. This recipe serves 6. For <b>$3.85 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. It works well as a rather expensive main course for <b>Autumn</b>. Head to the store and pick up onion powder, refried beans, salt, and a few other things to make it today. Only a few people really liked this Mexican dish. 1 person has made this recipe and would make it again. It is brought to you by Foodista. With a spoonacular <b>score of 70%</b>, this dish is pretty good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/zesty-taco-casserole-1394233\">Zesty Taco Casserole</a>, <a href=\"https://spoonacular.com/recipes/zesty-taco-casserole-1382701\">Zesty Taco Casserole</a>, and <a href=\"https://spoonacular.com/recipes/zesty-taco-casserole-1624323\">Zesty Taco Casserole</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat oven to 350F.Roughly chop the corn tortillas and place on a lightly oiled baking sheet.",
+            "ingredients": [
+              {
+                "id": 18363,
+                "name": "corn tortilla",
+                "localizedName": "corn tortilla",
+                "image": "corn-tortillas.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404727,
+                "name": "baking sheet",
+                "localizedName": "baking sheet",
+                "image": "baking-sheet.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 350, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Bake the corn tortillas for 8 minutes or until lightly brown and crispy. Set aside.In a large skillet over medium heat, cook the ground beef (season with salt and pepper), chopped onion, and diced jalapeno until the meat is done.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 18363,
+                "name": "corn tortilla",
+                "localizedName": "corn tortilla",
+                "image": "corn-tortillas.png"
+              },
+              {
+                "id": 10023572,
+                "name": "ground beef",
+                "localizedName": "ground beef",
+                "image": "fresh-ground-beef.jpg"
+              },
+              {
+                "id": 11979,
+                "name": "jalapeno pepper",
+                "localizedName": "jalapeno pepper",
+                "image": "jalapeno-pepper.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 8, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Drain grease.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Add the taco seasoning, chili powder, onion powder, fire roasted diced green chilies, sliced olives and 1 cup salsa.",
+            "ingredients": [
+              {
+                "id": 2073,
+                "name": "taco seasoning mix",
+                "localizedName": "taco seasoning mix",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 31015,
+                "name": "green chili pepper",
+                "localizedName": "green chili pepper",
+                "image": "chili-peppers-green.jpg"
+              },
+              {
+                "id": 2009,
+                "name": "chili powder",
+                "localizedName": "chili powder",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 2026,
+                "name": "onion powder",
+                "localizedName": "onion powder",
+                "image": "onion-powder.jpg"
+              },
+              {
+                "id": 9195,
+                "name": "olives",
+                "localizedName": "olives",
+                "image": "olives-mixed.jpg"
+              },
+              {
+                "id": 6164,
+                "name": "salsa",
+                "localizedName": "salsa",
+                "image": "salsa.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Mix well and cook for 5 minutes until it thickens. Stir in the baked corn tortillas and remove from heat.In a saucepan over medium heat, mix together the refried beans, sour cream, and the remaining cup salsa until hot.",
+            "ingredients": [
+              {
+                "id": 18363,
+                "name": "corn tortilla",
+                "localizedName": "corn tortilla",
+                "image": "corn-tortillas.png"
+              },
+              {
+                "id": 16202,
+                "name": "refried beans",
+                "localizedName": "refried beans",
+                "image": "refried-beans.png"
+              },
+              {
+                "id": 1056,
+                "name": "sour cream",
+                "localizedName": "sour cream",
+                "image": "sour-cream.jpg"
+              },
+              {
+                "id": 6164,
+                "name": "salsa",
+                "localizedName": "salsa",
+                "image": "salsa.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 6,
+            "step": "Place the broken tortilla chips in the bottom of a 8x8 dish.",
+            "ingredients": [
+              {
+                "id": 19056,
+                "name": "tortilla chips",
+                "localizedName": "tortilla chips",
+                "image": "tortilla-chips.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Pour the beans over the chips and add the beef on top, do not stir.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "beans",
+                "localizedName": "beans",
+                "image": "kidney-beans.jpg"
+              },
+              {
+                "id": 11408,
+                "name": "french fries",
+                "localizedName": "french fries",
+                "image": "french-fries-isolated.jpg"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Sprinkle cheese over the top and bake for 20 minutes or until bubbling. Take out of the oven and sprinkle with avocado slices and sliced cherry tomatoes if desired.",
+            "ingredients": [
+              {
+                "id": 10311529,
+                "name": "cherry tomato",
+                "localizedName": "cherry tomato",
+                "image": "cherry-tomatoes.png"
+              },
+              {
+                "id": 1019037,
+                "name": "avocado slices",
+                "localizedName": "avocado slices",
+                "image": "avocado-slices.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 20, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/zesty-taco-casserole-1098303",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 679.131, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 13,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 10,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 316.15,
+    "id": 649073,
+    "title": "Korean Saewoo Bokkeumbap (Shrimp Fried Rice)",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "https://www.foodista.com/recipe/T56C5NDJ/korean-saewoo-bokkeumbap-shrimp-fried-rice",
+    "image": "https://spoonacular.com/recipeImages/649073-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Korean Saewoo Bokkeumbap (Shrimp Fried Rice) could satisfy your Chinese craving in about <b>45 minutes</b>. This recipe serves 4 and costs $3.16 per serving. One serving contains <b>528 calories</b>, <b>34g of protein</b>, and <b>14g of fat</b>. It works well as a main course. Head to the store and pick up rice, kernel corn, soy sauce, and a few other things to make it today. 1 person were glad they tried this recipe. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free and pescatarian</b> diet. With a spoonacular <b>score of 43%</b>, this dish is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/korean-saewoo-bokkeumbap-shrimp-fried-rice-470845\">Korean Saewoo Bokkeumbap (Shrimp Fried Rice)</a>, <a href=\"https://spoonacular.com/recipes/kimchi-fried-rice-bokkeumbap-618745\">Kimchi Fried Rice (Bokkeumbap)</a>, and <a href=\"https://spoonacular.com/recipes/stir-fried-kimchi-and-rice-kimchi-bokkeumbap-567452\">Stir fried Kimchi and Rice (Kimchi Bokkeumbap)</a>.",
+    "cuisines": ["Chinese", "Asian"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "pescatarian"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a skillet or non-stick frying pan, heat 1 tbsp olive oil and stir fry the \"hard\" vegetables first--diced bell peppers and carrots, 5 minutes. Next add the diced onions, corn, and shrimp to the pan, another 5 minutes. If there is excess water/liquid, discard carefully and set aside on lowest heat setting. Optional: Cooking each ingredient separately (pepper, carrot / garlic, onion / shrimp) to ensure that they cook consistently is perfectly fine, but it will add another 5~10 minutes to your cooking time.",
+            "ingredients": [
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 15270,
+                "name": "shrimp",
+                "localizedName": "shrimp",
+                "image": "shrimp.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 11168,
+                "name": "corn",
+                "localizedName": "corn",
+                "image": "corn.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 20, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "In another pan or skillet, scramble 2 eggs in generous amount of oil. When finished, add eggs to the main skillet with other ingredients. Optional: Prepare 4 sunny-side up eggs for the topping/garnish.",
+            "ingredients": [
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "On low heat, add cooled rice, butter, soy sauce and oyster sauce and mix thoroughly with spoon (wooden works best). Make sure to coat sauce on rice and rest of ingredients well; this will take a few minutes and some hand/wrist strength from continuous mixing.",
+            "ingredients": [
+              {
+                "id": 6176,
+                "name": "oyster sauce",
+                "localizedName": "oyster sauce",
+                "image": "oyster-sauce.jpg"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Plate the fried rice topped with a sunny-side up egg. If wanting a semi-round shape (see pic above), stuff fried rice in a round bowl pressing down firmly. Set the bowl upside down on a plate; the fried rice should sit upright in a round shape. Enjoy with kimchi and other banchan (side dishes).",
+            "ingredients": [
+              {
+                "id": 98860,
+                "name": "kimchi",
+                "localizedName": "kimchi",
+                "image": "kimchi.png"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "*Some people like to stir fry the ingredients separately because they cook at different times. For fried rice, this can be skipped since the main point is to get them slightly tender; this means cooking the harder veggies (carrots) first and adding the softer ones (onions) later. This will save you valuable minutes in cooking time and the hassle of washing unnecessary, extra dishes.",
+            "ingredients": [
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/korean-saewoo-bokkeumbap-shrimp-fried-rice-649073",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 528.178, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 5,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 6,
+    "healthScore": 4,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 72.21,
+    "id": 665734,
+    "title": "Zucchini Chicken Omelette",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/TPJ6QNBY/zucchini-chicken-omelette",
+    "image": "https://spoonacular.com/recipeImages/665734-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Zucchini Chicken Omelette is a main course that serves 2. For <b>72 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. One serving contains <b>210 calories</b>, <b>13g of protein</b>, and <b>16g of fat</b>. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. This recipe is liked by 6 foodies and cooks. If you have milanese chicken left over, oil, zucchini, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>gluten free, dairy free, fodmap friendly, and whole 30</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 38%</b>. This score is not so amazing. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/zucchini-chicken-omelette-1301833\">Zucchini Chicken Omelette</a>, <a href=\"https://spoonacular.com/recipes/zucchini-chicken-omelette-1248719\">Zucchini Chicken Omelette</a>, and <a href=\"https://spoonacular.com/recipes/zucchini-chicken-omelette-1356859\">Zucchini Chicken Omelette</a>.",
+    "cuisines": [],
+    "dishTypes": [
+      "lunch",
+      "main course",
+      "morning meal",
+      "brunch",
+      "main dish",
+      "breakfast",
+      "dinner"
+    ],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "fodmap friendly",
+      "whole 30",
+      "ketogenic"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Beat eggs and water in a bowl.",
+            "ingredients": [
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Mix in grated zucchini and season with salt and pepper.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 11477,
+                "name": "zucchini",
+                "localizedName": "zucchini",
+                "image": "zucchini.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Heat the oil in a small, non-stick skillet. When hot, add half the egg mixture and cook for 1 minute until the egg begins to set. Scatter evenly with half diced chicken.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 1, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Cook for a further 1-2 minutes, until the egg is golden underneath, and just set on top. Slide out onto a serving plate, folding it over as you go. Repeat.",
+            "ingredients": [
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Serve the omelette with your favourite salad.",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/zucchini-chicken-omelette-665734",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 210.29, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 16,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 1,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 276.26,
+    "id": 642777,
+    "title": "Fig and Goat Cheese Pizza With Pesto",
+    "readyInMinutes": 15,
+    "servings": 6,
+    "sourceUrl": "http://www.foodista.com/recipe/KFX4GS4M/fig-and-goat-cheese-pizza-with-pesto",
+    "image": "https://spoonacular.com/recipeImages/642777-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Forget going out to eat or ordering takeout every time you crave Mediterranean food. Try making Fig and Goat Cheese Pizza With Pesto at home. This main course has <b>501 calories</b>, <b>14g of protein</b>, and <b>28g of fat</b> per serving. This lacto ovo vegetarian recipe serves 6 and costs <b>$2.76 per serving</b>. 1 person found this recipe to be flavorful and satisfying. If you have pesto, goat cheese, naan bread, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>15 minutes</b>. Overall, this recipe earns a <b>rather bad spoonacular score of 24%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/fig-and-goat-cheese-pizza-533256\">Fig and Goat Cheese Pizza</a>, <a href=\"https://spoonacular.com/recipes/rustic-fig-and-goat-cheese-pizza-57115\">Rustic Fig And Goat Cheese Pizza</a>, and <a href=\"https://spoonacular.com/recipes/fig-prosciutto-and-goat-cheese-pizza-498241\">Fig, Prosciutto, and Goat Cheese Pizza</a>.",
+    "cuisines": ["Mediterranean", "Italian", "European"],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["lacto ovo vegetarian"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Spread the pesto over each piece of naan bread evenly.Top with the figs and then crumble goat cheese on top.",
+            "ingredients": [
+              {
+                "id": 1159,
+                "name": "goat cheese",
+                "localizedName": "goat cheese",
+                "image": "goat-cheese.jpg"
+              },
+              {
+                "id": 93723,
+                "name": "naan",
+                "localizedName": "naan",
+                "image": "naan.png"
+              },
+              {
+                "id": 0,
+                "name": "spread",
+                "localizedName": "spread",
+                "image": ""
+              },
+              {
+                "id": 93698,
+                "name": "pesto",
+                "localizedName": "pesto",
+                "image": "basil-pesto.png"
+              },
+              {
+                "id": 9089,
+                "name": "figs",
+                "localizedName": "figs",
+                "image": "figs-fresh.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Place on the grill on low heat for about 5-7 minutes - or until crust is lightly crisp and the goat cheese has melted. So easy - and really so delicious.For a little more texture - you can sprinkle pine nuts on top as well.",
+            "ingredients": [
+              {
+                "id": 1159,
+                "name": "goat cheese",
+                "localizedName": "goat cheese",
+                "image": "goat-cheese.jpg"
+              },
+              {
+                "id": 12147,
+                "name": "pine nuts",
+                "localizedName": "pine nuts",
+                "image": "pine-nuts.png"
+              },
+              {
+                "id": 0,
+                "name": "crust",
+                "localizedName": "crust",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404706,
+                "name": "grill",
+                "localizedName": "grill",
+                "image": "grill.jpg"
+              }
+            ],
+            "length": { "number": 7, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/fig-and-goat-cheese-pizza-with-pesto-642777",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 501.123, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 16,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 8,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 162.5,
+    "id": 664748,
+    "title": "Veggie Meatloaf",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/2G5BFCVQ/veggie-meatloaf",
+    "image": "https://spoonacular.com/recipeImages/664748-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Veggie Meatloaf is a main course that serves 6. One portion of this dish contains approximately <b>29g of protein</b>, <b>39g of fat</b>, and a total of <b>489 calories</b>. For <b>$1.63 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista requires onion, garlic, pepper, and thyme. 1 person has made this recipe and would make it again. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is a good option if you're following a <b>gluten free and ketogenic</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 39%</b>, which is rather bad. <a href=\"https://spoonacular.com/recipes/herb-and-veggie-meatloaf-221173\">Herb-and-Veggie Meatloaf</a>, <a href=\"https://spoonacular.com/recipes/turkey-veggie-meatloaf-cups-437506\">Turkey Veggie Meatloaf Cups</a>, and <a href=\"https://spoonacular.com/recipes/turkey-veggie-meatloaf-cups-1276907\">Turkey Veggie Meatloaf Cups</a> are very similar to this recipe.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "ketogenic"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat the oven to 350 F.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 350, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Melt the butter in a small skillet over medium-low heat; add the onions and cook, stirring frequently, until they are soft and translucent but not brown, about 7  8 minutes.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 8, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Add the garlic and cook, stirring frequently, for another minute or two.",
+            "ingredients": [
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Remove from heat and set aside.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Place the remaining ingredients to a large mixing bowl; add the onion/garlic mixture.  Gently but thoroughly mix with your hands, then transfer to an 8x8 baking dish and form into a loaf shape.",
+            "ingredients": [
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              },
+              {
+                "id": 405907,
+                "name": "mixing bowl",
+                "localizedName": "mixing bowl",
+                "image": "mixing-bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Bake for 1 hour, then test to see if the center is done.  If it is still pink, cover with foil and bake for another 10 to 15 minutes.  Allow the meatloaf to rest for about 5 minutes before serving.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404765,
+                "name": "aluminum foil",
+                "localizedName": "aluminum foil",
+                "image": "aluminum-foil.png"
+              }
+            ],
+            "length": { "number": 75, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/veggie-meatloaf-664748",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 488.65, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 11,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 3,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 82.64,
+    "id": 661725,
+    "title": "Strawberries and Cream Scones",
+    "readyInMinutes": 45,
+    "servings": 8,
+    "sourceUrl": "http://www.foodista.com/recipe/W43T6ZBG/strawberries-and-cream-scones",
+    "image": "https://spoonacular.com/recipeImages/661725-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Strawberries and Cream Scones is a <b>lacto ovo vegetarian</b> recipe with 8 servings. One portion of this dish contains approximately <b>5g of protein</b>, <b>9g of fat</b>, and a total of <b>286 calories</b>. For <b>83 cents per serving</b>, this recipe <b>covers 10%</b> of your daily requirements of vitamins and minerals. It works best as a breakfast, and is done in around <b>45 minutes</b>. It is brought to you by Foodista. This recipe is typical of European cuisine. 1 person has tried and liked this recipe. A mixture of powdered sugar, heavy cream, cinnamon, and a handful of other ingredients are all it takes to make this recipe so yummy. With a spoonacular <b>score of 32%</b>, this dish is not so excellent. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/strawberries-and-cream-scones-568693\">Strawberries and Cream Scones</a>, <a href=\"https://spoonacular.com/recipes/strawberries-cream-scones-1124274\">Strawberries & Cream Scones</a>, and <a href=\"https://spoonacular.com/recipes/strawberries-and-cream-scones-492190\">Strawberries and Cream Scones</a>.",
+    "cuisines": ["English", "Scottish", "British", "European"],
+    "dishTypes": ["dessert", "morning meal", "brunch", "breakfast"],
+    "diets": ["lacto ovo vegetarian"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat the oven to 425F.Cube and chill butter.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 425, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Combine dry ingredients (flour, sugar, baking powder, lemon zest, salt, and cinnamon) in a large bowl.With your fingertips work the butter into the flour mixture.Make a well in the center of the butter and flour mixture.",
+            "ingredients": [
+              {
+                "id": 18369,
+                "name": "baking powder",
+                "localizedName": "baking powder",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 9156,
+                "name": "lemon zest",
+                "localizedName": "lemon zest",
+                "image": "zest-lemon.jpg"
+              },
+              {
+                "id": 2010,
+                "name": "cinnamon",
+                "localizedName": "cinnamon",
+                "image": "cinnamon.jpg"
+              },
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Add the heavy cream and stir.",
+            "ingredients": [
+              {
+                "id": 1053,
+                "name": "heavy cream",
+                "localizedName": "heavy cream",
+                "image": "fluid-cream.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Add a tablespoon of milk and stir until the dough is moistened but not wet.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "dough",
+                "localizedName": "dough",
+                "image": "pizza-dough"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Add the diced strawberries.Gently work the strawberries into the dough and knead it together.Pat into an 8 inch circle and cut triangles. Do not be afraid of using flour, excess flour can always be dusted off.",
+            "ingredients": [
+              {
+                "id": 9316,
+                "name": "strawberries",
+                "localizedName": "strawberries",
+                "image": "strawberries.png"
+              },
+              {
+                "id": 0,
+                "name": "dough",
+                "localizedName": "dough",
+                "image": "pizza-dough"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Transfer scones to a parchment lined baking sheet.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404727,
+                "name": "baking sheet",
+                "localizedName": "baking sheet",
+                "image": "baking-sheet.jpg"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Brush with egg wash.",
+            "ingredients": [
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Bake at 425F for 12-15 minutes or until the tops and edges are golden.Cool on a cooling rack.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 405900,
+                "name": "wire rack",
+                "localizedName": "wire rack",
+                "image": "wire-rack.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 425, "unit": "Fahrenheit" }
+              }
+            ],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 9,
+            "step": "Drizzle with glaze (powdered sugar mixed with a bit of liquid of your choice)",
+            "ingredients": [
+              {
+                "id": 19336,
+                "name": "powdered sugar",
+                "localizedName": "powdered sugar",
+                "image": "powdered-sugar.jpg"
+              },
+              {
+                "id": 0,
+                "name": "glaze",
+                "localizedName": "glaze",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/strawberries-and-cream-scones-661725",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 286.331, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 13,
+    "gaps": "no",
+    "preparationMinutes": 10,
+    "cookingMinutes": 0,
+    "aggregateLikes": 5,
+    "healthScore": 8,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 237.27,
+    "id": 1160166,
+    "title": "How to Make an Amazing Chicken Salad with Apples and Celery",
+    "readyInMinutes": 10,
+    "servings": 3,
+    "sourceUrl": "https://www.pinkwhen.com/healthy-chicken-salad-with-apples/",
+    "image": "https://spoonacular.com/recipeImages/1160166-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many main course recipes, so give How to Make an Amazing Chicken Salad with Apples and Celery a try. This recipe serves 3. Watching your figure? This gluten free recipe has <b>593 calories</b>, <b>60g of protein</b>, and <b>33g of fat</b> per serving. For <b>$2.37 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. This recipe from Pink When has 5 fans. A mixture of celery, rotisserie chicken cut, avocado, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes about <b>10 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 56%</b>, which is pretty good. <a href=\"https://spoonacular.com/recipes/how-to-make-an-amazing-chicken-salad-with-apples-and-celery-1398919\">How to Make an Amazing Chicken Salad with Apples and Celery</a>, <a href=\"https://spoonacular.com/recipes/how-to-make-an-amazing-chicken-salad-with-apples-and-celery-1401901\">How to Make an Amazing Chicken Salad with Apples and Celery</a>, and <a href=\"https://spoonacular.com/recipes/how-to-make-an-amazing-chicken-salad-with-apples-and-celery-1405063\">How to Make an Amazing Chicken Salad with Apples and Celery</a> are very similar to this recipe.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Mix chicken, celery, and apples. ",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 9003,
+                "name": "apple",
+                "localizedName": "apple",
+                "image": "apple.jpg"
+              },
+              {
+                "id": 11143,
+                "name": "celery",
+                "localizedName": "celery",
+                "image": "celery.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "In a separate bowl mix mayo, yogurt, and lemon juice.",
+            "ingredients": [
+              {
+                "id": 9152,
+                "name": "lemon juice",
+                "localizedName": "lemon juice",
+                "image": "lemon-juice.jpg"
+              },
+              {
+                "id": 1116,
+                "name": "yogurt",
+                "localizedName": "yogurt",
+                "image": "plain-yogurt.jpg"
+              },
+              {
+                "id": 4025,
+                "name": "mayonnaise",
+                "localizedName": "mayonnaise",
+                "image": "mayonnaise.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Mix well.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Combine chicken mixture with mayo mixture and stir well.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 4025,
+                "name": "mayonnaise",
+                "localizedName": "mayonnaise",
+                "image": "mayonnaise.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Add salt and pepper to taste.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "OPTIONAL: Slice an avocado, remove the pit, and serve the chicken salad with avocado. It's so good! ",
+            "ingredients": [
+              {
+                "id": 9037,
+                "name": "avocado",
+                "localizedName": "avocado",
+                "image": "avocado.jpg"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/how-to-make-an-amazing-chicken-salad-with-apples-and-celery-1160166",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 593.315, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 8,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 35,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 247.95,
+    "id": 640229,
+    "title": "Cous Cous Tofu Salad With Creamy Herb Dressing",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/KVQBLKBX/cous-cous-tofu-salad-with-creamy-herb-dressing",
+    "image": "https://spoonacular.com/recipeImages/640229-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Cous Cous Tofu Salad With Creamy Herb Dressing might be a good recipe to expand your main course recipe box. One portion of this dish contains around <b>16g of protein</b>, <b>12g of fat</b>, and a total of <b>335 calories</b>. This recipe serves 6. For <b>$2.48 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. If you have salad, cucumber, garlic clove, and a few other ingredients on hand, you can make it. Only a few people made this recipe, and 1 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 72%</b>. This score is good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/summer-melon-cous-cous-salad-with-avocado-grapes-and-mint-905019\">Summer Melon Cous Cous Salad with Avocado, Grapes and Mint</a>, <a href=\"https://spoonacular.com/recipes/summer-melon-cous-cous-salad-with-avocado-grapes-and-mint-1647013\">Summer Melon Cous Cous Salad with Avocado, Grapes and Mint</a>, and <a href=\"https://spoonacular.com/recipes/zingy-beetroot-feta-cheese-cous-cous-salad-9294\">Zingy Beetroot, Feta Cheese, Cous Cous Salad</a>.",
+    "cuisines": [],
+    "dishTypes": [
+      "side dish",
+      "lunch",
+      "main course",
+      "salad",
+      "main dish",
+      "dinner"
+    ],
+    "diets": [],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Bring chicken stock and salt to a boil.",
+            "ingredients": [
+              {
+                "id": 6172,
+                "name": "chicken stock",
+                "localizedName": "chicken stock",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Add cous cous.",
+            "ingredients": [
+              {
+                "id": 20028,
+                "name": "couscous",
+                "localizedName": "couscous",
+                "image": "couscous-cooked.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Remove from heat, over and let stand 5 minutes, or until all liquid is absorbed. Fluff with a fork.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Let cool.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "In a large bowl add chopped bell pepper, cucumber, tofu, currants, pecans, green onions and cous cous.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 20028,
+                "name": "couscous",
+                "localizedName": "couscous",
+                "image": "couscous-cooked.jpg"
+              },
+              {
+                "id": 11206,
+                "name": "cucumber",
+                "localizedName": "cucumber",
+                "image": "cucumber.jpg"
+              },
+              {
+                "id": 9085,
+                "name": "currants",
+                "localizedName": "currants",
+                "image": "currants.jpg"
+              },
+              {
+                "id": 12142,
+                "name": "pecans",
+                "localizedName": "pecans",
+                "image": "pecans.jpg"
+              },
+              {
+                "id": 16213,
+                "name": "tofu",
+                "localizedName": "tofu",
+                "image": "tofu.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "For dressing, combine yogurt, lemon juice, vinegar, dill and basil. Grate garlic with a microplane into the mixture. Season with salt and pepper.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 9152,
+                "name": "lemon juice",
+                "localizedName": "lemon juice",
+                "image": "lemon-juice.jpg"
+              },
+              {
+                "id": 2053,
+                "name": "vinegar",
+                "localizedName": "vinegar",
+                "image": "vinegar-(white).jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 1116,
+                "name": "yogurt",
+                "localizedName": "yogurt",
+                "image": "plain-yogurt.jpg"
+              },
+              {
+                "id": 2044,
+                "name": "basil",
+                "localizedName": "basil",
+                "image": "basil.jpg"
+              },
+              {
+                "id": 2045,
+                "name": "dill",
+                "localizedName": "dill",
+                "image": "dill.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405906,
+                "name": "microplane",
+                "localizedName": "microplane",
+                "image": "microplane.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/cous-cous-tofu-salad-with-creamy-herb-dressing-640229",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 335.425, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 10,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 10,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 83.05,
+    "id": 649300,
+    "title": "Latkes; Fried Vegetable Pancakes from Europe and the Middle East",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/HL3CWK8N/latkes-fried-vegetable-pancakes-from-europe-and-the-middle-east",
+    "image": "https://spoonacular.com/recipeImages/649300-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Forget going out to eat or ordering takeout every time you crave Jewish food. Try making Latkes; Fried Vegetable Pancakes from Europe and the Middle East at home. This recipe makes 2 servings with <b>392 calories</b>, <b>8g of protein</b>, and <b>19g of fat</b> each. For <b>83 cents per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. It works well as a very affordable breakfast for <b>Hanukkah</b>. This recipe is liked by 1 foodies and cooks. A mixture of russet potatoes, salt and pepper, peanut, and a handful of other ingredients are all it takes to make this recipe so flavorful. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 43%</b>, which is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/middle-east-vegetable-tacos-164661\">Middle East Vegetable Tacos</a>, <a href=\"https://spoonacular.com/recipes/middle-east-salad-fried-aubergine-and-chickpeas-23714\">Middle East Salad - Fried Aubergine And Chickpeas</a>, and <a href=\"https://spoonacular.com/recipes/khoshaf-dried-fruit-and-nut-compote-iran-middle-east-124421\">Khoshaf -- Dried Fruit and Nut Compote (Iran -- Middle East)</a>.",
+    "cuisines": ["Jewish"],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["lacto ovo vegetarian"],
+    "occasions": ["hanukkah"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Skin the vegetables and in a standard food processor, grate them into a suitable bowl.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404771,
+                "name": "food processor",
+                "localizedName": "food processor",
+                "image": "food-processor.png"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Take a handful of the grated vegetables and squeeze as much moisture from it as possible. Then place on a paper towel. Continue until you have squeezed out as much of the moisture as you can.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405895,
+                "name": "paper towels",
+                "localizedName": "paper towels",
+                "image": "paper-towels.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Clean and dry the original bowl and repeat the process of squeezing the vegetables dry but putting them in the bowl when finished. Then stir them to mix thoroughly.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "In a separate bowl, beat the egg with the flour to form a sticky glue that will hold the latkes together.",
+            "ingredients": [
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Mix the sticky egg and flour with the vegetable mixture and form into flat pancakes about 3 to 4 inches in diameter then place on a cutting board.",
+            "ingredients": [
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404716,
+                "name": "cutting board",
+                "localizedName": "cutting board",
+                "image": "cutting-board.jpg"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Heat about 1/8 inch of peanut oil in a 10 inch cast iron skillet over medium high heat until a drop of water sizzles upon contact.",
+            "ingredients": [
+              {
+                "id": 4042,
+                "name": "peanut oil",
+                "localizedName": "peanut oil",
+                "image": "peanut-oil.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Place three of the pancakes into the skillet, press down with a spatula to thin them and cook until the edges start to turn deep brown. Flip them over carefully and cook for 2 to 3 minutes more.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404642,
+                "name": "spatula",
+                "localizedName": "spatula",
+                "image": "spatula-or-turner.jpg"
+              }
+            ],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 8,
+            "step": "Remove from pan and place on paper towels to drain excess oil.",
+            "ingredients": [
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405895,
+                "name": "paper towels",
+                "localizedName": "paper towels",
+                "image": "paper-towels.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "step": "Repeat until all are cooked and drained then place in a 175-200*F warming oven until ready to be served.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/latkes-fried-vegetable-pancakes-from-europe-and-the-middle-east-649300",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 391.999, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": true,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 17,
+    "gaps": "no",
+    "preparationMinutes": 15,
+    "cookingMinutes": 15,
+    "aggregateLikes": 9912,
+    "healthScore": 38,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 262.25,
+    "id": 715421,
+    "title": "Cheesy Chicken Enchilada Quinoa Casserole",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.pinkwhen.com/cheesy-chicken-enchilada-quinoa-casserole/",
+    "image": "https://spoonacular.com/recipeImages/715421-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Cheesy Chicken Enchilada Quinoa Casserole might be just the <b>Mexican</b> recipe you are searching for. One serving contains <b>594 calories</b>, <b>34g of protein</b>, and <b>24g of fat</b>. This gluten free recipe serves 4 and costs <b>$2.62 per serving</b>. A mixture of corn, pepper, canned tomatoes, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes approximately <b>30 minutes</b>. It will be a hit at your <b>Autumn</b> event. Plenty of people made this recipe, and 9912 would say it hit the spot. It works well as an affordable main course. It is brought to you by Pink When. With a spoonacular <b>score of 97%</b>, this dish is amazing. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/cheesy-chicken-enchilada-quinoa-casserole-1317125\">Cheesy Chicken Enchilada Quinoa Casserole</a>, <a href=\"https://spoonacular.com/recipes/cheesy-chicken-enchilada-quinoa-casserole-1340231\">Cheesy Chicken Enchilada Quinoa Casserole</a>, and <a href=\"https://spoonacular.com/recipes/cheesy-chicken-enchilada-quinoa-casserole-1280325\">Cheesy Chicken Enchilada Quinoa Casserole</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "To get started, heat your oven to 350 and prepare an 8x8 baking dish. Cook the quinoa according to the instructions. If you haven't already, boil and shred your chicken breast.In a medium sized mixing bowl add 2 Tbsp cilantro, 1 cup shredded cheese, quinoa, tomatoes with chilis, black beans, half of the can of sweet corn, verde enchilada sauce, cumin, chili powder, white pepper, black pepper, and salt to taste.",
+            "ingredients": [
+              {
+                "id": 6599,
+                "name": "enchilada sauce",
+                "localizedName": "enchilada sauce",
+                "image": "harissa.jpg"
+              },
+              {
+                "id": 1011026,
+                "name": "shredded cheese",
+                "localizedName": "shredded cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 5062,
+                "name": "chicken breast",
+                "localizedName": "chicken breast",
+                "image": "chicken-breasts.png"
+              },
+              {
+                "id": 1002030,
+                "name": "black pepper",
+                "localizedName": "black pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 2009,
+                "name": "chili powder",
+                "localizedName": "chili powder",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 2032,
+                "name": "white pepper",
+                "localizedName": "white pepper",
+                "image": "white-pepper.png"
+              },
+              {
+                "id": 16015,
+                "name": "black beans",
+                "localizedName": "black beans",
+                "image": "black-beans.jpg"
+              },
+              {
+                "id": 10111168,
+                "name": "sweet corn",
+                "localizedName": "sweet corn",
+                "image": "corn.png"
+              },
+              {
+                "id": 11165,
+                "name": "cilantro",
+                "localizedName": "cilantro",
+                "image": "cilantro.png"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 11819,
+                "name": "chili pepper",
+                "localizedName": "chili pepper",
+                "image": "red-chili.jpg"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 1002014,
+                "name": "cumin",
+                "localizedName": "cumin",
+                "image": "ground-cumin.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              },
+              {
+                "id": 405907,
+                "name": "mixing bowl",
+                "localizedName": "mixing bowl",
+                "image": "mixing-bowl.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Mix everything well, and then pour into the 8 x8 baking dish. Cover with the last cup of cheese and then bake in the oven for 15 minutes.",
+            "ingredients": [
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Remove from oven and allow to cool for 5 minutes. Then top with chopped Roma tomato, chopped avocado, green onion tops, and remaining 2 tsp of cilantro.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 10211529,
+                "name": "roma tomato",
+                "localizedName": "roma tomato",
+                "image": "roma-tomatoes.png"
+              },
+              {
+                "id": 11165,
+                "name": "cilantro",
+                "localizedName": "cilantro",
+                "image": "cilantro.png"
+              },
+              {
+                "id": 9037,
+                "name": "avocado",
+                "localizedName": "avocado",
+                "image": "avocado.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Serve immediately.",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/cheesy-chicken-enchilada-quinoa-casserole-715421",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 594.096, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 6,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 3,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 197.67,
+    "id": 640424,
+    "title": "Cranberry Turkey Cutlets With Fresh Chavrie",
+    "readyInMinutes": 15,
+    "servings": 6,
+    "sourceUrl": "http://www.foodista.com/recipe/K22TJSMH/cranberry-turkey-cutlets-with-fresh-chavrie",
+    "image": "https://spoonacular.com/recipeImages/640424-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many main course recipes, so give Cranberry Turkey Cutlets With Fresh Chavrie a try. One serving contains <b>230 calories</b>, <b>26g of protein</b>, and <b>12g of fat</b>. For <b>$1.98 per serving</b>, this recipe <b>covers 5%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. 1 person has made this recipe and would make it again. If you have extra virgin olive oil, chavrie goat cheese, pecans, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free</b> diet. From preparation to the plate, this recipe takes roughly <b>15 minutes</b>. Overall, this recipe earns a <b>not so awesome spoonacular score of 33%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/cranberry-turkey-cutlets-397671\">Cranberry Turkey Cutlets</a>, <a href=\"https://spoonacular.com/recipes/cranberry-orange-turkey-cutlets-405121\">Cranberry-Orange Turkey Cutlets</a>, and <a href=\"https://spoonacular.com/recipes/turkey-cutlets-with-cranberry-compote-698296\">Turkey Cutlets with Cranberry Compote</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat broiler.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 405914,
+                "name": "broiler",
+                "localizedName": "broiler",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Brush one side of cutlets with olive oil; place oiled side down on broiler pan.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404698,
+                "name": "broiler pan",
+                "localizedName": "broiler pan",
+                "image": "broiler-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Brush tops with remaining olive oil.Broil about 4 inches from heat for 5 minutes. Turn and broil 3 minutes or until no longer pink in center.Meanwhile, mix Chavrie and pecans in small bowl. Spoon mixture over top of broiled cutlets and broil and additional minute or until cheese is warm.Top with cranberry sauce.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "cranberry sauce",
+                "localizedName": "cranberry sauce",
+                "image": ""
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 12142,
+                "name": "pecans",
+                "localizedName": "pecans",
+                "image": "pecans.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ],
+            "length": { "number": 8, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/cranberry-turkey-cutlets-with-fresh-chavrie-640424",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 229.922, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 2,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 5,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 142.73,
+    "id": 660015,
+    "title": "Shrimp Udon w Fish Cakes & Poached Egg",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "http://www.foodista.com/recipe/M8LVSKDM/shrimp-udon-w-fish-cakes-poached-egg",
+    "image": "https://spoonacular.com/recipeImages/660015-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Need a <b>gluten free, dairy free, and pescatarian breakfast</b>? Shrimp Udon w Fish Cakes & Poached Egg could be a super recipe to try. This recipe makes 2 servings with <b>130 calories</b>, <b>18g of protein</b>, and <b>5g of fat</b> each. For <b>$1.43 per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. A mixture of scallion, fish cake, garlic, and a handful of other ingredients are all it takes to make this recipe so scrumptious. 1 person has tried and liked this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 36%</b>, this dish is not so tremendous. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/udon-soup-with-bok-choy-and-poached-egg-9843\">Udon Soup With Bok Choy And Poached Egg</a>, <a href=\"https://spoonacular.com/recipes/smoked-fish-cakes-with-poached-eggs-1087827\">Smoked fish cakes with poached eggs</a>, and <a href=\"https://spoonacular.com/recipes/udon-with-soft-egg-and-green-onion-onsen-tamago-udon-250114\">Udon with Soft Egg and Green Onion (Onsen Tamago Udon)</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free", "pescatarian"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Bring large pot of water to a boil and add the sauce packets, soy sauce, minced garlic, and shrimp. Boil for a few minutes before adding the udon noodles.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "minced garlic",
+                "localizedName": "minced garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 98966,
+                "name": "udon noodles",
+                "localizedName": "udon noodles",
+                "image": "dry-udon-noodles.png"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 15270,
+                "name": "shrimp",
+                "localizedName": "shrimp",
+                "image": "shrimp.png"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the udon noodles and fish cakes. Cook for about 5 minutes or until the noodles separate. Then add the eggs carefully so they don't separate. Cook for another 5 minutes or until egg whites have solidified.",
+            "ingredients": [
+              {
+                "id": 98966,
+                "name": "udon noodles",
+                "localizedName": "udon noodles",
+                "image": "dry-udon-noodles.png"
+              },
+              {
+                "id": 1124,
+                "name": "egg whites",
+                "localizedName": "egg whites",
+                "image": "egg-white.jpg"
+              },
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              },
+              {
+                "id": 10115261,
+                "name": "fish",
+                "localizedName": "fish",
+                "image": "fish-fillet.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Transfer to soup bowl and garnish with scallion slices and gim strips.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              { "id": 0, "name": "soup", "localizedName": "soup", "image": "" }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/shrimp-udon-w-fish-cakes-poached-egg-660015",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 130.302, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 5,
+    "healthScore": 17,
+    "creditsText": "coffeebean",
+    "sourceName": "spoonacular.com",
+    "pricePerServing": 238.84,
+    "id": 622598,
+    "title": "Pittata - Pizza Frittata",
+    "author": "coffeebean",
+    "readyInMinutes": 30,
+    "servings": 2,
+    "sourceUrl": "https://spoonacular.com/-1418233867224",
+    "image": "https://spoonacular.com/recipeImages/622598-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Pittata - Pizza Frittata can be made <b>in approximately 30 minutes</b>. Watching your figure? This gluten free, primal, and ketogenic recipe has <b>598 calories</b>, <b>42g of protein</b>, and <b>43g of fat</b> per serving. For <b>$2.39 per serving</b>, this recipe <b>covers 28%</b> of your daily requirements of vitamins and minerals. This recipe serves 2. It works well as a main course. It is brought to you by spoonacular user <a href=\"/profile/coffeebean\">coffeebean</a>. Head to the store and pick up mozzarella cheese, basil, pepperoni, and a few other things to make it today. This recipe is typical of Mediterranean cuisine. Similar recipes include <a href=\"https://spoonacular.com/recipes/pittata-pizza-frittata-1596523\">Pittata - Pizza Frittata</a>, <a href=\"https://spoonacular.com/recipes/pittata-pizza-frittata-1285123\">Pittata - Pizza Frittata</a>, and <a href=\"https://spoonacular.com/recipes/pittata-pizza-frittata-1301837\">Pittata - Pizza Frittata</a>.",
+    "cuisines": ["Mediterranean", "Italian", "European"],
+    "dishTypes": [
+      "lunch",
+      "main course",
+      "morning meal",
+      "brunch",
+      "main dish",
+      "breakfast",
+      "dinner"
+    ],
+    "diets": ["gluten free", "primal", "ketogenic"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Pre-heat oven to ~450°F (230°C), top heat only.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 450, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "On the stove, heat cooking fat in a large oven-safe skillet over medium heat.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "cooking fat",
+                "localizedName": "cooking fat",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404794,
+                "name": "stove",
+                "localizedName": "stove",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Beat the eggs with the milk (again milk is optional), salt, pepper, and any herbs or spices desired.",
+            "ingredients": [
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 2035,
+                "name": "spices",
+                "localizedName": "spices",
+                "image": "spices.png"
+              },
+              {
+                "id": 1002044,
+                "name": "herbs",
+                "localizedName": "herbs",
+                "image": "mixed-fresh-herbs.jpg"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Add any desired add-ins (other than cheese) to the skillet. For the pittata, we didn't use anything, but this is when you would add your cooked vegetables or raw vegetables that don't require much cooking (e.g. bell pepper).",
+            "ingredients": [
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Pour in the egg mixture and tilt the skillet to ensure it evenly surrounds any add-ins. Now distribute the shredded cheese and pepperoni slices (if using).",
+            "ingredients": [
+              {
+                "id": 1007057,
+                "name": "pepperoni slices",
+                "localizedName": "pepperoni slices",
+                "image": "pepperoni.png"
+              },
+              {
+                "id": 1011026,
+                "name": "shredded cheese",
+                "localizedName": "shredded cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Allow the eggs to cook on the stove until the edges of the eggs are set. The center will still be a bit jiggly. Now is a good time to top with Parmesan cheese (be generous!)",
+            "ingredients": [
+              {
+                "id": 1033,
+                "name": "parmesan",
+                "localizedName": "parmesan",
+                "image": "parmesan.jpg"
+              },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404794,
+                "name": "stove",
+                "localizedName": "stove",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Transfer the pan to the hot oven and bake until the eggs are puffed and browned with a firm center.",
+            "ingredients": [
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "step": "Remove from oven and let cool for a couple minutes before cutting into wedges.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/pittata-pizza-frittata-622598",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 598.16, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 13,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 2,
+    "healthScore": 11,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 169.5,
+    "id": 655793,
+    "title": "Peruvian Roast Chicken",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "https://www.foodista.com/recipe/48JPTJ2N/peruvian-roast-chicken",
+    "image": "https://spoonacular.com/recipeImages/655793-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "If you have about <b>45 minutes</b> to spend in the kitchen, Peruvian Roast Chicken might be an outstanding <b>gluten free, dairy free, and ketogenic</b> recipe to try. This main course has <b>472 calories</b>, <b>32g of protein</b>, and <b>36g of fat</b> per serving. This recipe serves 4 and costs $1.7 per serving. This recipe from Foodista requires olive oil, garlic cloves, juice of lemon, and red wine vinegar. 2 people were impressed by this recipe. All things considered, we decided this recipe <b>deserves a spoonacular score of 54%</b>. This score is solid. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/peruvian-roast-chicken-1583009\">Peruvian Roast Chicken</a>, <a href=\"https://spoonacular.com/recipes/peruvian-roast-chicken-600230\">Peruvian Roast Chicken</a>, and <a href=\"https://spoonacular.com/recipes/peruvian-roast-chicken-1262947\">Peruvian Roast Chicken</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "ketogenic"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Mix together the marinade ingredients.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "marinade",
+                "localizedName": "marinade",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Place the whole chicken into a large (about 2 gallon size) ziploc bag and pour in the marinade.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 0,
+                "name": "marinade",
+                "localizedName": "marinade",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Spread the marinade so that it covers all the chicken.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "marinade",
+                "localizedName": "marinade",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 0,
+                "name": "spread",
+                "localizedName": "spread",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Marinade overnight.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "marinade",
+                "localizedName": "marinade",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Take the chicken out of the fridge about 30-45 minutes before you roast it, so it comes closer to room temperature. This helps the chicken become more moist and cooked evenly.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 45, "unit": "minutes" }
+          },
+          {
+            "number": 6,
+            "step": "Preheat the oven to 450F.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 450, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Remove the chicken from the marinate and brush off any garlic so it will not burn.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Lay the chicken breast side up in a roasting pan or cast iron skillet.",
+            "ingredients": [
+              {
+                "id": 5062,
+                "name": "chicken breast",
+                "localizedName": "chicken breast",
+                "image": "chicken-breasts.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404629,
+                "name": "roasting pan",
+                "localizedName": "roasting pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "step": "Truss the chicken. This keeps the juices in during the roasting and makes the meat more tender.",
+            "ingredients": [
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 10,
+            "step": "Roast 45-55 minutes.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 55, "unit": "minutes" }
+          },
+          {
+            "number": 11,
+            "step": "Let rest 5 minutes before carving.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/peruvian-roast-chicken-655793",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 471.549, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 6,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 18,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 52.05,
+    "id": 648013,
+    "title": "Iron - Rich Gluten Free Vegan Muffins",
+    "readyInMinutes": 45,
+    "servings": 16,
+    "sourceUrl": "https://www.foodista.com/recipe/BXZSJKB5/iron-rich-gluten-free-vegan-muffins",
+    "image": "https://spoonacular.com/recipeImages/648013-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Iron - Rich Gluten Free Vegan Muffins takes approximately <b>45 minutes</b> from beginning to end. For <b>52 cents per serving</b>, you get a breakfast that serves 16. One serving contains <b>218 calories</b>, <b>4g of protein</b>, and <b>8g of fat</b>. A mixture of brown rice flour, flax seeds, salt, and a handful of other ingredients are all it takes to make this recipe so flavorful. This recipe from Foodista has 1 fans. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 59%</b>. This score is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/rich-pumpkin-coffee-cake-gluten-free-vegan-soy-free-43068\">Rich Pumpkin Coffee Cake (gluten-free, Vegan, Soy-free)</a>, <a href=\"https://spoonacular.com/recipes/nutrition-rich-omega-3-blueberry-breakfast-cookies-gluten-free-vegan-764637\">Nutrition-Rich Omega 3 Blueberry Breakfast Cookies (gluten free + vegan!)</a>, and <a href=\"https://spoonacular.com/recipes/nutrition-rich-omega-3-blueberry-breakfast-cookies-gluten-free-vegan-1699009\">Nutrition-Rich Omega 3 Blueberry Breakfast Cookies (gluten free + vegan)</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat oven to 350F",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 350, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "In a medium bowl, whisk together flour, baking soda, salt, cinnamon and nutmeg.",
+            "ingredients": [
+              {
+                "id": 18372,
+                "name": "baking soda",
+                "localizedName": "baking soda",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 2010,
+                "name": "cinnamon",
+                "localizedName": "cinnamon",
+                "image": "cinnamon.jpg"
+              },
+              {
+                "id": 2025,
+                "name": "nutmeg",
+                "localizedName": "nutmeg",
+                "image": "ground-nutmeg.jpg"
+              },
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404661,
+                "name": "whisk",
+                "localizedName": "whisk",
+                "image": "whisk.png"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "In a large bowl, mash the bananas with the syrup, agave nectar, molasses, applesauce, oil, ginger and vanilla until well blended.",
+            "ingredients": [
+              {
+                "id": 19912,
+                "name": "agave",
+                "localizedName": "agave",
+                "image": "agave.png"
+              },
+              {
+                "id": 9019,
+                "name": "applesauce",
+                "localizedName": "applesauce",
+                "image": "applesauce.png"
+              },
+              {
+                "id": 19304,
+                "name": "molasses",
+                "localizedName": "molasses",
+                "image": "molasses.jpg"
+              },
+              {
+                "id": 9040,
+                "name": "banana",
+                "localizedName": "banana",
+                "image": "bananas.jpg"
+              },
+              {
+                "id": 1052050,
+                "name": "vanilla",
+                "localizedName": "vanilla",
+                "image": "vanilla.jpg"
+              },
+              {
+                "id": 11216,
+                "name": "ginger",
+                "localizedName": "ginger",
+                "image": "ginger.png"
+              },
+              {
+                "id": 0,
+                "name": "syrup",
+                "localizedName": "syrup",
+                "image": ""
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Add the dry ingredients to the banana mixture, stirring to combine.",
+            "ingredients": [
+              {
+                "id": 9040,
+                "name": "banana",
+                "localizedName": "banana",
+                "image": "bananas.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Fold in quinoa, sunflower, chia and flax seeds.",
+            "ingredients": [
+              {
+                "id": 10012220,
+                "name": "flaxseed",
+                "localizedName": "flaxseed",
+                "image": "flax-seeds.png"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Bake for 25 - 30 minutes.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 30, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/iron-rich-gluten-free-vegan-muffins-648013",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 217.827, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 12,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 3,
+    "healthScore": 6,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 77.21,
+    "id": 642583,
+    "title": "Farfalle with Peas, Ham and Cream",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/V7DKVTXY/farfalle-with-peas-ham-and-cream",
+    "image": "https://spoonacular.com/recipeImages/642583-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Farfalle with Peas, Ham and Cream can be made <b>in about 30 minutes</b>. This recipe serves 4. One portion of this dish contains around <b>15g of protein</b>, <b>16g of fat</b>, and a total of <b>397 calories</b>. For <b>77 cents per serving</b>, this recipe <b>covers 13%</b> of your daily requirements of vitamins and minerals. 3 people found this recipe to be scrumptious and satisfying. A mixture of salt and pepper, ham, farfalle pasta, and a handful of other ingredients are all it takes to make this recipe so scrumptious. It works well as a very reasonably priced main course. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 42%</b>, which is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/farfalle-with-gorgonzola-ham-and-peas-149446\">Farfalle With Gorgonzola, Ham And Peas</a>, <a href=\"https://spoonacular.com/recipes/ham-and-peas-farfalle-in-creamy-lemon-parmesan-sauce-646183\">Ham and Peas Farfalle In Creamy Lemon Parmesan Sauce</a>, and <a href=\"https://spoonacular.com/recipes/pasta-with-ham-peas-and-cream-18210\">Pasta With Ham, Peas And Cream</a>.",
+    "cuisines": [],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": [],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Cook pasta according to package directions.In a skillet add the peas, butter, ham.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              },
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              },
+              {
+                "id": 11304,
+                "name": "peas",
+                "localizedName": "peas",
+                "image": "peas.jpg"
+              },
+              {
+                "id": 10151,
+                "name": "ham",
+                "localizedName": "ham",
+                "image": "ham-whole.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Sautee for 5 minutes.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Add the cream, salt and pepper and cook under medium heat for 5 to 10 minutes, or until the cream is slightly becoming thick.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 1053,
+                "name": "cream",
+                "localizedName": "cream",
+                "image": "fluid-cream.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Remove from heat. When the pasta is cooked and drained, return to pan and add the sauce. Stir well and add the cheese.",
+            "ingredients": [
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Serve nice and hot.",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/farfalle-with-peas-ham-and-cream-642583",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 397.039, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 3,
+    "healthScore": 19,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 298.81,
+    "id": 649403,
+    "title": "Lebanese Kibbeh",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "https://www.foodista.com/recipe/B6HG5RKG/lebanese-kibbeh",
+    "image": "https://spoonacular.com/recipeImages/649403-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many main course recipes, so give Lebanese Kibbeh a try. This recipe serves 6. One portion of this dish contains roughly <b>32g of protein</b>, <b>41g of fat</b>, and a total of <b>585 calories</b>. For <b>$2.99 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. This recipe is typical of middl eastern cuisine. It is brought to you by Foodista. 3 people have made this recipe and would make it again. If you have greek yogurt, lamb, mint, and a few other ingredients on hand, you can make it. With a spoonacular <b>score of 61%</b>, this dish is solid. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/lebanese-kibbeh-with-lemon-tahini-1216447\">Lebanese Kibbeh With Lemon Tahini</a>, <a href=\"https://spoonacular.com/recipes/lebanese-kibbeh-with-lemon-tahini-493190\">Lebanese Kibbeh With Lemon Tahini</a>, and <a href=\"https://spoonacular.com/recipes/kibbeh-536263\">Kibbeh</a>.",
+    "cuisines": ["Middle Eastern"],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": [],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat the oven to 375F degrees. Rinse the bulgur wheat in a sieve and squeeze out the excess moisture.",
+            "ingredients": [
+              {
+                "id": 20012,
+                "name": "bulgur",
+                "localizedName": "bulgur",
+                "image": "bulgur-wheat.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405600,
+                "name": "sieve",
+                "localizedName": "sieve",
+                "image": "strainer.png"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 375, "unit": "Fahrenheit" }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Mix the lamb, onion and seasoning, kneading the mixture to make a thick paste.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 10017224,
+                "name": "lamb",
+                "localizedName": "lamb",
+                "image": "lamb-shanks.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add the bulgur wheat and blend together.",
+            "ingredients": [
+              {
+                "id": 20012,
+                "name": "bulgur",
+                "localizedName": "bulgur",
+                "image": "bulgur-wheat.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "To make the filling, heat the oil in a frying pan and fry the onion until golden.",
+            "ingredients": [
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Add the lamb or veal and cook, stirring, until evenly browned and then add the pine nuts, allspice and salt and pepper.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 12147,
+                "name": "pine nuts",
+                "localizedName": "pine nuts",
+                "image": "pine-nuts.png"
+              },
+              {
+                "id": 2001,
+                "name": "allspice",
+                "localizedName": "allspice",
+                "image": "allspice-ground.jpg"
+              },
+              {
+                "id": 10017224,
+                "name": "lamb",
+                "localizedName": "lamb",
+                "image": "lamb-shanks.jpg"
+              },
+              {
+                "id": 17142,
+                "name": "veal",
+                "localizedName": "veal",
+                "image": "veal.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Oil a large baking dish and spread half of the meat and bulgur wheat mixture over the bottom. Spoon over the filling and top with a second layer of meat and bulgur wheat, pressing down firmly with the back of a spoon.",
+            "ingredients": [
+              {
+                "id": 20012,
+                "name": "bulgur",
+                "localizedName": "bulgur",
+                "image": "bulgur-wheat.jpg"
+              },
+              {
+                "id": 0,
+                "name": "spread",
+                "localizedName": "spread",
+                "image": ""
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Pour the melted butter over the top and then bake on the oven for 40-45 minutes until browned on top.",
+            "ingredients": [
+              {
+                "id": 1001,
+                "name": "butter",
+                "localizedName": "butter",
+                "image": "butter-sliced.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 45, "unit": "minutes" }
+          },
+          {
+            "number": 8,
+            "step": "Meanwhile make the yogurt dip: Blend together the yogurt and garlic, spoon into a serving bowl and sprinkle with the chopped mint.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "yogurt dip",
+                "localizedName": "yogurt dip",
+                "image": ""
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 1116,
+                "name": "yogurt",
+                "localizedName": "yogurt",
+                "image": "plain-yogurt.jpg"
+              },
+              {
+                "id": 2064,
+                "name": "mint",
+                "localizedName": "mint",
+                "image": "mint.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 9,
+            "step": "Cut the cooked kibbeh into squares or rectangles and serve garnished with mint and accompanied by rice and the yogurt dip. NOTES The national dish of Syria and the Lebanon in Kibbeh, as kind of meatball made from minced lamp and bulgur wheat. Raw kibbeh is the most widely eaten type, but this version is very popular too.",
+            "ingredients": [
+              {
+                "id": 20012,
+                "name": "bulgur",
+                "localizedName": "bulgur",
+                "image": "bulgur-wheat.jpg"
+              },
+              {
+                "id": 0,
+                "name": "yogurt dip",
+                "localizedName": "yogurt dip",
+                "image": ""
+              },
+              {
+                "id": 10110219,
+                "name": "meatballs",
+                "localizedName": "meatballs",
+                "image": "meatballs.png"
+              },
+              {
+                "id": 2064,
+                "name": "mint",
+                "localizedName": "mint",
+                "image": "mint.jpg"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/lebanese-kibbeh-649403",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 585.119, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 4,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 8,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 63.13,
+    "id": 634141,
+    "title": "Banana Oatmeal Breakfast Muffins",
+    "readyInMinutes": 45,
+    "servings": 12,
+    "sourceUrl": "https://www.foodista.com/recipe/8D8HNJHW/banana-oatmeal-breakfast-muffins",
+    "image": "https://spoonacular.com/recipeImages/634141-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Bananan Oatmeal Breakfast Muffins can be made <b>in roughly 45 minutes</b>. This recipe serves 12. For <b>63 cents per serving</b>, this recipe <b>covers 6%</b> of your daily requirements of vitamins and minerals. One serving contains <b>168 calories</b>, <b>8g of protein</b>, and <b>4g of fat</b>. It is brought to you by Foodista. Not a lot of people really liked this breakfast. 1 person has made this recipe and would make it again. If you have oats, cinnamon, baking powder, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>gluten free and dairy free</b> diet. With a spoonacular <b>score of 44%</b>, this dish is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/gluten-free-banana-oatmeal-muffins-with-banana-nut-cheerios-1333499\">Gluten Free Bananan Oatmeal Muffins with Banana Nut Cheerios</a>, <a href=\"https://spoonacular.com/recipes/gluten-free-banana-oatmeal-muffins-with-banana-nut-cheerios-944026\">Gluten Free Bananan Oatmeal Muffins with Banana Nut Cheerios</a>, and <a href=\"https://spoonacular.com/recipes/breakfast-oatmeal-muffins-384502\">Breakfast Oatmeal Muffins</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a small bowl mash bananas and add egg whites, vanilla and oil. Stir well.",
+            "ingredients": [
+              {
+                "id": 1124,
+                "name": "egg whites",
+                "localizedName": "egg whites",
+                "image": "egg-white.jpg"
+              },
+              {
+                "id": 9040,
+                "name": "banana",
+                "localizedName": "banana",
+                "image": "bananas.jpg"
+              },
+              {
+                "id": 1052050,
+                "name": "vanilla",
+                "localizedName": "vanilla",
+                "image": "vanilla.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Dump into large bowl and add all remaining ingredients.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Spray muffin pan with cooking spray and add oatmeal mixture evenly into each muffin cup.",
+            "ingredients": [
+              {
+                "id": 4679,
+                "name": "cooking spray",
+                "localizedName": "cooking spray",
+                "image": "cooking-spray.png"
+              },
+              {
+                "id": 8121,
+                "name": "oatmeal",
+                "localizedName": "oatmeal",
+                "image": "rolled-oats.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404671,
+                "name": "muffin tray",
+                "localizedName": "muffin tray",
+                "image": "muffin-tray.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Bake on 350F for 35 minutes.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": { "number": 350, "unit": "Fahrenheit" }
+              }
+            ],
+            "length": { "number": 35, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Allow 5 minutes to cool.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/banana-oatmeal-breakfast-muffins-634141",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 167.623, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": false,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 23,
+    "gaps": "no",
+    "preparationMinutes": 10,
+    "cookingMinutes": 20,
+    "aggregateLikes": 1,
+    "healthScore": 27,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 475.37,
+    "id": 1098240,
+    "title": "Lemon Fresh Spaghetti with Garden Sauce & Pumpkin Flowers",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "https://www.foodista.com/recipe/7XZZXCGV/lemon-fresh-spaghetti-with-garden-sauce-pumpkin-flowers",
+    "image": "https://spoonacular.com/recipeImages/1098240-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Lemon Fresh Spaghetti with Garden Sauce & Pumpkin Flowers requires around <b>30 minutes</b> from start to finish. This main course has <b>812 calories</b>, <b>31g of protein</b>, and <b>24g of fat</b> per serving. This recipe serves 4. For <b>$4.75 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. A mixture of salt, olive oil, egg, and a handful of other ingredients are all it takes to make this recipe so tasty. This recipe is liked by 1 foodies and cooks. It is brought to you by Foodista. Overall, this recipe earns an <b>improvable spoonacular score of 0%</b>. Try <a href=\"https://spoonacular.com/recipes/garden-fresh-tomato-sauce-spaghetti-644192\">Garden Fresh Tomato Sauce & Spaghetti</a>, <a href=\"https://spoonacular.com/recipes/garden-fresh-spaghetti-sauce-and-peeling-tip-601991\">Garden Fresh Spaghetti Sauce and Peeling Tip</a>, and <a href=\"https://spoonacular.com/recipes/garden-fresh-spaghetti-397661\">Garden-Fresh Spaghetti</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": [],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat a large cast iron frying pan with a  inch of canola oil; add the zucchini slices and fry until golden. Do not overcrowd the pan.",
+            "ingredients": [
+              {
+                "id": 1014582,
+                "name": "canola oil",
+                "localizedName": "canola oil",
+                "image": "vegetable-oil.jpg"
+              },
+              {
+                "id": 11477,
+                "name": "zucchini",
+                "localizedName": "zucchini",
+                "image": "zucchini.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Place the slices on a plate prepared with a paper towel to absorb the excess oil.Rinse the flowers with cold water in a colander. Gently pat the flowers dry.",
+            "ingredients": [
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405895,
+                "name": "paper towels",
+                "localizedName": "paper towels",
+                "image": "paper-towels.jpg"
+              },
+              {
+                "id": 404639,
+                "name": "colander",
+                "localizedName": "colander",
+                "image": "colander.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Place the flour in a shallow bowl; in another shallow bowl beat the egg with a splash of water. Dip the flowers first in the flour; then the egg-wash and again in the flour.",
+            "ingredients": [
+              {
+                "id": 20081,
+                "name": "all purpose flour",
+                "localizedName": "all purpose flour",
+                "image": "flour.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              { "id": 0, "name": "dip", "localizedName": "dip", "image": "" },
+              {
+                "id": 1123,
+                "name": "egg",
+                "localizedName": "egg",
+                "image": "egg.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Heat the frying pan with a  inch of canola oil and place the prepared flowers in the heated oil. Do not overcrowd the pan. Fry until slightly golden; then place the flowers on a plate prepared with a paper towel.Wipe any crumbs from the frying pan.",
+            "ingredients": [
+              {
+                "id": 1014582,
+                "name": "canola oil",
+                "localizedName": "canola oil",
+                "image": "vegetable-oil.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405895,
+                "name": "paper towels",
+                "localizedName": "paper towels",
+                "image": "paper-towels.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Heat a frying pan with two or three tablespoons of olive oil.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Add the diced tomatoes, chopped garlic, and lemon slices.",
+            "ingredients": [
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "lemon.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Saute the tomatoes on a medium heat until the tomatoes are soft and a sauce like consistency; add the seasonings to taste and the fresh basil.Prepare the pasta as the sauce cooks.",
+            "ingredients": [
+              {
+                "id": 2044,
+                "name": "fresh basil",
+                "localizedName": "fresh basil",
+                "image": "fresh-basil.jpg"
+              },
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Place the pasta in the sauce and toss.Plate the pasta; garnish with the fried zucchini and the fried flowers. Finish the dish with dashes of red pepper flakes; a drizzle of olive oil, and fresh Romano cheese shavings.",
+            "ingredients": [
+              {
+                "id": 1032009,
+                "name": "red pepper flakes",
+                "localizedName": "red pepper flakes",
+                "image": "red-pepper-flakes.jpg"
+              },
+              {
+                "id": 1038,
+                "name": "romano cheese",
+                "localizedName": "romano cheese",
+                "image": "parmesan.jpg"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 11477,
+                "name": "zucchini",
+                "localizedName": "zucchini",
+                "image": "zucchini.jpg"
+              },
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              },
+              {
+                "id": 0,
+                "name": "sauce",
+                "localizedName": "sauce",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/lemon-fresh-spaghetti-with-garden-sauce-pumpkin-flowers-1098240",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 812.401, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 3,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 0,
+    "healthScore": 59,
+    "creditsText": "Pick Fresh Foods",
+    "license": "CC BY 3.0",
+    "sourceName": "Pick Fresh Foods",
+    "pricePerServing": 271.76,
+    "id": 511707,
+    "title": "Turkey Kale Tacos",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://pickfreshfoods.com/turkey-kale-tacos/",
+    "image": "https://spoonacular.com/recipeImages/511707-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Turkey Kale Tacos requires approximately <b>45 minutes</b> from start to finish. For <b>$2.72 per serving</b>, you get a main course that serves 4. Watching your figure? This gluten free, dairy free, paleolithic, and primal recipe has <b>220 calories</b>, <b>31g of protein</b>, and <b>8g of fat</b> per serving. 1 person has tried and liked this recipe. A mixture of paprika, bell pepper, onion, and a handful of other ingredients are all it takes to make this recipe so delicious. This recipe is typical of Mexican cuisine. It is brought to you by Pick Fresh Foods. All things considered, we decided this recipe <b>deserves a spoonacular score of 84%</b>. This score is awesome. Similar recipes include <a href=\"https://spoonacular.com/recipes/beef-and-kale-tacos-185453\">Beef and Kale Tacos</a>, <a href=\"https://spoonacular.com/recipes/beef-and-kale-tacos-1501015\">Beef and Kale Tacos</a>, and <a href=\"https://spoonacular.com/recipes/kale-and-potato-rajas-tacos-506781\">Kale and Potato Rajas Tacos</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "paleolithic", "primal", "whole 30"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large saut pan with lid, heat oil over medium high heat",
+            "ingredients": [
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add ground turkey and cook until browned.",
+            "ingredients": [
+              {
+                "id": 5662,
+                "name": "ground turkey",
+                "localizedName": "ground turkey",
+                "image": "meat-ground.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Drain any liquid from pan.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Add onion and garlic, cook stirring frequently until onion is translucent, 2-3 minutes.Stir in the cumin, paprika, and cayenne pepper. Cook for 2 minutes.",
+            "ingredients": [
+              {
+                "id": 2031,
+                "name": "cayenne pepper",
+                "localizedName": "cayenne pepper",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 2028,
+                "name": "paprika",
+                "localizedName": "paprika",
+                "image": "paprika.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 1002014,
+                "name": "cumin",
+                "localizedName": "cumin",
+                "image": "ground-cumin.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Layer the bell pepper and kale.",
+            "ingredients": [
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 11233,
+                "name": "kale",
+                "localizedName": "kale",
+                "image": "kale.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Sprinkle with salt.",
+            "ingredients": [
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Pour water on top of kale and cover (do not stir). Reduce heat to medium and cook for 6-8 minutes, or until kale is wilted and dark green.Uncover and stir together. Season according to taste.",
+            "ingredients": [
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 11233,
+                "name": "kale",
+                "localizedName": "kale",
+                "image": "kale.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 8, "unit": "minutes" }
+          },
+          {
+            "number": 8,
+            "step": "Serve on corn tortillas.",
+            "ingredients": [
+              {
+                "id": 18363,
+                "name": "corn tortilla",
+                "localizedName": "corn tortilla",
+                "image": "corn-tortillas.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/turkey-kale-tacos-511707",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 220.059, "unit": "kcal" }]
+    }
+  }
+]

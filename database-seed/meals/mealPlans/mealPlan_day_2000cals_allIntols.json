@@ -1,0 +1,38 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 986003,
+          "imageType": "jpg",
+          "title": "Instant Pot Chicken Tacos",
+          "readyInMinutes": 25,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/instant-pot-chicken-tacos-986003"
+        },
+        {
+          "id": 649764,
+          "imageType": "jpg",
+          "title": "Lemon Roasted Chicken",
+          "readyInMinutes": 120,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/lemon-roasted-chicken-649764"
+        }
+      ],
+      "nutrients": {
+        "calories": 2001.59,
+        "protein": 147.21,
+        "fat": 98.66,
+        "carbohydrates": 132.44
+      }
+    }
+  }
+}

@@ -1,0 +1,816 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 40,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 4,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 158.18,
+    "id": 635446,
+    "title": "Blueberry Cinnamon Porridge",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "http://www.foodista.com/recipe/2HVQB6LT/blueberry-cinnamon-porridge",
+    "image": "https://spoonacular.com/recipeImages/635446-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many breakfast recipes, so give Blueberry Cinnamon Porridge a try. This gluten free, dairy free, lacto ovo vegetarian, and fodmap friendly recipe serves 1 and costs <b>$1.58 per serving</b>. One portion of this dish contains about <b>4g of protein</b>, <b>74g of fat</b>, and a total of <b>780 calories</b>. If you have blueberry jam, water, oats, and a few other ingredients on hand, you can make it. 1 person found this recipe to be yummy and satisfying. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 32%</b>, which is not so excellent. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/blueberry-cinnamon-porridge-1613415\">Blueberry Cinnamon Porridge</a>, <a href=\"https://spoonacular.com/recipes/blueberry-porridge-126952\">Blueberry Porridge</a>, and <a href=\"https://spoonacular.com/recipes/cinnamon-plum-porridge-616033\">Cinnamon plum porridge</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "lacto ovo vegetarian",
+      "fodmap friendly",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Add the oats, almond milk, water and salt to a small saucepan and cook it over medium heat.",
+            "ingredients": [
+              {
+                "id": 93607,
+                "name": "almond milk",
+                "localizedName": "almond milk",
+                "image": "almond-milk.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 8120,
+                "name": "oats",
+                "localizedName": "oats",
+                "image": "rolled-oats.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the coconut oil, cinnamon and blueberry jam. Stir in it occasionally.Cook it for five to ten minutes or until it has reached your desired consistency. Take it off the stove, pour it into a bowl and top it with your favourite toppings.",
+            "ingredients": [
+              {
+                "id": 11119297,
+                "name": "blueberry jam",
+                "localizedName": "blueberry jam",
+                "image": "blueberry-jam.jpg"
+              },
+              {
+                "id": 4047,
+                "name": "coconut oil",
+                "localizedName": "coconut oil",
+                "image": "oil-coconut.jpg"
+              },
+              {
+                "id": 2010,
+                "name": "cinnamon",
+                "localizedName": "cinnamon",
+                "image": "cinnamon.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404794,
+                "name": "stove",
+                "localizedName": "stove",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/blueberry-cinnamon-porridge-635446",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 779.553, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 11,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 11,
+    "healthScore": 96,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 126.12,
+    "id": 652417,
+    "title": "Moroccan chickpea and lentil stew",
+    "readyInMinutes": 30,
+    "servings": 3,
+    "sourceUrl": "http://www.foodista.com/recipe/C6DXLHJH/moroccan-chickpea-and-lentil-stew",
+    "image": "https://spoonacular.com/recipeImages/652417-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Moroccan chickpean and lentil stew can be made <b>in roughly 30 minutes</b>. This dairy free, lacto ovo vegetarian, and vegan recipe serves 3 and costs <b>$1.26 per serving</b>. This main course has <b>466 calories</b>, <b>20g of protein</b>, and <b>7g of fat</b> per serving. This recipe is liked by 11 foodies and cooks. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. It is brought to you by Foodista. If you have olive oil, salt and pepper, tomato paste, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 97%</b>. This score is outstanding. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/moroccan-chickpea-and-lentil-stew-1376773\">Moroccan chickpean and lentil stew</a>, <a href=\"https://spoonacular.com/recipes/butternut-squash-chickpea-lentil-moroccan-stew-523871\">Butternut Squash, Chickpea & Lentil Moroccan Stew</a>, and <a href=\"https://spoonacular.com/recipes/butternut-squash-chickpea-lentil-moroccan-stew-1379167\">Butternut Squash, Chickpea & Lentil Moroccan Stew</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "soup", "main course", "main dish", "dinner"],
+    "diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat oil in large saucepan over medium-high heat, add onion and cook for about 3 minutes.",
+            "ingredients": [
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ],
+            "length": { "number": 3, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Add celery, carrot and broccoli to pan and saut for about 5 minutes.",
+            "ingredients": [
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 11143,
+                "name": "celery",
+                "localizedName": "celery",
+                "image": "celery.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Add in all seasonings and cook additional 1 minute.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 1, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Add water, tomato paste, chickpeas and lentils, bring to a boil. Cover, reduce heat to low and simmer for 20 minutes.Meanwhile, cook couscous in separate pan according to package directions.",
+            "ingredients": [
+              {
+                "id": 11887,
+                "name": "tomato paste",
+                "localizedName": "tomato paste",
+                "image": "tomato-paste.jpg"
+              },
+              {
+                "id": 16057,
+                "name": "chickpeas",
+                "localizedName": "chickpeas",
+                "image": "chickpeas.png"
+              },
+              {
+                "id": 20028,
+                "name": "couscous",
+                "localizedName": "couscous",
+                "image": "couscous-cooked.jpg"
+              },
+              {
+                "id": 10316069,
+                "name": "lentils",
+                "localizedName": "lentils",
+                "image": "lentils-brown.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 20, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Add cilantro and lemon juice to stew and serve over warm couscous.",
+            "ingredients": [
+              {
+                "id": 9152,
+                "name": "lemon juice",
+                "localizedName": "lemon juice",
+                "image": "lemon-juice.jpg"
+              },
+              {
+                "id": 11165,
+                "name": "cilantro",
+                "localizedName": "cilantro",
+                "image": "cilantro.png"
+              },
+              {
+                "id": 20028,
+                "name": "couscous",
+                "localizedName": "couscous",
+                "image": "couscous-cooked.jpg"
+              },
+              { "id": 0, "name": "stew", "localizedName": "stew", "image": "" }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/moroccan-chickpea-and-lentil-stew-652417",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 465.633, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 9,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 44,
+    "healthScore": 83,
+    "creditsText": "blogspot.com",
+    "sourceName": "blogspot.com",
+    "pricePerServing": 112.68,
+    "id": 794349,
+    "title": "Broccoli and Chickpea Rice Salad",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "http://foodandspice.blogspot.com/2016/07/broccoli-and-chickpea-rice-salad.html",
+    "image": "https://spoonacular.com/recipeImages/794349-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Broccoli and Chickpea Rice Salad takes roughly <b>45 minutes</b> from beginning to end. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>355 calories</b>, <b>15g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 6. For <b>$1.13 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. It works well as a main course. 44 people were glad they tried this recipe. It is brought to you by foodandspice.blogspot.com. A mixture of ground pepper, broccoli florets, olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. With a spoonacular <b>score of 99%</b>, this dish is tremendous. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1380823\">Broccoli and Chickpea Rice Salad</a>, <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1401089\">Broccoli and Chickpea Rice Salad</a>, and <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1287405\">Broccoli and Chickpea Rice Salad</a>.",
+    "cuisines": [],
+    "dishTypes": [
+      "side dish",
+      "lunch",
+      "main course",
+      "salad",
+      "main dish",
+      "dinner"
+    ],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large skillet, heat the oil over medium heat.",
+            "ingredients": [
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the broccoli, stir well, and cover. Cook, stirring often, until the broccoli is tender.",
+            "ingredients": [
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add the broccoli to a large bowl, along with the remaining salad ingredients.To make the dressing, whisk together all of the dressing ingredients in a small bowl.",
+            "ingredients": [
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404661,
+                "name": "whisk",
+                "localizedName": "whisk",
+                "image": "whisk.png"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Pour the dressing over the salad and toss well to coat evenly. Taste for seasoning and serve.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/broccoli-and-chickpea-rice-salad-794349",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 354.778, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 17,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 35,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 217.21,
+    "id": 658624,
+    "title": "Roasted Plum Oatmeal",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/2ZWYP8RM/roasted-plum-oatmeal",
+    "image": "https://spoonacular.com/recipeImages/658624-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Roasted Plum Oatmeal is a breakfast that serves 4. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>582 calories</b>, <b>18g of protein</b>, and <b>43g of fat</b> per serving. For <b>$2.17 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. This recipe from Foodista has 1 fans. From preparation to the plate, this recipe takes about <b>45 minutes</b>. Head to the store and pick up plums, cooking oats, vanillan extract, and a few other things to make it today. Overall, this recipe earns a <b>good spoonacular score of 59%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/plum-oatmeal-crisp-140291\">Plum Oatmeal Crisp</a>, <a href=\"https://spoonacular.com/recipes/oatmeal-plum-cake-612166\">Oatmeal Plum Cake</a>, and <a href=\"https://spoonacular.com/recipes/overnight-chilled-plum-oatmeal-pudding-608247\">Overnight Chilled Plum-Oatmeal Pudding</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat oven to 400.On a parchment lined baking sheet toss plums with 1 tablespoon of maple syrup, olive oil and cinnamon. Roast in the oven for 10 minutes, until soft, bubbly, and caramelized.",
+            "ingredients": [
+              {
+                "id": 19911,
+                "name": "maple syrup",
+                "localizedName": "maple syrup",
+                "image": "maple-syrup.png"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 2010,
+                "name": "cinnamon",
+                "localizedName": "cinnamon",
+                "image": "cinnamon.jpg"
+              },
+              {
+                "id": 9279,
+                "name": "plum",
+                "localizedName": "plum",
+                "image": "plum.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404727,
+                "name": "baking sheet",
+                "localizedName": "baking sheet",
+                "image": "baking-sheet.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Remove and set aside.Meanwhile, bring oats, 1 cups of the milk, water, vanilla, and salt to a boil in a medium saucepan. Lower heat and simmer 5 minutes until thickened. Stir in remaining  cup of milk and tablespoon of maple syrup. Top with a scoop of plums.* Quick Cooking Oats - These are oats that have been pressed slightly thinner than rolled oats. They cook more quickly, but retain less of their texture. You can substitute",
+            "ingredients": [
+              {
+                "id": 8402,
+                "name": "quick cooking oats",
+                "localizedName": "quick cooking oats",
+                "image": "rolled-oats.jpg"
+              },
+              {
+                "id": 19911,
+                "name": "maple syrup",
+                "localizedName": "maple syrup",
+                "image": "maple-syrup.png"
+              },
+              {
+                "id": 8120,
+                "name": "rolled oats",
+                "localizedName": "rolled oats",
+                "image": "rolled-oats.jpg"
+              },
+              {
+                "id": 1052050,
+                "name": "vanilla",
+                "localizedName": "vanilla",
+                "image": "vanilla.jpg"
+              },
+              {
+                "id": 9279,
+                "name": "plum",
+                "localizedName": "plum",
+                "image": "plum.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              },
+              {
+                "id": 8120,
+                "name": "oats",
+                "localizedName": "oats",
+                "image": "rolled-oats.jpg"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Rolled Oats or Instant Oats for quick cooking.  If you want a chewier consistency, substitute steel-cut oats and just increase the cooking time according to package instructions.",
+            "ingredients": [
+              {
+                "id": 8120,
+                "name": "rolled oats",
+                "localizedName": "rolled oats",
+                "image": "rolled-oats.jpg"
+              },
+              {
+                "id": 8120,
+                "name": "oats",
+                "localizedName": "oats",
+                "image": "rolled-oats.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/roasted-plum-oatmeal-658624",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 582.216, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": 30,
+    "cookingMinutes": 0,
+    "aggregateLikes": 1,
+    "healthScore": 66,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 105.77,
+    "id": 653251,
+    "title": "Noodles and Veggies With Peanut Sauce",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/5VRHVVWQ/noodles-and-veggies-with-peanut-sauce",
+    "image": "https://spoonacular.com/recipeImages/653251-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Noodles and Veggies With Peanut Sauce takes roughly <b>30 minutes</b> from beginning to end. Watching your figure? This dairy free, lacto ovo vegetarian, and vegan recipe has <b>686 calories</b>, <b>21g of protein</b>, and <b>25g of fat</b> per serving. For <b>$1.06 per serving</b>, this recipe <b>covers 25%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. 1 person has tried and liked this recipe. It works well as a budget friendly main course. It is brought to you by Foodista. A mixture of snowpeas, garlic cloves, distilled vinegar, and a handful of other ingredients are all it takes to make this recipe so yummy. All things considered, we decided this recipe <b>deserves a spoonacular score of 88%</b>. This score is excellent. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/spicy-peanut-sauce-with-brown-rice-noodles-and-veggies-577560\">Spicy Peanut Sauce with Brown Rice Noodles and Veggies</a>, <a href=\"https://spoonacular.com/recipes/one-pot-peanut-sesame-noodles-veggies-608162\">One-Pot Peanut Sesame Noodles & Veggies</a>, and <a href=\"https://spoonacular.com/recipes/rice-noodles-with-tahini-sauce-and-mixed-veggies-100471\">Rice Noodles With Tahini Sauce and Mixed Veggies</a>.",
+    "cuisines": [],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Prep Time: 30 minutes",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Cook spaghetti according to the package directions. Rinse the spaghetti with cold water and drain thoroughly.",
+            "ingredients": [
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Pour into a large mixing bowl. Toss with the sesame oil.In a blender or food processor, combine the peanuts, garlic, soy sauce, vinegar, sugar, cayenne pepper, and water. Blend until smooth and set aside.Steam the carrots and the snow peas until tender-crisp, about 7 minutes, and set aside.",
+            "ingredients": [
+              {
+                "id": 2031,
+                "name": "cayenne pepper",
+                "localizedName": "cayenne pepper",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 4058,
+                "name": "sesame oil",
+                "localizedName": "sesame oil",
+                "image": "sesame-oil.png"
+              },
+              {
+                "id": 11300,
+                "name": "snow peas",
+                "localizedName": "snow peas",
+                "image": "snow-peas.jpg"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 16091,
+                "name": "peanuts",
+                "localizedName": "peanuts",
+                "image": "peanuts.png"
+              },
+              {
+                "id": 2053,
+                "name": "vinegar",
+                "localizedName": "vinegar",
+                "image": "vinegar-(white).jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404771,
+                "name": "food processor",
+                "localizedName": "food processor",
+                "image": "food-processor.png"
+              },
+              {
+                "id": 405907,
+                "name": "mixing bowl",
+                "localizedName": "mixing bowl",
+                "image": "mixing-bowl.jpg"
+              },
+              {
+                "id": 404726,
+                "name": "blender",
+                "localizedName": "blender",
+                "image": "blender.png"
+              }
+            ],
+            "length": { "number": 7, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Add the peanut sauce, carrots, and snowpeas to the bowl of spaghetti and toss.Just before serving, top with the green onions and cucumber.Can be served while warm or excellent as a chilled salad!",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 99028,
+                "name": "peanut sauce",
+                "localizedName": "peanut sauce",
+                "image": "no.jpg"
+              },
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              },
+              {
+                "id": 11206,
+                "name": "cucumber",
+                "localizedName": "cucumber",
+                "image": "cucumber.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 686.186, "unit": "kcal" }]
+    }
+  },
+  null
+]

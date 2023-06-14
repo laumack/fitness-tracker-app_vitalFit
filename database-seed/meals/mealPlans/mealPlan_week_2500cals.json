@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 636026,
+          "imageType": "jpg",
+          "title": "Breakfast Biscuits and Gravy",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/breakfast-biscuits-and-gravy-636026"
+        },
+        {
+          "id": 643633,
+          "imageType": "jpg",
+          "title": "Fresh Tomato Mozzarella Side Salad",
+          "readyInMinutes": 15,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/fresh-tomato-mozzarella-side-salad-643633"
+        },
+        {
+          "id": 622825,
+          "imageType": "jpg",
+          "title": "Tortilla Burger Loco Vaca",
+          "readyInMinutes": 40,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tortilla-burger-loco-vaca-622825"
+        }
+      ],
+      "nutrients": {
+        "calories": 2500.06,
+        "protein": 107.03,
+        "fat": 182.56,
+        "carbohydrates": 108.41
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 655219,
+          "imageType": "jpg",
+          "title": "Peanut Butter And Chocolate Oatmeal",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/peanut-butter-and-chocolate-oatmeal-655219"
+        },
+        {
+          "id": 1697583,
+          "imageType": "jpg",
+          "title": "Crispy Ravioli Formaggi",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/crispy-ravioli-formaggi-1697583"
+        },
+        {
+          "id": 665141,
+          "imageType": "jpg",
+          "title": "White Bean and Garlic Soup with Spinach and Crispy Prosciutto and Rosemary-Garlic Toasts",
+          "readyInMinutes": 60,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/white-bean-and-garlic-soup-with-spinach-and-crispy-prosciutto-and-rosemary-garlic-toasts-665141"
+        }
+      ],
+      "nutrients": {
+        "calories": 2499.82,
+        "protein": 89.44,
+        "fat": 136.33,
+        "carbohydrates": 242.78
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 636026,
+          "imageType": "jpg",
+          "title": "Breakfast Biscuits and Gravy",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/breakfast-biscuits-and-gravy-636026"
+        },
+        {
+          "id": 1502521,
+          "imageType": "jpg",
+          "title": "Crack Chicken Chili",
+          "readyInMinutes": 30,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/crack-chicken-chili-1502521"
+        },
+        {
+          "id": 634927,
+          "imageType": "jpg",
+          "title": "Best Potato Cheese Soup in a bread bowl",
+          "readyInMinutes": 45,
+          "servings": 8,
+          "sourceUrl": "https://spoonacular.com/best-potato-cheese-soup-in-a-bread-bowl-634927"
+        }
+      ],
+      "nutrients": {
+        "calories": 2499.35,
+        "protein": 94.27,
+        "fat": 165.84,
+        "carbohydrates": 160.51
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 636026,
+          "imageType": "jpg",
+          "title": "Breakfast Biscuits and Gravy",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/breakfast-biscuits-and-gravy-636026"
+        },
+        {
+          "id": 606953,
+          "imageType": "jpg",
+          "title": "Cajun Chicken Pasta",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/cajun-chicken-pasta-606953"
+        },
+        {
+          "id": 661094,
+          "imageType": "jpg",
+          "title": "Spicy Eggplant Spaghetti",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/spicy-eggplant-spaghetti-661094"
+        }
+      ],
+      "nutrients": {
+        "calories": 2498.54,
+        "protein": 81.31,
+        "fat": 161.59,
+        "carbohydrates": 181.67
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 635446,
+          "imageType": "jpg",
+          "title": "Blueberry Cinnamon Porridge",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/blueberry-cinnamon-porridge-635446"
+        },
+        {
+          "id": 1516713,
+          "imageType": "jpg",
+          "title": "Instant Pot Crack Chicken Chili",
+          "readyInMinutes": 16,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/instant-pot-crack-chicken-chili-1516713"
+        },
+        {
+          "id": 657011,
+          "imageType": "jpg",
+          "title": "Potato-Cheese Pie",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/potato-cheese-pie-657011"
+        }
+      ],
+      "nutrients": {
+        "calories": 2499.98,
+        "protein": 60.71,
+        "fat": 184.66,
+        "carbohydrates": 165.03
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 636026,
+          "imageType": "jpg",
+          "title": "Breakfast Biscuits and Gravy",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/breakfast-biscuits-and-gravy-636026"
+        },
+        {
+          "id": 649141,
+          "imageType": "jpg",
+          "title": "La Bella Italian Turkey Burger",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/la-bella-italian-turkey-burger-649141"
+        },
+        {
+          "id": 610952,
+          "imageType": "jpg",
+          "title": "Crispy Buttermilk-herb fried chicken",
+          "readyInMinutes": 60,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/crispy-buttermilk-herb-fried-chicken-610952"
+        }
+      ],
+      "nutrients": {
+        "calories": 2500.33,
+        "protein": 147.85,
+        "fat": 151.86,
+        "carbohydrates": 133.93
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 1697535,
+          "imageType": "jpg",
+          "title": "Panera Spicy Thai Salad",
+          "readyInMinutes": 20,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/panera-spicy-thai-salad-1697535"
+        },
+        {
+          "id": 663150,
+          "imageType": "jpg",
+          "title": "Thai Savory Brown Fried Rice",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/thai-savory-brown-fried-rice-663150"
+        }
+      ],
+      "nutrients": {
+        "calories": 2500.05,
+        "protein": 125.03,
+        "fat": 124.33,
+        "carbohydrates": 235.14
+      }
+    }
+  }
+}

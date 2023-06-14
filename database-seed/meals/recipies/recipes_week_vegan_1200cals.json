@@ -1,0 +1,922 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 7,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 4,
+    "healthScore": 14,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 119.43,
+    "id": 663853,
+    "title": "Tropical Breakfast Quinoa",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/JLYYQCYC/tropical-breakfast-quinoa",
+    "image": "https://spoonacular.com/recipeImages/663853-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Tropical Breakfast Quinoan is a breakfast that serves 2. One portion of this dish contains around <b>5g of protein</b>, <b>9g of fat</b>, and a total of <b>232 calories</b>. For <b>$1.19 per serving</b>, this recipe <b>covers 10%</b> of your daily requirements of vitamins and minerals. 4 people have tried and liked this recipe. If you have quinoa, balsamic vinegar, pineapple, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. With a spoonacular <b>score of 63%</b>, this dish is solid. Try <a href=\"https://spoonacular.com/recipes/tropical-breakfast-quinoa-1409133\">Tropical Breakfast Quinoa</a>, <a href=\"https://spoonacular.com/recipes/tropical-brown-rice-quinoa-breakfast-porridge-584311\">Tropical Brown Rice & Quinoa Breakfast Porridge</a>, and <a href=\"https://spoonacular.com/recipes/tropical-quinoa-salad-627162\">Tropical Quinoa Salad</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a medium size pot combine cooked quinoa, coconut milk, crushed pineapple, cinnamon and maple syrup; stir to combine. Bring to a boil and reduce heat. Cook for 5 minutes, stirring occasionally.",
+            "ingredients": [
+              {
+                "id": 1019354,
+                "name": "crushed pineapple",
+                "localizedName": "crushed pineapple",
+                "image": "pineapple-with-can.png"
+              },
+              {
+                "id": 20137,
+                "name": "cooked quinoa",
+                "localizedName": "cooked quinoa",
+                "image": "cooked-quinoa.png"
+              },
+              {
+                "id": 12118,
+                "name": "coconut milk",
+                "localizedName": "coconut milk",
+                "image": "coconut-milk.png"
+              },
+              {
+                "id": 19911,
+                "name": "maple syrup",
+                "localizedName": "maple syrup",
+                "image": "maple-syrup.png"
+              },
+              {
+                "id": 2010,
+                "name": "cinnamon",
+                "localizedName": "cinnamon",
+                "image": "cinnamon.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Top quinoa mixture with toasted coconut, pecans, sliced strawberries and balsamic vinegar.",
+            "ingredients": [
+              {
+                "id": 2069,
+                "name": "balsamic vinegar",
+                "localizedName": "balsamic vinegar",
+                "image": "balsamic-vinegar.jpg"
+              },
+              {
+                "id": 9316,
+                "name": "strawberries",
+                "localizedName": "strawberries",
+                "image": "strawberries.png"
+              },
+              {
+                "id": 12104,
+                "name": "coconut",
+                "localizedName": "coconut",
+                "image": "coconut.jpg"
+              },
+              {
+                "id": 12142,
+                "name": "pecans",
+                "localizedName": "pecans",
+                "image": "pecans.jpg"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 231.646, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 12,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 100,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 80.08,
+    "id": 641387,
+    "title": "Delicious Creamy Lentils and Chestnuts Soup",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/6NB227RW/delicious-creamy-lentils-and-chestnuts-soup",
+    "image": "https://spoonacular.com/recipeImages/641387-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Delicious Creamy Lentils and Chestnuts Soup takes approximately <b>30 minutes</b> from beginning to end. This recipe serves 4. For <b>80 cents per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>452 calories</b>, <b>20g of protein</b>, and <b>15g of fat</b> per serving. Only a few people made this recipe, and 1 would say it hit the spot. If you have olive oil, roasted chestnuts, salt and pepper, and a few other ingredients on hand, you can make it. It works well as a very budget friendly main course for <b>Autumn</b>. It is brought to you by Foodista. Overall, this recipe earns an <b>outstanding spoonacular score of 94%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/creamy-spinach-dip-with-water-chestnuts-1115011\">Creamy Spinach Dip with Water Chestnuts</a>, <a href=\"https://spoonacular.com/recipes/creamy-vegan-mushroom-tartlets-with-chestnuts-1061297\">Creamy Vegan Mushroom Tartlets with Chestnuts</a>, and <a href=\"https://spoonacular.com/recipes/pumpkin-soup-with-cranberry-compote-and-roasted-chestnuts-24116\">Pumpkin Soup With Cranberry Compote And Roasted Chestnuts</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "soup", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Put the lentils in a large pot and cover with water.",
+            "ingredients": [
+              {
+                "id": 10316069,
+                "name": "lentils",
+                "localizedName": "lentils",
+                "image": "lentils-brown.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the onions, garlic, potato, tomatoes, chestnuts, bay leaf, salt and pepper and a tablespoon of olive oil. Cook for about 20 minutes and adjust with salt and pepper if necessary.",
+            "ingredients": [
+              {
+                "id": 1102047,
+                "name": "salt and pepper",
+                "localizedName": "salt and pepper",
+                "image": "salt-and-pepper.jpg"
+              },
+              {
+                "id": 12098,
+                "name": "chestnuts",
+                "localizedName": "chestnuts",
+                "image": "chestnuts.jpg"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 2004,
+                "name": "bay leaves",
+                "localizedName": "bay leaves",
+                "image": "bay-leaves.jpg"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 11352,
+                "name": "potato",
+                "localizedName": "potato",
+                "image": "potatoes-yukon-gold.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 20, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "Let it sit and cool down for 15 minutes.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Remove the bay leaf. To obtain a creamy velvety consistency use  an electric immersion blender .",
+            "ingredients": [
+              {
+                "id": 2004,
+                "name": "bay leaves",
+                "localizedName": "bay leaves",
+                "image": "bay-leaves.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404776,
+                "name": "immersion blender",
+                "localizedName": "immersion blender",
+                "image": "immersion-blender.png"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 451.988, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 14,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 78,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 118.13,
+    "id": 635081,
+    "title": "Black Beans & Brown Rice With Garlicky Kale",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/DXWPRKVM/black-beans-brown-rice-with-garlicky-kale",
+    "image": "https://spoonacular.com/recipeImages/635081-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Black Beans & Brown Rice With Garlicky Kale takes about <b>45 minutes</b> from beginning to end. For <b>$1.18 per serving</b>, this recipe <b>covers 31%</b> of your daily requirements of vitamins and minerals. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>516 calories</b>, <b>18g of protein</b>, and <b>18g of fat</b> per serving. This recipe serves 4. 1 person were glad they tried this recipe. Only a few people really liked this main course. This recipe from Foodista requires salt, sesame seeds, cumin powder, and pepper. Overall, this recipe earns an <b>awesome spoonacular score of 92%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/brown-rice-and-black-beans-114269\">Brown Rice and Black Beans</a>, <a href=\"https://spoonacular.com/recipes/black-beans-with-brown-rice-1274997\">Black Beans with Brown Rice</a>, and <a href=\"https://spoonacular.com/recipes/black-beans-with-brown-rice-378090\">Black Beans with Brown Rice</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat oil in a pan, add garlic and sesame seeds, as soon as they start getting brown slow down the flame and add white portion of the green onions/spring onions/scallions.Saut for few minutes in the low flame and add kale and saut again. Then add black beans.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "spring onions",
+                "localizedName": "spring onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 12023,
+                "name": "sesame seeds",
+                "localizedName": "sesame seeds",
+                "image": "sesame-seeds.png"
+              },
+              {
+                "id": 16015,
+                "name": "black beans",
+                "localizedName": "black beans",
+                "image": "black-beans.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11233,
+                "name": "kale",
+                "localizedName": "kale",
+                "image": "kale.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Mix well.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Mix in all the spices and saut again for few minutes. Toss in green portion of the green onions/spring onions/scallions and saut again.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "spring onions",
+                "localizedName": "spring onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 2035,
+                "name": "spices",
+                "localizedName": "spices",
+                "image": "spices.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Add brown rice and mix well so that the rice is fully coated. Cover and cook for 3 minutes or until done.Take it out in a serving plate and garnish with hemp seeds.",
+            "ingredients": [
+              {
+                "id": 20040,
+                "name": "brown rice",
+                "localizedName": "brown rice",
+                "image": "uncooked-brown-rice.png"
+              },
+              {
+                "id": 93602,
+                "name": "hemp seeds",
+                "localizedName": "hemp seeds",
+                "image": "shelled-hemp-seeds.png"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 3, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Serve hot, or at room temperature or can be served cold. Can be prepared a day ahead and refrigerated and consumed the next day.",
+            "ingredients": [],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 516.321, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 11,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 4,
+    "healthScore": 47,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 263.47,
+    "id": 645032,
+    "title": "Goldilocks Chia Seed Porridge",
+    "readyInMinutes": 15,
+    "servings": 1,
+    "sourceUrl": "http://www.foodista.com/recipe/SHSG4TQK/goldilocks-chia-seed-porridge",
+    "image": "https://spoonacular.com/recipeImages/645032-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Goldilocks Chia Seed Porridge could be just the <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> recipe you've been looking for. For <b>$2.63 per serving</b>, you get a breakfast that serves 1. One portion of this dish contains around <b>13g of protein</b>, <b>26g of fat</b>, and a total of <b>387 calories</b>. It is brought to you by Foodista. Head to the store and pick up sesame seeds, mango, chia seeds, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>15 minutes</b>. 4 people found this recipe to be scrumptious and satisfying. Overall, this recipe earns a <b>super spoonacular score of 90%</b>. Try <a href=\"https://spoonacular.com/recipes/goldilocks-chia-seed-porridge-1404519\">Goldilocks Chia Seed Porridge</a>, <a href=\"https://spoonacular.com/recipes/chia-seed-porridge-with-orange-yogurt-149661\">Chia Seed Porridge with Orange & Yogurt</a>, and <a href=\"https://spoonacular.com/recipes/raspberry-chia-seed-jam-and-a-chia-giveaway-541487\">Raspberry Chia Seed Jam and A Chia Giveaway</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Lovingly mix all of the ingredient's together in your favorite cereal bowl, let sit for approx. 5 minutes or longer so that the Chia seeds can began to thicken into a gel-like consistency. You may prefer to add the Chia seeds and the hemp milk first to allow for the thickening process to take course before adding the remaining ingredient's, this shall be up to you.Once the cereal is thickened, think happy and enjoy!",
+            "ingredients": [
+              {
+                "id": 12006,
+                "name": "chia seeds",
+                "localizedName": "chia seeds",
+                "image": "chia-seeds.jpg"
+              },
+              {
+                "id": 98874,
+                "name": "hemp milk",
+                "localizedName": "hemp milk",
+                "image": "hemp-milk.png"
+              },
+              {
+                "id": 8029,
+                "name": "cereal",
+                "localizedName": "cereal",
+                "image": "rice-crispy-cereal.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ],
+            "length": { "number": 5, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/goldilocks-chia-seed-porridge-645032",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 386.624, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 12,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 9,
+    "healthScore": 49,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 208.57,
+    "id": 1098387,
+    "title": "Quinoa Salad with Barberries & Nuts",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "https://www.foodista.com/recipe/PBQJCDDG/quinoa-salad-with-barberries-nuts",
+    "image": "https://spoonacular.com/recipeImages/1098387-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Quinoa Salad with Barberries & Nuts is a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> main course. This recipe makes 4 servings with <b>459 calories</b>, <b>14g of protein</b>, and <b>19g of fat</b> each. For <b>$2.09 per serving</b>, this recipe <b>covers 22%</b> of your daily requirements of vitamins and minerals. Only a few people made this recipe, and 9 would say it hit the spot. Head to the store and pick up slivered almonds, olive oil, slivered pistachios, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. It is brought to you by Foodista. With a spoonacular <b>score of 92%</b>, this dish is tremendous. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/quinoa-salad-with-barberries-nuts-1394637\">Quinoa Salad with Barberries & Nuts</a>, <a href=\"https://spoonacular.com/recipes/quinoa-salad-with-barberries-nuts-1395243\">Quinoa Salad with Barberries & Nuts</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-salad-with-barberries-nuts-1376471\">Quinoa Salad with Barberries & Nuts</a>.",
+    "cuisines": [],
+    "dishTypes": [
+      "side dish",
+      "lunch",
+      "main course",
+      "salad",
+      "main dish",
+      "dinner"
+    ],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Put the quinoa in a sieve and rinse under running water.",
+            "ingredients": [
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 405600,
+                "name": "sieve",
+                "localizedName": "sieve",
+                "image": "strainer.png"
+              }
+            ]
+          },
+          { "number": 2, "step": "Drain.", "ingredients": [], "equipment": [] },
+          {
+            "number": 3,
+            "step": "Pour the boiling water over quinoa in a medium saucepan.",
+            "ingredients": [
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Add salt, stir well and cook over medium-low heat until quinoa is cooked through but still has a bite in the center.",
+            "ingredients": [
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Drain in a sieve.Pick over the barberries, rinse in a sieve and dry on kitchen paper.While the quinoa is cooking, heat 1 tablespoon of oil in a saucepan over medium heat and lightly toast the almond slivers.",
+            "ingredients": [
+              {
+                "id": 10012061,
+                "name": "slivered almonds",
+                "localizedName": "slivered almonds",
+                "image": "almonds-slivered.png"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 0,
+                "name": "sandwich bread",
+                "localizedName": "sandwich bread",
+                "image": "white-bread.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              },
+              {
+                "id": 405600,
+                "name": "sieve",
+                "localizedName": "sieve",
+                "image": "strainer.png"
+              }
+            ]
+          },
+          {
+            "number": 6,
+            "step": "Add the slivered pistachios, then the rest of the oil and the rinsed barberries. Cook briefly until the barberries are shiny and a little puffed.Save a tablespoon of the barberry and nut mix and a tablespoon of the chopped herbs for garnishing the finished dish.",
+            "ingredients": [
+              {
+                "id": 12151,
+                "name": "pistachio nuts",
+                "localizedName": "pistachio nuts",
+                "image": "pistachios.jpg"
+              },
+              {
+                "id": 0,
+                "name": "mixed nuts",
+                "localizedName": "mixed nuts",
+                "image": "nuts-mixed.jpg"
+              },
+              {
+                "id": 1002044,
+                "name": "herbs",
+                "localizedName": "herbs",
+                "image": "mixed-fresh-herbs.jpg"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Mix all of the remaining nut and barberry mix, herbs and quinoa. Return to the pot and place on low heat. Cover with a lid and cook for ten minutes or until completely heated through and steam is rising. Turn into a serving dish and fluff with a fork.",
+            "ingredients": [
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 1002044,
+                "name": "herbs",
+                "localizedName": "herbs",
+                "image": "mixed-fresh-herbs.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 8,
+            "step": "Add a little extra olive oil and a twist of black pepper if you wish.",
+            "ingredients": [
+              {
+                "id": 1002030,
+                "name": "black pepper",
+                "localizedName": "black pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 9,
+            "step": "Sprinkle the quinoa with the rest of the berry-nut mix and chopped herbs and serve on its own as a main dish or as a side dish.",
+            "ingredients": [
+              {
+                "id": 0,
+                "name": "mixed nuts",
+                "localizedName": "mixed nuts",
+                "image": "nuts-mixed.jpg"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 1009054,
+                "name": "berries",
+                "localizedName": "berries",
+                "image": "berries-mixed.jpg"
+              },
+              {
+                "id": 1002044,
+                "name": "herbs",
+                "localizedName": "herbs",
+                "image": "mixed-fresh-herbs.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 458.605, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 9,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 44,
+    "healthScore": 83,
+    "creditsText": "blogspot.com",
+    "sourceName": "blogspot.com",
+    "pricePerServing": 112.68,
+    "id": 794349,
+    "title": "Broccoli and Chickpea Rice Salad",
+    "readyInMinutes": 45,
+    "servings": 6,
+    "sourceUrl": "http://foodandspice.blogspot.com/2016/07/broccoli-and-chickpea-rice-salad.html",
+    "image": "https://spoonacular.com/recipeImages/794349-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Broccoli and Chickpea Rice Salad takes roughly <b>45 minutes</b> from beginning to end. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>355 calories</b>, <b>15g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 6. For <b>$1.13 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. It works well as a main course. 44 people were glad they tried this recipe. It is brought to you by foodandspice.blogspot.com. A mixture of ground pepper, broccoli florets, olive oil, and a handful of other ingredients are all it takes to make this recipe so tasty. With a spoonacular <b>score of 99%</b>, this dish is tremendous. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1380823\">Broccoli and Chickpea Rice Salad</a>, <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1401089\">Broccoli and Chickpea Rice Salad</a>, and <a href=\"https://spoonacular.com/recipes/broccoli-and-chickpea-rice-salad-1287405\">Broccoli and Chickpea Rice Salad</a>.",
+    "cuisines": [],
+    "dishTypes": [
+      "side dish",
+      "lunch",
+      "main course",
+      "salad",
+      "main dish",
+      "dinner"
+    ],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In a large skillet, heat the oil over medium heat.",
+            "ingredients": [
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the broccoli, stir well, and cover. Cook, stirring often, until the broccoli is tender.",
+            "ingredients": [
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add the broccoli to a large bowl, along with the remaining salad ingredients.To make the dressing, whisk together all of the dressing ingredients in a small bowl.",
+            "ingredients": [
+              {
+                "id": 11090,
+                "name": "broccoli",
+                "localizedName": "broccoli",
+                "image": "broccoli.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404661,
+                "name": "whisk",
+                "localizedName": "whisk",
+                "image": "whisk.png"
+              },
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Pour the dressing over the salad and toss well to coat evenly. Taste for seasoning and serve.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/broccoli-and-chickpea-rice-salad-794349",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 354.778, "unit": "kcal" }]
+    }
+  }
+]

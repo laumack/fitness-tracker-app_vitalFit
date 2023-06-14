@@ -1,0 +1,1045 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 24,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 55,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 233.94,
+    "id": 640965,
+    "title": "Crushed Lentil Soup- Granola Style",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "https://www.foodista.com/recipe/7PZBMJLD/crushed-lentil-soup-granola-style",
+    "image": "https://spoonacular.com/recipeImages/640965-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "You can never have too many breakfast recipes, so give Crushed Lentil Soup- Granola Style a try. One portion of this dish contains roughly <b>10g of protein</b>, <b>43g of fat</b>, and a total of <b>830 calories</b>. For <b>$2.34 per serving</b>, this recipe <b>covers 26%</b> of your daily requirements of vitamins and minerals. This recipe serves 1. 1 person found this recipe to be yummy and satisfying. <b>Autumn</b> will be even more special with this recipe. Head to the store and pick up lemon juice, carrot, water, and a few other things to make it today. It is brought to you by Foodista. It is a good option if you're following a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 81%</b>, which is spectacular. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/italian-style-lentil-soup-378444\">Italian-Style Lentil Soup</a>, <a href=\"https://spoonacular.com/recipes/colombian-style-lentil-soup-sopa-de-lentejas-226151\">COLOMBIAN-STYLE LENTIL SOUP (SOPA DE LENTEJAS)</a>, and <a href=\"https://spoonacular.com/recipes/colombian-style-lentil-soup-sopa-de-lentejas-1220231\">COLOMBIAN-STYLE LENTIL SOUP (SOPA DE LENTEJAS)</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "In an enamel 5 quart dutch oven (or large soup pot) drizzle olive oil and heat.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              { "id": 0, "name": "soup", "localizedName": "soup", "image": "" }
+            ],
+            "equipment": [
+              {
+                "id": 404667,
+                "name": "dutch oven",
+                "localizedName": "dutch oven",
+                "image": "dutch-oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Add the chopped garlic and fry until it browns and becomes very fragment.",
+            "ingredients": [
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add the chopped onion and carrots- saut until tender.",
+            "ingredients": [
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Add 6 cups of broth and red lentils. Stir, put on lid, and simmer for about 20 minutes or until the lentils are tender.",
+            "ingredients": [
+              {
+                "id": 10016069,
+                "name": "red lentils",
+                "localizedName": "red lentils",
+                "image": "red-lentils.png"
+              },
+              {
+                "id": 10316069,
+                "name": "lentils",
+                "localizedName": "lentils",
+                "image": "lentils-brown.jpg"
+              },
+              {
+                "id": 1006615,
+                "name": "broth",
+                "localizedName": "broth",
+                "image": "chicken-broth.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 20, "unit": "minutes" }
+          },
+          {
+            "number": 5,
+            "step": "Add fresh lemon juice, 2 additional cups of broth and 1/2 cup of rice. Simmer until the rice is tender. The time will vary based on the variety of rice.",
+            "ingredients": [
+              {
+                "id": 9152,
+                "name": "lemon juice",
+                "localizedName": "lemon juice",
+                "image": "lemon-juice.jpg"
+              },
+              {
+                "id": 1006615,
+                "name": "broth",
+                "localizedName": "broth",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 20444,
+                "name": "rice",
+                "localizedName": "rice",
+                "image": "uncooked-white-rice.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Feel free to the remaining liquid, more if necessary, until the soup is the consistency desired.",
+            "ingredients": [
+              { "id": 0, "name": "soup", "localizedName": "soup", "image": "" }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "I added two additional cups of liquid after the soup was done cooking so it was too thick. In an effort to reduce sodium I purchase the lowest sodium chicken broth and use about two cups of water. If the soup seems to need additional flavor or salt I add chicken bouillon to taste.",
+            "ingredients": [
+              {
+                "id": 6480,
+                "name": "chicken bouillon",
+                "localizedName": "chicken bouillon",
+                "image": "stock-cube.jpg"
+              },
+              {
+                "id": 6194,
+                "name": "chicken broth",
+                "localizedName": "chicken broth",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              },
+              { "id": 0, "name": "soup", "localizedName": "soup", "image": "" }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Serve with chopped cilantro and sumac.",
+            "ingredients": [
+              {
+                "id": 11165,
+                "name": "cilantro",
+                "localizedName": "cilantro",
+                "image": "cilantro.png"
+              },
+              {
+                "id": 10211111,
+                "name": "sumac",
+                "localizedName": "sumac",
+                "image": "dried-sumac.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 830.095, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 19,
+    "gaps": "no",
+    "preparationMinutes": 30,
+    "cookingMinutes": 0,
+    "aggregateLikes": 1,
+    "healthScore": 66,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 105.77,
+    "id": 653251,
+    "title": "Noodles and Veggies With Peanut Sauce",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.foodista.com/recipe/5VRHVVWQ/noodles-and-veggies-with-peanut-sauce",
+    "image": "https://spoonacular.com/recipeImages/653251-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Noodles and Veggies With Peanut Sauce takes roughly <b>30 minutes</b> from beginning to end. Watching your figure? This dairy free, lacto ovo vegetarian, and vegan recipe has <b>686 calories</b>, <b>21g of protein</b>, and <b>25g of fat</b> per serving. For <b>$1.06 per serving</b>, this recipe <b>covers 25%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. 1 person has tried and liked this recipe. It works well as a budget friendly main course. It is brought to you by Foodista. A mixture of snowpeas, garlic cloves, distilled vinegar, and a handful of other ingredients are all it takes to make this recipe so yummy. All things considered, we decided this recipe <b>deserves a spoonacular score of 88%</b>. This score is excellent. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/spicy-peanut-sauce-with-brown-rice-noodles-and-veggies-577560\">Spicy Peanut Sauce with Brown Rice Noodles and Veggies</a>, <a href=\"https://spoonacular.com/recipes/one-pot-peanut-sesame-noodles-veggies-608162\">One-Pot Peanut Sesame Noodles & Veggies</a>, and <a href=\"https://spoonacular.com/recipes/rice-noodles-with-tahini-sauce-and-mixed-veggies-100471\">Rice Noodles With Tahini Sauce and Mixed Veggies</a>.",
+    "cuisines": [],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Prep Time: 30 minutes",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Cook spaghetti according to the package directions. Rinse the spaghetti with cold water and drain thoroughly.",
+            "ingredients": [
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Pour into a large mixing bowl. Toss with the sesame oil.In a blender or food processor, combine the peanuts, garlic, soy sauce, vinegar, sugar, cayenne pepper, and water. Blend until smooth and set aside.Steam the carrots and the snow peas until tender-crisp, about 7 minutes, and set aside.",
+            "ingredients": [
+              {
+                "id": 2031,
+                "name": "cayenne pepper",
+                "localizedName": "cayenne pepper",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 4058,
+                "name": "sesame oil",
+                "localizedName": "sesame oil",
+                "image": "sesame-oil.png"
+              },
+              {
+                "id": 11300,
+                "name": "snow peas",
+                "localizedName": "snow peas",
+                "image": "snow-peas.jpg"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              },
+              {
+                "id": 16091,
+                "name": "peanuts",
+                "localizedName": "peanuts",
+                "image": "peanuts.png"
+              },
+              {
+                "id": 2053,
+                "name": "vinegar",
+                "localizedName": "vinegar",
+                "image": "vinegar-(white).jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404771,
+                "name": "food processor",
+                "localizedName": "food processor",
+                "image": "food-processor.png"
+              },
+              {
+                "id": 405907,
+                "name": "mixing bowl",
+                "localizedName": "mixing bowl",
+                "image": "mixing-bowl.jpg"
+              },
+              {
+                "id": 404726,
+                "name": "blender",
+                "localizedName": "blender",
+                "image": "blender.png"
+              }
+            ],
+            "length": { "number": 7, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Add the peanut sauce, carrots, and snowpeas to the bowl of spaghetti and toss.Just before serving, top with the green onions and cucumber.Can be served while warm or excellent as a chilled salad!",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 99028,
+                "name": "peanut sauce",
+                "localizedName": "peanut sauce",
+                "image": "no.jpg"
+              },
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              },
+              {
+                "id": 11206,
+                "name": "cucumber",
+                "localizedName": "cucumber",
+                "image": "cucumber.jpg"
+              },
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 686.186, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 26,
+    "gaps": "no",
+    "preparationMinutes": 10,
+    "cookingMinutes": 35,
+    "aggregateLikes": 0,
+    "healthScore": 100,
+    "creditsText": "maplewoodroad",
+    "license": "spoonacular's terms",
+    "sourceName": "Maplewood Road",
+    "pricePerServing": 606.39,
+    "id": 1697533,
+    "title": "Roasted Tomato and White Bean Stew",
+    "author": "maplewoodroad",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "https://maplewoodroad.com/roasted-tomato-and-white-bean-stew/",
+    "image": "https://spoonacular.com/recipeImages/1697533-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Roasted Tomato and White Bean Stew could be just the <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe you've been looking for. For <b>$6.06 per serving</b>, this recipe <b>covers 55%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains approximately <b>36g of protein</b>, <b>43g of fat</b>, and a total of <b>959 calories</b>. This recipe serves 2. It works well as an expensive main course for <b>Autumn</b>. A mixture of flat-leaf parsley, baby spinach, onion, and a handful of other ingredients are all it takes to make this recipe so yummy. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by spoonacular user <a href=\"/profile/maplewoodroad\">maplewoodroad</a>. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/warm-tomato-and-white-bean-stew-354600\">Warm Tomato and White Bean Stew</a>, <a href=\"https://spoonacular.com/recipes/white-bean-kale-and-tomato-stew-665150\">White Bean, Kale, and Tomato Stew</a>, and <a href=\"https://spoonacular.com/recipes/tomato-and-white-bean-stew-with-ditalini-572508\">Tomato and White Bean Stew with Ditalini</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "soup", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Chop the parsley as finely as possible and grate the yellow part of the lemon rind with the smallest side of the cheese grater available. If you have a lemon zester, use it.",
+            "ingredients": [
+              {
+                "id": 9156,
+                "name": "lemon peel",
+                "localizedName": "lemon peel",
+                "image": "zest-lemon.jpg"
+              },
+              {
+                "id": 11297,
+                "name": "parsley",
+                "localizedName": "parsley",
+                "image": "parsley.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 9150,
+                "name": "lemon",
+                "localizedName": "lemon",
+                "image": "lemon.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404631,
+                "name": "grater",
+                "localizedName": "grater",
+                "image": "grater.jpg"
+              },
+              {
+                "id": 404714,
+                "name": "zester",
+                "localizedName": "zester",
+                "image": "zester.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Mix in a bowl and set aside.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Preheat (toaster) oven to 400℉.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404674,
+                "name": "toaster",
+                "localizedName": "toaster",
+                "image": "toaster.jpg"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Mix tomatoes with olive oil directly in the baking pan.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Sprinkle with chopped sage, salt, and pepper.",
+            "ingredients": [
+              {
+                "id": 1002030,
+                "name": "pepper",
+                "localizedName": "pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 99226,
+                "name": "sage",
+                "localizedName": "sage",
+                "image": "fresh-sage.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Bake for about 25 minutes or until the tomatoes look wrinkly, start bursting, and slightly collapse. Set aside.",
+            "ingredients": [
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": { "number": 25, "unit": "minutes" }
+          },
+          {
+            "number": 7,
+            "step": "Heat olive oil in a deep skillet, over medium heat.",
+            "ingredients": [
+              {
+                "id": 4053,
+                "name": "olive oil",
+                "localizedName": "olive oil",
+                "image": "olive-oil.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "step": "Add the chopped onions and cook and stir for about 3 minutes.",
+            "ingredients": [
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 3, "unit": "minutes" }
+          },
+          {
+            "number": 9,
+            "step": "Next, add red pepper flakes, tomato paste (or anchovies), and garlic.",
+            "ingredients": [
+              {
+                "id": 1032009,
+                "name": "red pepper flakes",
+                "localizedName": "red pepper flakes",
+                "image": "red-pepper-flakes.jpg"
+              },
+              {
+                "id": 11887,
+                "name": "tomato paste",
+                "localizedName": "tomato paste",
+                "image": "tomato-paste.jpg"
+              },
+              {
+                "id": 15001,
+                "name": "anchovies",
+                "localizedName": "anchovies",
+                "image": "anchovies.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 10,
+            "step": "Stir for another 2 minutes. ",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 11,
+            "step": "Then, add beans and chicken or vegetable stock.",
+            "ingredients": [
+              {
+                "id": 6615,
+                "name": "vegetable stock",
+                "localizedName": "vegetable stock",
+                "image": "chicken-broth.png"
+              },
+              {
+                "id": 5006,
+                "name": "whole chicken",
+                "localizedName": "whole chicken",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 0,
+                "name": "beans",
+                "localizedName": "beans",
+                "image": "kidney-beans.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 12,
+            "step": "Bring to a simmer and let it simmer (uncovered) for 10 minutes, stirring occasionally.",
+            "ingredients": [],
+            "equipment": [],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 13,
+            "step": "It’s time to taste. It probably needs 1/4 tsp kosher salt and 1/4 tsp black pepper. Taste again.",
+            "ingredients": [
+              {
+                "id": 1002030,
+                "name": "black pepper",
+                "localizedName": "black pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 1082047,
+                "name": "kosher salt",
+                "localizedName": "kosher salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 14,
+            "step": "Add the roasted tomatoes (with all the pan juices) to the skillet, give it a good stir, and simmer (uncovered) for another 10 minutes, stirring occasionally. Taste again. Maybe it needs a little more salt.",
+            "ingredients": [
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 15,
+            "step": "If using, add the baby spinach just for the last couple of minutes. ",
+            "ingredients": [
+              {
+                "id": 11457,
+                "name": "baby spinach",
+                "localizedName": "baby spinach",
+                "image": "spinach.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 16,
+            "step": "Serve with some toasted bread, and don’t forget to garnish with the lemon zest-parsley mixture. Enjoy!",
+            "ingredients": [
+              {
+                "id": 9156,
+                "name": "lemon zest",
+                "localizedName": "lemon zest",
+                "image": "zest-lemon.jpg"
+              },
+              {
+                "id": 11297,
+                "name": "parsley",
+                "localizedName": "parsley",
+                "image": "parsley.jpg"
+              },
+              {
+                "id": 18064,
+                "name": "bread",
+                "localizedName": "bread",
+                "image": "white-bread.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 958.824, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 28,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 38,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 273.89,
+    "id": 657651,
+    "title": "Quick Veggie Stir-Fry",
+    "readyInMinutes": 45,
+    "servings": 1,
+    "sourceUrl": "https://www.foodista.com/recipe/JQYJXV3Y/quick-veggie-stir-fry",
+    "image": "https://spoonacular.com/recipeImages/657651-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Quick Veggie Stir-Fry is a <b>dairy free, lacto ovo vegetarian, and vegan</b> recipe with 1 servings. One portion of this dish contains around <b>31g of protein</b>, <b>51g of fat</b>, and a total of <b>971 calories</b>. For <b>$2.74 per serving</b>, this recipe <b>covers 33%</b> of your daily requirements of vitamins and minerals. Only a few people really liked this main course. If you have soy sauce, grapeseed oil, garlic, and a few other ingredients on hand, you can make it. 1 person were impressed by this recipe. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 89%</b>, which is excellent. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/quick-veggie-stir-fry-1501557\">Quick Veggie Stir-Fry</a>, <a href=\"https://spoonacular.com/recipes/quick-veggie-stir-fry-322359\">Quick Veggie Stir-Fry</a>, and <a href=\"https://spoonacular.com/recipes/quick-and-easy-pork-and-veggie-stir-fry-628075\">Quick and Easy Pork and Veggie Stir Fry</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Set water to boil for thin spaghetti and cook",
+            "ingredients": [
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Set wok over medium-high heat and add grapeseed and sesame oils, garlic, ginger, and red pepper flakes if using.  Cook until fragrant.",
+            "ingredients": [
+              {
+                "id": 1032009,
+                "name": "red pepper flakes",
+                "localizedName": "red pepper flakes",
+                "image": "red-pepper-flakes.jpg"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              },
+              {
+                "id": 11216,
+                "name": "ginger",
+                "localizedName": "ginger",
+                "image": "ginger.png"
+              },
+              {
+                "id": 12023,
+                "name": "sesame seeds",
+                "localizedName": "sesame seeds",
+                "image": "sesame-seeds.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404666,
+                "name": "wok",
+                "localizedName": "wok",
+                "image": "wok.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Add onions and toss into the flavored oil for two minutes.",
+            "ingredients": [
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 4582,
+                "name": "cooking oil",
+                "localizedName": "cooking oil",
+                "image": "vegetable-oil.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "If using the bok choi stems, add them at this point to the wok.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404666,
+                "name": "wok",
+                "localizedName": "wok",
+                "image": "wok.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "In the meantime, steam in the microwave the edamame for two minutes and set aside.",
+            "ingredients": [
+              {
+                "id": 99296,
+                "name": "edamame",
+                "localizedName": "edamame",
+                "image": "edamame.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404762,
+                "name": "microwave",
+                "localizedName": "microwave",
+                "image": "microwave.jpg"
+              }
+            ],
+            "length": { "number": 2, "unit": "minutes" }
+          },
+          {
+            "number": 6,
+            "step": "Add carrots, and continue stirring for a minute or two",
+            "ingredients": [
+              {
+                "id": 11124,
+                "name": "carrot",
+                "localizedName": "carrot",
+                "image": "sliced-carrot.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 7,
+            "step": "Add soy sauce and black pepper to taste",
+            "ingredients": [
+              {
+                "id": 1002030,
+                "name": "black pepper",
+                "localizedName": "black pepper",
+                "image": "pepper.jpg"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 8,
+            "step": "Drain pasta and set aside",
+            "ingredients": [
+              {
+                "id": 20420,
+                "name": "pasta",
+                "localizedName": "pasta",
+                "image": "fusilli.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 9,
+            "step": "Stir in bok choi leaves, and edamame into wok",
+            "ingredients": [
+              {
+                "id": 99296,
+                "name": "edamame",
+                "localizedName": "edamame",
+                "image": "edamame.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404666,
+                "name": "wok",
+                "localizedName": "wok",
+                "image": "wok.png"
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "step": "Toss the thin spaghetti with the vegetables, adding the sesame seeds, extra soy sauce and sesame oil to taste.",
+            "ingredients": [
+              {
+                "id": 12023,
+                "name": "sesame seeds",
+                "localizedName": "sesame seeds",
+                "image": "sesame-seeds.png"
+              },
+              {
+                "id": 4058,
+                "name": "sesame oil",
+                "localizedName": "sesame oil",
+                "image": "sesame-oil.png"
+              },
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 16124,
+                "name": "soy sauce",
+                "localizedName": "soy sauce",
+                "image": "soy-sauce.jpg"
+              },
+              {
+                "id": 11420420,
+                "name": "spaghetti",
+                "localizedName": "spaghetti",
+                "image": "spaghetti.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/quick-veggie-stir-fry-657651",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 971.299, "unit": "kcal" }]
+    }
+  }
+]
