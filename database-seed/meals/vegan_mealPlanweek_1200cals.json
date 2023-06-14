@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 663853,
+          "imageType": "jpg",
+          "title": "Tropical Breakfast Quinoa",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853"
+        },
+        {
+          "id": 641387,
+          "imageType": "jpg",
+          "title": "Delicious Creamy Lentils and Chestnuts Soup",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+        },
+        {
+          "id": 635081,
+          "imageType": "jpg",
+          "title": "Black Beans & Brown Rice With Garlicky Kale",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.96,
+        "protein": 43.75,
+        "fat": 42.74,
+        "carbohydrates": 163.34
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 645032,
+          "imageType": "jpg",
+          "title": "Goldilocks Chia Seed Porridge",
+          "readyInMinutes": 15,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/goldilocks-chia-seed-porridge-645032"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 794349,
+          "imageType": "jpg",
+          "title": "Broccoli and Chickpea Rice Salad",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/broccoli-and-chickpea-rice-salad-794349"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.01,
+        "protein": 42.36,
+        "fat": 54.57,
+        "carbohydrates": 142.96
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 663853,
+          "imageType": "jpg",
+          "title": "Tropical Breakfast Quinoa",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853"
+        },
+        {
+          "id": 641387,
+          "imageType": "jpg",
+          "title": "Delicious Creamy Lentils and Chestnuts Soup",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+        },
+        {
+          "id": 635081,
+          "imageType": "jpg",
+          "title": "Black Beans & Brown Rice With Garlicky Kale",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.96,
+        "protein": 43.75,
+        "fat": 42.74,
+        "carbohydrates": 163.34
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 645032,
+          "imageType": "jpg",
+          "title": "Goldilocks Chia Seed Porridge",
+          "readyInMinutes": 15,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/goldilocks-chia-seed-porridge-645032"
+        },
+        {
+          "id": 1098387,
+          "imageType": "jpg",
+          "title": "Quinoa Salad with Barberries & Nuts",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/quinoa-salad-with-barberries-nuts-1098387"
+        },
+        {
+          "id": 794349,
+          "imageType": "jpg",
+          "title": "Broccoli and Chickpea Rice Salad",
+          "readyInMinutes": 45,
+          "servings": 6,
+          "sourceUrl": "https://spoonacular.com/broccoli-and-chickpea-rice-salad-794349"
+        }
+      ],
+      "nutrients": {
+        "calories": 1200.01,
+        "protein": 42.36,
+        "fat": 54.57,
+        "carbohydrates": 142.96
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 663853,
+          "imageType": "jpg",
+          "title": "Tropical Breakfast Quinoa",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853"
+        },
+        {
+          "id": 641387,
+          "imageType": "jpg",
+          "title": "Delicious Creamy Lentils and Chestnuts Soup",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+        },
+        {
+          "id": 635081,
+          "imageType": "jpg",
+          "title": "Black Beans & Brown Rice With Garlicky Kale",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.96,
+        "protein": 43.75,
+        "fat": 42.74,
+        "carbohydrates": 163.34
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 663853,
+          "imageType": "jpg",
+          "title": "Tropical Breakfast Quinoa",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853"
+        },
+        {
+          "id": 641387,
+          "imageType": "jpg",
+          "title": "Delicious Creamy Lentils and Chestnuts Soup",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+        },
+        {
+          "id": 635081,
+          "imageType": "jpg",
+          "title": "Black Beans & Brown Rice With Garlicky Kale",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.96,
+        "protein": 43.75,
+        "fat": 42.74,
+        "carbohydrates": 163.34
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 663853,
+          "imageType": "jpg",
+          "title": "Tropical Breakfast Quinoa",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/tropical-breakfast-quinoa-663853"
+        },
+        {
+          "id": 641387,
+          "imageType": "jpg",
+          "title": "Delicious Creamy Lentils and Chestnuts Soup",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/delicious-creamy-lentils-and-chestnuts-soup-641387"
+        },
+        {
+          "id": 635081,
+          "imageType": "jpg",
+          "title": "Black Beans & Brown Rice With Garlicky Kale",
+          "readyInMinutes": 45,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/black-beans-brown-rice-with-garlicky-kale-635081"
+        }
+      ],
+      "nutrients": {
+        "calories": 1199.96,
+        "protein": 43.75,
+        "fat": 42.74,
+        "carbohydrates": 163.34
+      }
+    }
+  }
+}

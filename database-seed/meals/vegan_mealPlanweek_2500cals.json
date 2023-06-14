@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 2475.1,
+        "protein": 67.22,
+        "fat": 111.03,
+        "carbohydrates": 313.8
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 657651,
+          "imageType": "jpg",
+          "title": "Quick Veggie Stir-Fry",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/quick-veggie-stir-fry-657651"
+        }
+      ],
+      "nutrients": {
+        "calories": 2487.58,
+        "protein": 62.12,
+        "fat": 118.68,
+        "carbohydrates": 307.85
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 657651,
+          "imageType": "jpg",
+          "title": "Quick Veggie Stir-Fry",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/quick-veggie-stir-fry-657651"
+        }
+      ],
+      "nutrients": {
+        "calories": 2487.58,
+        "protein": 62.12,
+        "fat": 118.68,
+        "carbohydrates": 307.85
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 2475.1,
+        "protein": 67.22,
+        "fat": 111.03,
+        "carbohydrates": 313.8
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 1697533,
+          "imageType": "jpg",
+          "title": "Roasted Tomato and White Bean Stew",
+          "readyInMinutes": 45,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/roasted-tomato-and-white-bean-stew-1697533"
+        }
+      ],
+      "nutrients": {
+        "calories": 2475.1,
+        "protein": 67.22,
+        "fat": 111.03,
+        "carbohydrates": 313.8
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 657651,
+          "imageType": "jpg",
+          "title": "Quick Veggie Stir-Fry",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/quick-veggie-stir-fry-657651"
+        }
+      ],
+      "nutrients": {
+        "calories": 2487.58,
+        "protein": 62.12,
+        "fat": 118.68,
+        "carbohydrates": 307.85
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 640965,
+          "imageType": "jpg",
+          "title": "Crushed Lentil Soup- Granola Style",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/crushed-lentil-soup-granola-style-640965"
+        },
+        {
+          "id": 653251,
+          "imageType": "jpg",
+          "title": "Noodles and Veggies With Peanut Sauce",
+          "readyInMinutes": 30,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/noodles-and-veggies-with-peanut-sauce-653251"
+        },
+        {
+          "id": 657651,
+          "imageType": "jpg",
+          "title": "Quick Veggie Stir-Fry",
+          "readyInMinutes": 45,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/quick-veggie-stir-fry-657651"
+        }
+      ],
+      "nutrients": {
+        "calories": 2487.58,
+        "protein": 62.12,
+        "fat": 118.68,
+        "carbohydrates": 307.85
+      }
+    }
+  }
+}

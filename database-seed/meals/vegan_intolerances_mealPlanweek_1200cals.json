@@ -1,0 +1,242 @@
+{
+  "week": {
+    "monday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "tuesday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "wednesday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "thursday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "friday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "saturday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    },
+    "sunday": {
+      "meals": [
+        {
+          "id": 1100990,
+          "imageType": "jpg",
+          "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+          "readyInMinutes": 30,
+          "servings": 2,
+          "sourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990"
+        },
+        {
+          "id": 982371,
+          "imageType": "jpg",
+          "title": "Instant Pot Quinoa Grain Bowl",
+          "readyInMinutes": 13,
+          "servings": 4,
+          "sourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371"
+        },
+        {
+          "id": 648257,
+          "imageType": "jpg",
+          "title": "Italian Steamed Artichokes",
+          "readyInMinutes": 35,
+          "servings": 1,
+          "sourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257"
+        }
+      ],
+      "nutrients": {
+        "calories": 1411.68,
+        "protein": 44.25,
+        "fat": 53.35,
+        "carbohydrates": 209.33
+      }
+    }
+  }
+}

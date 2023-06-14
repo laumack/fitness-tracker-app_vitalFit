@@ -1,0 +1,513 @@
+[
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": true,
+    "weightWatcherSmartPoints": 29,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 15,
+    "healthScore": 7,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 293.95,
+    "id": 1100990,
+    "title": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan",
+    "readyInMinutes": 30,
+    "servings": 2,
+    "sourceUrl": "https://www.foodista.com/recipe/35NX6PZB/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan",
+    "image": "https://spoonacular.com/recipeImages/1100990-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan takes about <b>30 minutes</b> from beginning to end. This recipe serves 2 and costs $2.94 per serving. One portion of this dish contains around <b>13g of protein</b>, <b>43g of fat</b>, and a total of <b>775 calories</b>. This recipe is liked by 15 foodies and cooks. Head to the store and pick up cacao nibs, himalayan sea salt, tapioca/arrowroot flour, and a few other things to make it today. It works well as a breakfast. It is a good option if you're following a <b>gluten free, dairy free, paleolithic, and lacto ovo vegetarian</b> diet. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 66%</b>, which is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1403565\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1394639\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>, and <a href=\"https://spoonacular.com/recipes/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1386631\">Blueberry, Chocolate & Cocao Superfood Pancakes - Gluten-Free/Paleo/Vegan</a>.",
+    "cuisines": [],
+    "dishTypes": ["morning meal", "brunch", "breakfast"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "fodmap friendly",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Combine the almond, coconut, tapioca/arrowroot flour, baking powder, sugar and salt together and mix all the ingredients well before adding the milk and paste/extract and ensuring that all of the ingredients are whisked together to form a smooth batter.Allow to sit for approximately 10-15 minutes.",
+            "ingredients": [
+              {
+                "id": 20003,
+                "name": "arrowroot",
+                "localizedName": "arrowroot",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 18369,
+                "name": "baking powder",
+                "localizedName": "baking powder",
+                "image": "white-powder.jpg"
+              },
+              {
+                "id": 12104,
+                "name": "coconut",
+                "localizedName": "coconut",
+                "image": "coconut.jpg"
+              },
+              {
+                "id": 0,
+                "name": "extract",
+                "localizedName": "extract",
+                "image": ""
+              },
+              {
+                "id": 20068,
+                "name": "tapioca",
+                "localizedName": "tapioca",
+                "image": "sago-pearls.png"
+              },
+              {
+                "id": 12061,
+                "name": "almonds",
+                "localizedName": "almonds",
+                "image": "almonds.jpg"
+              },
+              {
+                "id": 19335,
+                "name": "sugar",
+                "localizedName": "sugar",
+                "image": "sugar-in-bowl.png"
+              },
+              {
+                "id": 1077,
+                "name": "milk",
+                "localizedName": "milk",
+                "image": "milk.png"
+              },
+              {
+                "id": 2047,
+                "name": "salt",
+                "localizedName": "salt",
+                "image": "salt.jpg"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 15, "unit": "minutes" }
+          },
+          {
+            "number": 2,
+            "step": "Heat a small amount of coconut oil into a frying pan/skillet and pour a small enough amount of the batter into the middle of the pan.Allow the batter to cook sufficiently for a few minutes (the edges should start to brown and the top of the batter should start to bubble) on one side before sprinkling on a few blueberries and flipping the pancake over to cook on the other side.Immediately sprinkle on some of the cacao nibs and dark chocolate on top and continue to cook thoroughly for a few minutes before removing the pancake and setting aside.Repeat with the remaining batter until finished.",
+            "ingredients": [
+              {
+                "id": 19904,
+                "name": "dark chocolate",
+                "localizedName": "dark chocolate",
+                "image": "dark-chocolate-pieces.jpg"
+              },
+              {
+                "id": 9050,
+                "name": "blueberries",
+                "localizedName": "blueberries",
+                "image": "blueberries.jpg"
+              },
+              {
+                "id": 4047,
+                "name": "coconut oil",
+                "localizedName": "coconut oil",
+                "image": "oil-coconut.jpg"
+              },
+              {
+                "id": 98846,
+                "name": "cocoa nibs",
+                "localizedName": "cocoa nibs",
+                "image": "cacao-nibs.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Pour over the agave, give thanks and enjoy!",
+            "ingredients": [
+              {
+                "id": 19912,
+                "name": "agave",
+                "localizedName": "agave",
+                "image": "agave.png"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/blueberry-chocolate-cocao-superfood-pancakes-gluten-free-paleo-vegan-1100990",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 774.664, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 10,
+    "gaps": "no",
+    "preparationMinutes": 2,
+    "cookingMinutes": 11,
+    "aggregateLikes": 1,
+    "healthScore": 100,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 301.67,
+    "id": 982371,
+    "title": "Instant Pot Quinoa Grain Bowl",
+    "readyInMinutes": 13,
+    "servings": 4,
+    "sourceUrl": "https://www.pinkwhen.com/instant-pot-quinoa-grain-bowl/",
+    "image": "https://spoonacular.com/recipeImages/982371-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Instant Pot Quinoa Grain Bowl might be a good recipe to expand your main course recipe box. Watching your figure? This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe has <b>416 calories</b>, <b>16g of protein</b>, and <b>10g of fat</b> per serving. This recipe serves 4 and costs $3.02 per serving. From preparation to the plate, this recipe takes roughly <b>13 minutes</b>. A mixture of baby brussell sprouts, broccoli, salt and pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. 1 person has made this recipe and would make it again. It is brought to you by Pink When. With a spoonacular <b>score of 96%</b>, this dish is super. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/instant-pot-quinoa-grain-bowl-1693765\">Instant Pot Quinoa Grain Bowl</a>, <a href=\"https://spoonacular.com/recipes/instant-pot-sausage-cabbage-bowl-with-quinoa-or-stovetop-901463\">Instant Pot Sausage Cabbage Bowl with Quinoa (or Stovetop)</a>, and <a href=\"https://spoonacular.com/recipes/crock-pot-chicken-fajita-bowl-grain-free-paleo-1224627\">Crock Pot Chicken Fajita Bowl (Grain-Free, Paleo)</a>.",
+    "cuisines": [],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free", "dairy free", "lacto ovo vegetarian", "vegan"],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Rinse and drain the quinoa to remove the bitter and sometimes mildly soapy taste that can linger if not rinsed.",
+            "ingredients": [
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Combine the quinoa, stock and seasonings in the Instant Pot together and then twist to lock the lid shut. Set the pot to Manual for 1 minute.",
+            "ingredients": [
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 1006615,
+                "name": "stock",
+                "localizedName": "stock",
+                "image": "chicken-broth.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              },
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ],
+            "length": { "number": 1, "unit": "minutes" }
+          },
+          {
+            "number": 3,
+            "step": "At the end of the cook time, let the pot to natural pressure release for 10 minutes before carefully releasing the remaining pressure.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404752,
+                "name": "pot",
+                "localizedName": "pot",
+                "image": "stock-pot.jpg"
+              }
+            ],
+            "length": { "number": 10, "unit": "minutes" }
+          },
+          {
+            "number": 4,
+            "step": "Fluff the cooked quinoa with a fork. Now you have Instant Pot Quinoa!",
+            "ingredients": [
+              {
+                "id": 20137,
+                "name": "cooked quinoa",
+                "localizedName": "cooked quinoa",
+                "image": "cooked-quinoa.png"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 414093,
+                "name": "instant pot",
+                "localizedName": "instant pot",
+                "image": ""
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Add fruits and vegetables over a scoop of cooked quinoa and make an amazing quinoa grain bowl.",
+            "ingredients": [
+              {
+                "id": 20137,
+                "name": "cooked quinoa",
+                "localizedName": "cooked quinoa",
+                "image": "cooked-quinoa.png"
+              },
+              {
+                "id": 11583,
+                "name": "vegetable",
+                "localizedName": "vegetable",
+                "image": "mixed-vegetables.png"
+              },
+              {
+                "id": 9431,
+                "name": "fruit",
+                "localizedName": "fruit",
+                "image": "mixed-fresh-fruit.jpg"
+              },
+              {
+                "id": 20035,
+                "name": "quinoa",
+                "localizedName": "quinoa",
+                "image": "uncooked-quinoa.png"
+              },
+              {
+                "id": 0,
+                "name": "grains",
+                "localizedName": "grains",
+                "image": ""
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-quinoa-grain-bowl-982371",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 415.567, "unit": "kcal" }]
+    }
+  },
+  {
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 0,
+    "gaps": "GAPS_3",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 100,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 375.6,
+    "id": 648257,
+    "title": "Italian Steamed Artichokes",
+    "readyInMinutes": 35,
+    "servings": 1,
+    "sourceUrl": "http://www.foodista.com/recipe/J5VBFYJB/italian-steamed-artichokes",
+    "image": "https://spoonacular.com/recipeImages/648257-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Forget going out to eat or ordering takeout every time you crave Mediterranean food. Try making Italian Steamed Artichokes at home. This gluten free, dairy free, paleolithic, and lacto ovo vegetarian recipe serves 1 and costs <b>$3.76 per serving</b>. One portion of this dish contains approximately <b>15g of protein</b>, <b>1g of fat</b>, and a total of <b>221 calories</b>. Head to the store and pick up artichoke, basil, coriander seeds, and a few other things to make it today. This recipe from Foodista has 1 fans. It works best as a main course, and is done in around <b>35 minutes</b>. Overall, this recipe earns an <b>amazing spoonacular score of 92%</b>. Similar recipes include <a href=\"https://spoonacular.com/recipes/steamed-artichokes-109075\">Steamed Artichokes</a>, <a href=\"https://spoonacular.com/recipes/steamed-artichokes-108661\">Steamed Artichokes</a>, and <a href=\"https://spoonacular.com/recipes/steamed-artichokes-28452\">Steamed Artichokes</a>.",
+    "cuisines": ["Mediterranean", "Italian", "European"],
+    "dishTypes": ["lunch", "main course", "main dish", "dinner"],
+    "diets": [
+      "gluten free",
+      "dairy free",
+      "paleolithic",
+      "lacto ovo vegetarian",
+      "primal",
+      "whole 30",
+      "vegan"
+    ],
+    "occasions": [],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Snip the thorns off the artichoke leaves.",
+            "ingredients": [
+              {
+                "id": 11007,
+                "name": "artichoke",
+                "localizedName": "artichoke",
+                "image": "artichokes.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 2,
+            "step": "Place the garlic slices inside the leaves throughout the artichoke.",
+            "ingredients": [
+              {
+                "id": 11007,
+                "name": "artichoke",
+                "localizedName": "artichoke",
+                "image": "artichokes.png"
+              },
+              {
+                "id": 11215,
+                "name": "garlic",
+                "localizedName": "garlic",
+                "image": "garlic.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Put the artichoke into a medium-size saucepan.",
+            "ingredients": [
+              {
+                "id": 11007,
+                "name": "artichoke",
+                "localizedName": "artichoke",
+                "image": "artichokes.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404669,
+                "name": "sauce pan",
+                "localizedName": "sauce pan",
+                "image": "sauce-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "step": "Add water to come halfway up the artichoke.",
+            "ingredients": [
+              {
+                "id": 11007,
+                "name": "artichoke",
+                "localizedName": "artichoke",
+                "image": "artichokes.png"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Put the bay leaf in the water.Crush the coriander seeds, oregano and basil together; sprinkle on top of the artichoke.Cook over medium heat for 30 minutes, or until the leaves pull off easily.",
+            "ingredients": [
+              {
+                "id": 2013,
+                "name": "whole coriander seeds",
+                "localizedName": "whole coriander seeds",
+                "image": "coriander-seeds.jpg"
+              },
+              {
+                "id": 11007,
+                "name": "artichoke",
+                "localizedName": "artichoke",
+                "image": "artichokes.png"
+              },
+              {
+                "id": 2004,
+                "name": "bay leaves",
+                "localizedName": "bay leaves",
+                "image": "bay-leaves.jpg"
+              },
+              {
+                "id": 2027,
+                "name": "oregano",
+                "localizedName": "oregano",
+                "image": "oregano.jpg"
+              },
+              {
+                "id": 2044,
+                "name": "basil",
+                "localizedName": "basil",
+                "image": "basil.jpg"
+              },
+              {
+                "id": 14412,
+                "name": "water",
+                "localizedName": "water",
+                "image": "water.png"
+              }
+            ],
+            "equipment": [],
+            "length": { "number": 30, "unit": "minutes" }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/italian-steamed-artichokes-648257",
+    "nutrition": {
+      "nutrients": [{ "name": "Calories", "amount": 221.453, "unit": "kcal" }]
+    }
+  }
+]
