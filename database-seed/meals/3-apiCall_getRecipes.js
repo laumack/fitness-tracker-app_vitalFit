@@ -11,7 +11,7 @@ When all steps are completed, the "recipeTitles..." file created in step two can
 const fs = require("fs");
 const axios = require("axios");
 
-const apiKey = "API-key-here"; // *1 
+const apiKey = "e80578b09f76422fbfb320e0bdcb2fea"; ///////////////////////////////////////////////////////////////////// *1 API-key-here
 
 function readJSONFile(filePath) {
   const fileData = fs.readFileSync(filePath);
@@ -31,7 +31,7 @@ async function makeAPICall(title) {
 }
 
 async function processRecipeTitles() {
-  const filePath = "recipeTitles_week_1200cals.json"; // **2
+  const filePath = "recipeTitles_week_2500cals.json"; /////////////////////////////////////////////////// **2
 
   const titles = readJSONFile(filePath);
 
@@ -45,7 +45,7 @@ async function processRecipeTitles() {
   }
 
   const resultsFileContent = JSON.stringify(results);
-  fs.writeFile("recipes_week_1200cals.json", resultsFileContent, (err) => { // ***3
+  fs.writeFile("recipes_week_2500cals.json", resultsFileContent, (err) => { //////////////////////////// ***3
     if (err) {
       console.error("Error writing file:", err);
     } else {

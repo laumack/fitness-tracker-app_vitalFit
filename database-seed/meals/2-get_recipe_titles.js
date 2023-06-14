@@ -25,7 +25,7 @@ function extractTitles(mealPlan) {
 }
 
 function processJSONFile() {
-  const filePath = "mealPlan_week_1200cals.json"; // *1
+  const filePath = "mealPlan_week_2500cals.json"; //////////////////////////////////////////////////////// *1
 
   const mealPlan = readJSONFile(filePath).week;
   const titles = extractTitles(mealPlan);
@@ -33,7 +33,7 @@ function processJSONFile() {
   console.log("Recipe titles:", titles);
 
   const titlesFileContent = JSON.stringify(titles);
-  fs.writeFile("recipeTitles_week_1200cals.json", titlesFileContent, (err) => { // **2
+  fs.writeFile("recipeTitles_week_2500cals.json", titlesFileContent, (err) => { ///////////////////////// **2
     if (err) {
       console.error("Error writing file:", err);
     } else {
