@@ -11,6 +11,7 @@ const db = admin.firestore();
 
 interface User {
   id: string;
+  email: string;
   username: string;
   password: string;
   age: number;
@@ -43,6 +44,7 @@ const userId = Date.now().toString() + Math.floor(Math.random() * 1000000000);
 
 const user: User = {
   id: userId,
+  email: "north@coder.com",
   username: "Admin",
   password: "changeme",
   age: 25,
