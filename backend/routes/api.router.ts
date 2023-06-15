@@ -6,7 +6,7 @@ import mealPlanRouter from "./mealPlan.router";
 const apiRouter = Router();
 
 apiRouter.use("/exercises", exerciseRouter);
-apiRouter.use("/meals", mealsRouter);
+apiRouter.use("/recipe", mealsRouter);
 apiRouter.use("/meal-plan", mealPlanRouter);
 
 export default apiRouter;
