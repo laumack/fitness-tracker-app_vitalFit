@@ -6,12 +6,9 @@ const CreateProfileForm = ({ navigation }) => {
   const [email, setEmail] = React.useState("");
 
   const handleSubmit = () => {
-    // Handle form submission logic here
     console.log("Name:", name);
     console.log("Email:", email);
-    // You can perform additional actions like API calls, validation, etc.
 
-    // Reset the form fields
     setName("");
     setEmail("");
     navigation.navigate("Menu");
