@@ -6,7 +6,7 @@ const ProfilePage = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}> Profile</Text>
       <Text style={styles.appName}>VITALFIT</Text>
-      <Image source={require("../assets/run-icon.png")} style={styles.logo} />
+      <Image source={require("../assets/runIcon.png")} style={styles.logo} />
     </View>
   );
 };
