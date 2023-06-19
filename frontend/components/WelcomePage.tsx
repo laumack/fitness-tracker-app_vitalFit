@@ -1,17 +1,68 @@
-import React from "react";
-import { StyleSheet, Text, View, Image } from "react-native";
+import React, { useEffect } from "react";
+import { StyleSheet, Text, View, Image, Button, Animated } from "react-native";
+import logo from "../assets/vitalFit_logo.png";
 
 const WelcomePage = ({ navigation }) => {
+  const opacity = new Animated.Value(1);
+  const position = new Animated.Value(0);
+
+  useEffect(() => {
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(opacity, {
+          toValue: 0.5,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+        Animated.timing(opacity, {
+          toValue: 1,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+  }, []);
+
+  useEffect(() => {
+    Animated.loop(
+      Animated.sequence([
+        Animated.timing(position, {
+          toValue: 50,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+        Animated.timing(position, {
+          toValue: 0,
+          duration: 1000,
+          useNativeDriver: true,
+        }),
+      ])
+    ).start();
+  }, []);
+
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hello, my friend! Welcome to the Fitness Tracking App</Text>
-      <Text style={styles.appName}>VITALFIT</Text>
-      <Image source={require("../assets/runIcon.png")} style={styles.logo} />
+      <Image source={logo} style={styles.logo} />
+      <Text style={styles.title}>Fitness Tracker</Text>
+      <Animated.Text
+        style={{
+          ...styles.swipeDown,
+          opacity,
+          transform: [{ translateY: position }],
+        }}
+      >
+        Scroll for more
+      </Animated.Text>
+      <Button
+        title="Go to your profile"
+        onPress={() => navigation.navigate("CreateProfileForm")}
+      />
     </View>
   );
 };
 
 export default WelcomePage;
+
 
 const styles = StyleSheet.create({
   container: {
@@ -30,8 +81,8 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   logo: {
-    width: 100,
-    height: 100,
+    width: 300,
+    height: 300,
     marginBottom: 32,
   },
 });

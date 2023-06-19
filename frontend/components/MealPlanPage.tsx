@@ -4,9 +4,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 const MealPlanPage = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}> MealPlanPage</Text>
-      <Text style={styles.appName}>VITALFIT</Text>
-      <Image source={require("../assets/runIcon.png")} style={styles.logo} />
+      <Text style={styles.title}> Meal Plan Page</Text>
     </View>
   );
 };
