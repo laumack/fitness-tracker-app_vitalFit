@@ -16,7 +16,7 @@ const CreateProfileForm = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Fitness Tracker!</Text>
+      <Text style={styles.title}>Please enter your details so that we can calculate your calorie requirements...</Text>
       <Text style={styles.label}>Name</Text>
       <TextInput
         style={styles.input}
