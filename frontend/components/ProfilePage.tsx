@@ -4,9 +4,7 @@ import { StyleSheet, Text, View, Image } from "react-native";
 const ProfilePage = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}> Profile</Text>
-      <Text style={styles.appName}>VITALFIT</Text>
-      <Image source={require("../assets/runIcon.png")} style={styles.logo} />
+      <Text style={styles.title}>User's Profile Page</Text>
     </View>
   );
 };
@@ -23,6 +21,7 @@ const styles = StyleSheet.create({
       fontSize: 24,
       fontWeight: "bold",
       marginBottom: 16,
+
     },
     appName: {
       fontSize: 32,

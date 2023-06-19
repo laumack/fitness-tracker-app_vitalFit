@@ -7,25 +7,25 @@ const Menu = ({ navigation }) => {
       <Text style={styles.title}>Menu</Text>
       <View style={styles.menuItem}>
         <Button
-          title="Profile"
+          title="My Profile"
           onPress={() => navigation.navigate("ProfilePage")}
         />
       </View>
       <View style={styles.menuItem}>
         <Button
-          title="Meal Plan"
+          title="My Meal Plan"
           onPress={() => navigation.navigate("MealPlanPage")}
         />
       </View>
       <View style={styles.menuItem}>
         <Button
-          title="Exercise Plan"
+          title="My Exercise Plan"
           onPress={() => navigation.navigate("ExercisePlan")}
         />
       </View>
       <View style={styles.menuItem}>
         <Button
-          title="Progress"
+          title="Check my progress"
           onPress={() => navigation.navigate("ProgressPage")}
         />
       </View>
@@ -47,9 +47,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
   },
-  menuItem: {
-    marginBottom: 16,
-  },
+  menuItem: { flex: 2 },
 });
 
 export default Menu;
