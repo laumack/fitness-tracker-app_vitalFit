@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react'
 import { StyleSheet, Text, View, Image, Button, Animated } from "react-native";
-//declare module "*.png"
 import logo from "./assets/run-icon.png";
 
-import MapView from "react-native-maps";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import WelcomePage from "./components/WelcomePage";
@@ -19,7 +17,7 @@ const Stack = createStackNavigator();
 
 
 
-  const HomeScreen = ({navigation}) => {
+  const HomeScreen = ({ navigation }) => {
     const opacity = new Animated.Value(1);
     const position = new Animated.Value(0);
   
