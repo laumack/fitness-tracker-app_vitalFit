@@ -44,15 +44,6 @@ const WelcomePage = ({ navigation }) => {
     <View style={styles.container}>
       <Image source={logo} style={styles.logo} />
       <Text style={styles.title}>Fitness Tracker</Text>
-      <Animated.Text
-        style={{
-          ...styles.swipeDown,
-          opacity,
-          transform: [{ translateY: position }],
-        }}
-      >
-        Scroll for more
-      </Animated.Text>
       <Button
         title="Go to your profile"
         onPress={() => navigation.navigate("CreateProfileForm")}

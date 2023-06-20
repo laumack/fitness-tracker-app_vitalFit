@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { fetchExercises } from "../apis/api";
 
 interface Exercise {
@@ -9,10 +9,17 @@ interface Exercise {
 const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [exercises, setExercises] = useState<Exercise[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [showDifficultyButtons, setShowDifficultyButtons] = useState<boolean>(true);
-  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null);
+  const [showDifficultyButtons, setShowDifficultyButtons] =
+    useState<boolean>(true);
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(
+    null
+  );
   const difficulties: string[] = ["Beginner", "Intermediate", "Advanced"];
-  const workouts: string[] = ["Abs Routine", "Cardio Routine", "Strength Routine"];
+  const workouts: string[] = [
+    "Abs Routine",
+    "Cardio Routine",
+    "Strength Routine",
+  ];
 
   useEffect(() => {
     fetchExercises().then((exercises) => {
@@ -26,28 +33,36 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   const handleDifficulty = (difficulty: string): void => {
     setSelectedDifficulty(difficulty);
     setShowDifficultyButtons(false);
-  }
+  };
 
   const handleWorkout = (workout: string) => {};
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Exercise Plan page</Text>
-      <div>
-      {showDifficultyButtons ? (
-        difficulties.map((difficulty) => (
-          <button key={difficulty} onClick={() => handleDifficulty(difficulty)}>
-            {difficulty}
-          </button>
-        ))
-      ) : (
-        workouts.map((workout) => (
-          <button key={workout} onClick={() => handleWorkout(workout)}>
-            {`${selectedDifficulty} ${workout}`}
-          </button>
-        ))
-      )}
-    </div>
+      <View>
+        {showDifficultyButtons
+          ? difficulties.map((difficulty) => (
+              <TouchableOpacity
+                key={difficulty}
+                style={styles.button}
+                onPress={() => handleDifficulty(difficulty)}
+              >
+                <Text style={styles.buttonText}>{difficulty}</Text>
+              </TouchableOpacity>
+            ))
+          : workouts.map((workout) => (
+              <TouchableOpacity
+                key={workout}
+                style={styles.button}
+                onPress={() => handleWorkout(workout)}
+              >
+                <Text
+                  style={styles.buttonText}
+                >{`${selectedDifficulty} ${workout}`}</Text>
+              </TouchableOpacity>
+            ))}
+      </View>
     </View>
   );
 };
@@ -64,5 +79,15 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
+  },
+  button: {
+    alignItems: "center",
+    backgroundColor: "#DDDDDD", // choose a color for the button
+    padding: 10, // change the padding to increase button size
+    marginTop: 10, // change the margin to give space between buttons
+    borderRadius: 5, // add some border radius if you like
+  },
+  buttonText: {
+    fontSize: 20, // increase font size by 20%
   },
 });
