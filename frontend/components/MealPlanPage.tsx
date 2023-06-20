@@ -75,10 +75,13 @@ const MealPlan: React.FC = () => {
       <Text>------------------------</Text>
       <Text>TOTAL CALORIES: {planCalories}</Text>
       <Text>------------------------</Text>
+      <Text>------------------------</Text>
       <Text>Looks tasty? 😋 Click to save ❤️</Text>
-      <Text>
+      <Text>------------------------</Text>
+      <Text style={{ textAlign: "center", textAlignVertical: "center" }}>
         Don't fancy this one?{"\n"}
-        Swipe to choose a different meal plan
+        Swipe to choose a different meal plan{"\n"}
+        {'<<<<<'}
       </Text>
     </View>
   );
