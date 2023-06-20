@@ -8,40 +8,54 @@ interface Exercise {
 
 const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [exercises, setExercises] = useState<Exercise[]>([]);
-  const [beginnerRoutine, setBeginnerRoutine] = useState<Exercise[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [showDifficulty, setShowDifficulty] = useState<string | null>(null);
+  const [showCategories, setShowCategories] = useState(false);
+  const [showDifficultyButtons, setShowDifficultyButtons] =
+    useState<boolean>(true);
 
-  let advancedRoutine: Exercise[] = [];
-  let intermediateRoutine: Exercise[] = [];
+  let difficulties = ["beginner", "intermediate", "advanced"];
+  let workouts = [
+    "abs routine",
+    "cardio routine",
+    "legs routine",
+    "chest & arms routine",
+  ];
 
   useEffect(() => {
     fetchExercises().then((exercises) => {
       setExercises(exercises);
       setIsLoading(false);
-
-      let routine: Exercise[] = [];
-      let newExercises: Exercise[] = exercises.exercises;
-      newExercises.forEach((obj) => {
-        if (obj.category === "beginner") {
-          routine.push(obj);
-        }
-      });
-      setBeginnerRoutine(routine);
     });
   }, []);
 
-  console.log(beginnerRoutine[1]);
   if (isLoading) return <Text>Loading...</Text>;
 
-  let test = beginnerRoutine[0];
-  console.log(test);
+  const handleDifficulty = (difficulty: string) => {
+    setShowDifficulty(difficulty);
+    setShowCategories(true);
+  };
+
+  const handleWorkout = (workout: string) => {};
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Exercise Plan page</Text>
-      <Text>beginner</Text>
-      <Text>intermediate</Text>
-      <Text>advanced</Text>
+
+      {showDifficultyButtons
+        ? difficulties.map((difficulty) => (
+            <button
+              key={difficulty}
+              onClick={() => handleDifficulty(difficulty)}
+            >
+              {difficulty}
+            </button>
+          ))
+        : workouts.map((workout) => (
+            <button key={workout} onClick={() => handleWorkout(workout)}>
+              {`${selectedDifficulty} ${workout}`}
+            </button>
+          ))}
     </View>
   );
 };
