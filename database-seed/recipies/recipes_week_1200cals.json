@@ -4288,5 +4288,716 @@
     "nutrition": {
       "nutrients": [{ "name": "Calories", "amount": 220.059, "unit": "kcal" }]
     }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 8,
+    "gaps": "no",
+    "preparationMinutes": 5,
+    "cookingMinutes": 25,
+    "aggregateLikes": 0,
+    "healthScore": 18,
+    "creditsText": "pinkwhen.com",
+    "sourceName": "pinkwhen.com",
+    "pricePerServing": 172.23,
+    "id": 1460497,
+    "title": "Taco Casserole",
+    "readyInMinutes": 30,
+    "servings": 6,
+    "sourceUrl": "https://www.pinkwhen.com/taco-casserole/",
+    "image": "https://spoonacular.com/recipeImages/1460497-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "If you want to add more <b>Mexican</b> recipes to your recipe box, Taco Casserole might be a recipe you should try. This gluten free recipe serves 6 and costs <b>$1.72 per serving</b>. One portion of this dish contains around <b>25g of protein</b>, <b>10g of fat</b>, and a total of <b>303 calories</b>. This recipe from Pink When requires cheese, onion, corn tortillas torn into bite sized pices, and kernal corn. 1 person has made this recipe and would make it again. It will be a hit at your <b>Autumn</b> event. It works well as a main course. From preparation to the plate, this recipe takes roughly <b>30 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 58%</b>. This score is pretty good. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/taco-casserole-133995\">Taco Casserole</a>, <a href=\"https://spoonacular.com/recipes/taco-casserole-1318859\">Taco Casserole</a>, and <a href=\"https://spoonacular.com/recipes/taco-casserole-1528765\">Taco Casserole</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat the oven to 350 degrees Fahrenheit.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": {
+                  "number": 350.0,
+                  "unit": "Fahrenheit"
+                }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "In a large skillet over medium high heat saute the onion, bell pepper, seasonings, and ground beef until the beef is no longer pink.",
+            "ingredients": [
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 10023572,
+                "name": "ground beef",
+                "localizedName": "ground beef",
+                "image": "fresh-ground-beef.jpg"
+              },
+              {
+                "id": 1042027,
+                "name": "seasoning",
+                "localizedName": "seasoning",
+                "image": "seasoning.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Drain any remaining grease.",
+            "ingredients": [],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Transfer the beef mixture to a medium sized bowl.",
+            "ingredients": [
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Add drained corn and tomatoes to the beef mixture and stir until combined.",
+            "ingredients": [
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              },
+              {
+                "id": 11168,
+                "name": "corn",
+                "localizedName": "corn",
+                "image": "corn.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "In the bottom of a prepared baking dish start making layers with the tortilla pieces, beef mixture, and top with a layer of cheese. Repeat the layers until the casserole dish is filled and add a layer of cheese on top.",
+            "ingredients": [
+              {
+                "id": 18364,
+                "name": "tortilla",
+                "localizedName": "tortilla",
+                "image": "flour-tortilla.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404635,
+                "name": "casserole dish",
+                "localizedName": "casserole dish",
+                "image": "casserole-dish.png"
+              },
+              {
+                "id": 404646,
+                "name": "baking pan",
+                "localizedName": "baking pan",
+                "image": "roasting-pan.jpg"
+              }
+            ]
+          },
+          {
+            "number": 7,
+            "step": "Bake in the oven for 20 minutes.",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": {
+              "number": 20,
+              "unit": "minutes"
+            }
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/taco-casserole-1460497",
+    "nutrition": {
+      "nutrients": [
+        {
+          "name": "Calories",
+          "amount": 303.401,
+          "unit": "kcal"
+        }
+      ]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 14,
+    "gaps": "no",
+    "preparationMinutes": 15,
+    "cookingMinutes": 25,
+    "aggregateLikes": 0,
+    "healthScore": 17,
+    "creditsText": "Jen West",
+    "sourceName": "Pink When",
+    "pricePerServing": 244.81,
+    "id": 715382,
+    "title": "Skillet Beef and Bean Taco Casserole",
+    "readyInMinutes": 40,
+    "servings": 6,
+    "sourceUrl": "http://www.pinkwhen.com/skillet-beef-and-bean-taco-casserole/2/",
+    "image": "https://spoonacular.com/recipeImages/715382-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Skillet Beef and Bean Taco Casserole could be just the <b>gluten free</b> recipe you've been looking for. This recipe makes 6 servings with <b>514 calories</b>, <b>30g of protein</b>, and <b>20g of fat</b> each. For <b>$2.45 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. It is perfect for <b>Autumn</b>. 1 person found this recipe to be yummy and satisfying. A mixture of refried beans, salsa, taco seasoning mix, and a handful of other ingredients are all it takes to make this recipe so flavorful. Only a few people really liked this Mexican dish. From preparation to the plate, this recipe takes around <b>40 minutes</b>. It is brought to you by Pink When. It works well as a main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 59%</b>. This score is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/beef-taco-skillet-casserole-527337\">Beef Taco Skillet Casserole</a>, <a href=\"https://spoonacular.com/recipes/beef-and-bean-taco-casserole-159990\">Beef and Bean Taco Casserole</a>, and <a href=\"https://spoonacular.com/recipes/beef-and-bean-taco-casserole-1301979\">Beef and Bean Taco Casserole</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Heat the oven to 35",
+            "ingredients": [],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "In a medium pan cook ground beef until thoroughly cooked.",
+            "ingredients": [
+              {
+                "id": 10023572,
+                "name": "ground beef",
+                "localizedName": "ground beef",
+                "image": "fresh-ground-beef.jpg"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 3,
+            "step": "Drain.Stir in salsa, taco seasoning, and refried beans, mix well and stir often.",
+            "ingredients": [
+              {
+                "id": 2073,
+                "name": "taco seasoning mix",
+                "localizedName": "taco seasoning mix",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 16202,
+                "name": "refried beans",
+                "localizedName": "refried beans",
+                "image": "refried-beans.png"
+              },
+              {
+                "id": 6164,
+                "name": "salsa",
+                "localizedName": "salsa",
+                "image": "salsa.png"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Place 2 cups of crushed chips into the bottom of prepared skillet. Cover evenly with beef mixture and top with bell pepper, onion,  can of diced tomatoes, and cheese.",
+            "ingredients": [
+              {
+                "id": 10211821,
+                "name": "bell pepper",
+                "localizedName": "bell pepper",
+                "image": "bell-pepper-orange.png"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 11408,
+                "name": "french fries",
+                "localizedName": "french fries",
+                "image": "french-fries-isolated.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "step": "Place skillet in oven and bake for 20 minutes, or until cheese is melted.Top the casserole with remaining diced tomatoes, remaining tortilla chips, onion tops, and cheese.",
+            "ingredients": [
+              {
+                "id": 19056,
+                "name": "tortilla chips",
+                "localizedName": "tortilla chips",
+                "image": "tortilla-chips.jpg"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              },
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              }
+            ],
+            "length": {
+              "number": 20,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 6,
+            "step": "Place shredded lettuce in a bowl and top with Beef and Bean Taco Casserole. Oh my, yumminess!!",
+            "ingredients": [
+              {
+                "id": 11252,
+                "name": "lettuce",
+                "localizedName": "lettuce",
+                "image": "iceberg-lettuce.jpg"
+              },
+              {
+                "id": 23572,
+                "name": "beef",
+                "localizedName": "beef",
+                "image": "beef-cubes-raw.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404783,
+                "name": "bowl",
+                "localizedName": "bowl",
+                "image": "bowl.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/skillet-beef-and-bean-taco-casserole-715382",
+    "nutrition": {
+      "nutrients": [
+        {
+          "name": "Calories",
+          "amount": 513.773,
+          "unit": "kcal"
+        }
+      ]
+    }
+  },
+  {
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 31,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 16,
+    "creditsText": "foodista.com",
+    "sourceName": "foodista.com",
+    "pricePerServing": 292.92,
+    "id": 1098304,
+    "title": "Taco Plate Casserole",
+    "readyInMinutes": 60,
+    "servings": 8,
+    "sourceUrl": "https://www.foodista.com/recipe/R57RJM2K/taco-plate-casserole",
+    "image": "https://spoonacular.com/recipeImages/1098304-312x231.jpg",
+    "imageType": "jpg",
+    "summary": "Taco Plate Casserole is a <b>gluten free</b> main course. This recipe serves 8 and costs $2.93 per serving. One portion of this dish contains around <b>42g of protein</b>, <b>58g of fat</b>, and a total of <b>943 calories</b>. 1 person were glad they tried this recipe. From preparation to the plate, this recipe takes roughly <b>1 hour</b>. This recipe is typical of Mexican cuisine. If you have taco seasoning, olives, onion powder, and a few other ingredients on hand, you can make it. It is perfect for <b>Autumn</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 56%</b>, which is solid. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/barbecue-beef-taco-plate-419917\">Barbecue Beef Taco Plate</a>, <a href=\"https://spoonacular.com/recipes/cakespy-easter-candy-dessert-taco-plate-199855\">Cakespy: Easter Candy Dessert Taco Plate</a>, and <a href=\"https://spoonacular.com/recipes/taco-casserole-556113\">Taco Casserole</a>.",
+    "cuisines": ["Mexican"],
+    "dishTypes": ["side dish", "lunch", "main course", "main dish", "dinner"],
+    "diets": ["gluten free"],
+    "occasions": ["fall", "winter"],
+    "analyzedInstructions": [
+      {
+        "name": "",
+        "steps": [
+          {
+            "number": 1,
+            "step": "Preheat oven to 350F.In a large skillet over medium high heat, brown the ground beef, chorizo and chopped onion.",
+            "ingredients": [
+              {
+                "id": 10023572,
+                "name": "ground beef",
+                "localizedName": "ground beef",
+                "image": "fresh-ground-beef.jpg"
+              },
+              {
+                "id": 99233,
+                "name": "chorizo",
+                "localizedName": "chorizo",
+                "image": "chorizo.jpg"
+              },
+              {
+                "id": 11282,
+                "name": "onion",
+                "localizedName": "onion",
+                "image": "brown-onion.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404645,
+                "name": "frying pan",
+                "localizedName": "frying pan",
+                "image": "pan.png"
+              },
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg",
+                "temperature": {
+                  "number": 350.0,
+                  "unit": "Fahrenheit"
+                }
+              }
+            ]
+          },
+          {
+            "number": 2,
+            "step": "Drain any fat and add the taco seasoning, chili powder, garlic powder and onion powder. Stir well to combine.",
+            "ingredients": [
+              {
+                "id": 2073,
+                "name": "taco seasoning mix",
+                "localizedName": "taco seasoning mix",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 1022020,
+                "name": "garlic powder",
+                "localizedName": "garlic powder",
+                "image": "garlic-powder.png"
+              },
+              {
+                "id": 2009,
+                "name": "chili powder",
+                "localizedName": "chili powder",
+                "image": "chili-powder.jpg"
+              },
+              {
+                "id": 2026,
+                "name": "onion powder",
+                "localizedName": "onion powder",
+                "image": "onion-powder.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 3,
+            "step": "Add the refried beans, tomatoes, soup and sliced olives; mix well and heat thoroughly.Spray a 9 x 13 dish with non-stick cooking spray.Reserve 2 cups of the meat mixture for the top of the casserole. Set aside.",
+            "ingredients": [
+              {
+                "id": 4679,
+                "name": "cooking spray",
+                "localizedName": "cooking spray",
+                "image": "cooking-spray.png"
+              },
+              {
+                "id": 16202,
+                "name": "refried beans",
+                "localizedName": "refried beans",
+                "image": "refried-beans.png"
+              },
+              {
+                "id": 11529,
+                "name": "tomato",
+                "localizedName": "tomato",
+                "image": "tomato.png"
+              },
+              {
+                "id": 9195,
+                "name": "olives",
+                "localizedName": "olives",
+                "image": "olives-mixed.jpg"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              },
+              {
+                "id": 0,
+                "name": "soup",
+                "localizedName": "soup",
+                "image": ""
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 4,
+            "step": "Layer half the corn tortillas on the bottom. Then make a layer with half of the remaining meat mixture.",
+            "ingredients": [
+              {
+                "id": 18363,
+                "name": "corn tortilla",
+                "localizedName": "corn tortilla",
+                "image": "corn-tortillas.png"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 5,
+            "step": "Sprinkle one cup of the cheese on top and half of the crumbled tortilla chips. Repeat another layer of tortillas, meat, cheese and chips. Finish with the 2 cups of reserved meat mixture and the remaining 2 cups of cheese on top.",
+            "ingredients": [
+              {
+                "id": 19056,
+                "name": "tortilla chips",
+                "localizedName": "tortilla chips",
+                "image": "tortilla-chips.jpg"
+              },
+              {
+                "id": 18364,
+                "name": "tortilla",
+                "localizedName": "tortilla",
+                "image": "flour-tortilla.jpg"
+              },
+              {
+                "id": 1041009,
+                "name": "cheese",
+                "localizedName": "cheese",
+                "image": "cheddar-cheese.png"
+              },
+              {
+                "id": 11408,
+                "name": "french fries",
+                "localizedName": "french fries",
+                "image": "french-fries-isolated.jpg"
+              },
+              {
+                "id": 1065062,
+                "name": "meat",
+                "localizedName": "meat",
+                "image": "whole-chicken.jpg"
+              }
+            ],
+            "equipment": []
+          },
+          {
+            "number": 6,
+            "step": "Pour the salsa over the top and bake for 30 minutes.",
+            "ingredients": [
+              {
+                "id": 6164,
+                "name": "salsa",
+                "localizedName": "salsa",
+                "image": "salsa.png"
+              }
+            ],
+            "equipment": [
+              {
+                "id": 404784,
+                "name": "oven",
+                "localizedName": "oven",
+                "image": "oven.jpg"
+              }
+            ],
+            "length": {
+              "number": 30,
+              "unit": "minutes"
+            }
+          },
+          {
+            "number": 7,
+            "step": "Garnish with sour cream and chopped green onions, if desired.",
+            "ingredients": [
+              {
+                "id": 11291,
+                "name": "green onions",
+                "localizedName": "green onions",
+                "image": "spring-onions.jpg"
+              },
+              {
+                "id": 1056,
+                "name": "sour cream",
+                "localizedName": "sour cream",
+                "image": "sour-cream.jpg"
+              }
+            ],
+            "equipment": []
+          }
+        ]
+      }
+    ],
+    "spoonacularSourceUrl": "https://spoonacular.com/taco-plate-casserole-1098304",
+    "nutrition": {
+      "nutrients": [
+        {
+          "name": "Calories",
+          "amount": 943.223,
+          "unit": "kcal"
+        }
+      ]
+    }
   }
 ]
