@@ -43,7 +43,7 @@ const WelcomePage = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image source={logo} style={styles.logo} />
-      <Text style={styles.title}>Fitness Tracker</Text>
+      {/* <Text style={styles.title}>Fitness Tracker</Text> */}
       <Button
         title="Go to your profile"
         onPress={() => navigation.navigate("CreateProfileForm")}
@@ -54,26 +54,29 @@ const WelcomePage = ({ navigation }) => {
 
 export default WelcomePage;
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#499096",
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
   },
-  appName: {
-    fontSize: 32,
-    fontWeight: "bold",
-    marginBottom: 24,
-  },
+  // appName: {
+  //   fontSize: 32,
+  //   fontWeight: "bold",
+  //   marginBottom: 24,
+  // },
   logo: {
     width: 300,
     height: 300,
     marginBottom: 32,
+    borderRadius: 150,
+    borderWidth: 2,
+    borderColor: "rgba(249, 243, 208, 0.72)",
   },
 });

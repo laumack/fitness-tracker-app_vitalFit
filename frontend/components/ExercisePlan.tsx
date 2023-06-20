@@ -14,11 +14,15 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(
     null
   );
+  const [selectedWorkout, setSelectedWorkout] = useState<string | null>(null);
+  const [workoutClicked, setWorkoutClicked] = useState<boolean>(false);
+
   const difficulties: string[] = ["Beginner", "Intermediate", "Advanced"];
   const workouts: string[] = [
     "Abs Routine",
     "Cardio Routine",
-    "Strength Routine",
+    "Chest & Arms Routine",
+    "Leg Routine",
   ];
 
   useEffect(() => {
@@ -28,14 +32,41 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
     });
   }, []);
 
-  if (isLoading) return <Text>Loading...</Text>;
-
   const handleDifficulty = (difficulty: string): void => {
     setSelectedDifficulty(difficulty);
     setShowDifficultyButtons(false);
   };
 
-  const handleWorkout = (workout: string) => {};
+  let routines = exercises.exercises;
+
+  const handleWorkout = (workout: string) => {
+    setWorkoutClicked(true);
+    setSelectedWorkout(workout);
+  };
+
+  if (isLoading) return <Text>Loading...</Text>;
+
+  if (workoutClicked === true)
+    return (
+      <>
+        {routines.map((obj) => {
+          if (obj.name === `${selectedDifficulty} ${selectedWorkout}`) {
+            <Text key={obj.name}>{obj.name}</Text>;
+            let arr = obj.exercises;
+            console.log(arr);
+
+            // arr.map((e) => {
+            //   console.log(e.name);
+            //   return (
+            //     <View style={styles.container}>
+            //       <Text key={e.name}>{e.name}</Text>
+            //     </View>
+            //   );
+            // });
+          }
+        })}
+      </>
+    );
 
   return (
     <View style={styles.container}>
@@ -62,6 +93,7 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
                 >{`${selectedDifficulty} ${workout}`}</Text>
               </TouchableOpacity>
             ))}
+        {/* (workoutClicked && (<h1> hello </h1>)) */}
       </View>
     </View>
   );
