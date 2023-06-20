@@ -9,18 +9,10 @@ interface Exercise {
 const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   const [exercises, setExercises] = useState<Exercise[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [showDifficulty, setShowDifficulty] = useState<string | null>(null);
-  const [showCategories, setShowCategories] = useState(false);
-  const [showDifficultyButtons, setShowDifficultyButtons] =
-    useState<boolean>(true);
-
-  let difficulties = ["beginner", "intermediate", "advanced"];
-  let workouts = [
-    "abs routine",
-    "cardio routine",
-    "legs routine",
-    "chest & arms routine",
-  ];
+  const [showDifficultyButtons, setShowDifficultyButtons] = useState<boolean>(true);
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string | null>(null);
+  const difficulties: string[] = ["Beginner", "Intermediate", "Advanced"];
+  const workouts: string[] = ["Abs Routine", "Cardio Routine", "Strength Routine"];
 
   useEffect(() => {
     fetchExercises().then((exercises) => {
@@ -31,31 +23,31 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
 
   if (isLoading) return <Text>Loading...</Text>;
 
-  const handleDifficulty = (difficulty: string) => {
-    setShowDifficulty(difficulty);
-    setShowCategories(true);
-  };
+  const handleDifficulty = (difficulty: string): void => {
+    setSelectedDifficulty(difficulty);
+    setShowDifficultyButtons(false);
+  }
 
   const handleWorkout = (workout: string) => {};
 
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Exercise Plan page</Text>
-
-      {showDifficultyButtons
-        ? difficulties.map((difficulty) => (
-            <button
-              key={difficulty}
-              onClick={() => handleDifficulty(difficulty)}
-            >
-              {difficulty}
-            </button>
-          ))
-        : workouts.map((workout) => (
-            <button key={workout} onClick={() => handleWorkout(workout)}>
-              {`${selectedDifficulty} ${workout}`}
-            </button>
-          ))}
+      <div>
+      {showDifficultyButtons ? (
+        difficulties.map((difficulty) => (
+          <button key={difficulty} onClick={() => handleDifficulty(difficulty)}>
+            {difficulty}
+          </button>
+        ))
+      ) : (
+        workouts.map((workout) => (
+          <button key={workout} onClick={() => handleWorkout(workout)}>
+            {`${selectedDifficulty} ${workout}`}
+          </button>
+        ))
+      )}
+    </div>
     </View>
   );
 };
