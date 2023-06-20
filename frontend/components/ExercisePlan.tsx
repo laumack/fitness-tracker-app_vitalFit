@@ -82,12 +82,12 @@ const styles = StyleSheet.create({
   },
   button: {
     alignItems: "center",
-    backgroundColor: "#DDDDDD", // choose a color for the button
-    padding: 10, // change the padding to increase button size
-    marginTop: 10, // change the margin to give space between buttons
-    borderRadius: 5, // add some border radius if you like
+    backgroundColor: "#DDDDDD",
+    padding: 10,
+    marginTop: 10,
+    borderRadius: 5,
   },
   buttonText: {
-    fontSize: 20, // increase font size by 20%
+    fontSize: 20,
   },
 });
