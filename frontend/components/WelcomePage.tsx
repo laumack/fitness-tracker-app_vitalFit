@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { StyleSheet, View, Image } from "react-native";
 import logo from "../assets/vitalFit_logo.png";
-import * as SecureStore from 'expo-secure-store';
+import * as SecureStore from "expo-secure-store";
 
 interface Props {
   navigation: any;
@@ -20,7 +20,7 @@ const WelcomePage: React.FC<Props> = ({ navigation }) => {
         return () => clearTimeout(timer);
       }
     };
-  
+
     checkForProfile();
   }, []);
 
