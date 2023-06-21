@@ -72,7 +72,8 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
         <Text>Servings: {mealDetails.servings}</Text>
         {mealDetails.nutrition.nutrients.map((nutrient, index) => (
           <Text key={index}>
-            {nutrient.name}: {Math.round(nutrient.amount)} {nutrient.unit} per serving
+            {nutrient.name}: {Math.round(nutrient.amount)} {nutrient.unit} per
+            serving
           </Text>
         ))}
         <Text>Dietary Information:</Text>
@@ -109,6 +110,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
   },
+
   text: {
     textAlign: "center",
   },

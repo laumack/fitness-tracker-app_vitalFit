@@ -77,6 +77,8 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
       let calorieRequirement: number = roundToNearestValidCalories(
         userData.calorieIntake || 0
       );
+
+
       let calorieString: string = `${calorieRequirement}`;
 
       if (userData.preferences && userData.preferences.vegan) {
@@ -95,6 +97,7 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
           }
         }
       }
+
 
       setMealData(data);
       setIsLoading(false);
@@ -144,6 +147,12 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
               </View>
             </TouchableOpacity>
           ))}
+
+          <Text style={styles.calories}>
+            Total Calories for the day:{" "}
+            {Math.round(mealData[day].nutrients.calories)} kcal
+          </Text>
+
         </View>
       ))}
     </ScrollView>
@@ -158,24 +167,31 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   title: {
+    color: "#499096",
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
   },
   subtitle: {
     fontSize: 20,
-    marginTop: 8,
+    // marginTop: 8,
     marginBottom: 8,
+    color: "#499096",
   },
   image: {
     width: "100%",
     height: 100,
   },
   mealCard: {
+    backgroundColor: "white",
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 8,
     padding: 10,
     marginBottom: 16,
+  },
+  calories: {
+    fontWeight: "bold",
+    marginBottom: 15,
   },
 });
