@@ -34,18 +34,25 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
   });
   const [editingField, setEditingField] = useState<string | null>(null);
   const [fieldValue, setFieldValue] = useState("");
+  const [calorieIntake, setCalorieIntake] = useState<number>(0);
+
 
   useEffect(() => {
     fetchUserData();
-  }, [userData]);
+  }, []);
 
   const fetchUserData = async () => {
     const storedData = await SecureStore.getItemAsync("userProfile");
-
+  
     if (storedData) {
       const storedUserData = JSON.parse(storedData);
-      storedUserData.calorieIntake = calculateCalorieIntake(storedUserData);
+      const calculatedCalorieIntake = calculateCalorieIntake(storedUserData);
+      if (calculatedCalorieIntake !== storedUserData.calorieIntake) {
+        storedUserData.calorieIntake = calculatedCalorieIntake;
+        await SecureStore.setItemAsync("userProfile", JSON.stringify(storedUserData));
+      }
       setUserData(storedUserData);
+      setCalorieIntake(calculatedCalorieIntake);
       setPreferences(storedUserData.preferences);
     }
   };
@@ -118,7 +125,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
     <View style={styles.container}>
       <Text style={styles.title}>My Profile</Text>
       <Text style={styles.calories}>Recommended Daily Calories</Text>
-      <Text style={styles.calories}>{userData.calorieIntake}</Text>
+      <Text style={styles.calories}>{calorieIntake}</Text>
       <Text>Age: {userData.age}</Text>
 
       <Text>Weight (kg): {userData.weight}</Text>

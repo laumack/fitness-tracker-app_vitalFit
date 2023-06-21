@@ -43,7 +43,7 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
   
   useEffect(() => {
     fetchUserData();
-  }, [userData]);
+  }, []);
   
   const fetchUserData = async () => {
     const storedData = await SecureStore.getItemAsync("userProfile");
