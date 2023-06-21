@@ -161,12 +161,14 @@ const styles = StyleSheet.create({
     marginTop: 10,
     color: "#499096",
     marginLeft: 5,
+    alignSelf: "center",
   },
   button: {
     alignItems: "center",
     backgroundColor: "#499096",
     padding: 10,
     marginTop: 10,
+    marginBottom: 10,
     borderRadius: 5,
   },
   buttonText: {
@@ -179,7 +181,15 @@ const styles = StyleSheet.create({
     marginLeft: 5,
   },
   exerciseBox: {
-    paddingBottom: 20,
+    paddingTop: 10,
+    paddingBottom: 10,
+    marginBottom: 20,
+    backgroundColor: "white",
+    borderRadius: 10,
+    shadowColor: "#171717",
+    shadowOffset: { width: 4, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
   },
   exerciseTitle: {
     color: "#499096",
@@ -198,10 +208,12 @@ const styles = StyleSheet.create({
     paddingRight: 15,
     paddingLeft: 15,
     paddingBottom: 3,
+    fontWeight: "bold",
   },
   exerciseTime: {
     paddingRight: 15,
     paddingLeft: 15,
     paddingBottom: 3,
+    fontWeight: "bold",
   },
 });
