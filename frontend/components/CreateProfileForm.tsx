@@ -9,6 +9,18 @@ import {
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
+import calculateCalorieIntake from "./CalorieCalculation";
+
+interface UserData {
+  weight: number | null;
+  height: number | null;
+  gender: string;
+  age: number | null;
+  activityLevel: string | null;
+  goal: string | null;
+  preferences: Preferences;
+  calorieIntake?: number;
+}
 
 interface Preferences {
   vegetarian: boolean;
@@ -24,10 +36,10 @@ interface Props {
 }
 
 const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
-  const [weight, setWeight] = useState("");
-  const [height, setHeight] = useState("");
+  const [weight, setWeight] = useState(null);
+  const [height, setHeight] = useState(null);
   const [gender, setGender] = useState("Male");
-  const [age, setAge] = useState("");
+  const [age, setAge] = useState(null);
   const [activityLevel, setActivityLevel] = useState<string | null>("Low");
   const [goal, setGoal] = useState<string | null>("Weight Loss");
   const [preferences, setPreferences] = useState<Preferences>({
@@ -44,7 +56,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
   };
 
   const handleSubmit = async () => {
-    const userData = {
+    const userData: UserData = {
       weight,
       height,
       gender,
@@ -54,12 +66,16 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       preferences,
     };
 
+    userData.calorieIntake = calculateCalorieIntake(userData);
+
+    console.log(userData);
+
     await SecureStore.setItemAsync("userProfile", JSON.stringify(userData));
 
-    setWeight("");
-    setHeight("");
+    setWeight(null);
+    setHeight(null);
     setGender("Male");
-    setAge("");
+    setAge(null);
     setActivityLevel("Low");
     setGoal("Weight Loss");
     setPreferences({
@@ -186,7 +202,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     marginTop: 20,
-    marginBottom: 30
+    marginBottom: 30,
   },
 });
 

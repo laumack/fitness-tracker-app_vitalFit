@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Switch,
-  Button,
-} from "react-native";
+import { StyleSheet, Text, View, Switch, Button } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
+import calculateCalorieIntake from "./CalorieCalculation";
 
 interface UserData {
   [key: string]: any;
+  calorieIntake?: number;
 }
 
 interface Preferences {
@@ -41,13 +37,14 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
 
   useEffect(() => {
     fetchUserData();
-  }, []);
+  }, [userData]);
 
   const fetchUserData = async () => {
     const storedData = await SecureStore.getItemAsync("userProfile");
 
     if (storedData) {
       const storedUserData = JSON.parse(storedData);
+      storedUserData.calorieIntake = calculateCalorieIntake(storedUserData);
       setUserData(storedUserData);
       setPreferences(storedUserData.preferences);
     }
@@ -58,6 +55,16 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       ...userData,
       [key]: value,
     };
+
+    if (
+      key === "weight" ||
+      key === "height" ||
+      key === "activityLevel" ||
+      key === "age" ||
+      key === "gender"
+    ) {
+      updatedUserData.calorieIntake = calculateCalorieIntake(updatedUserData);
+    }
 
     await SecureStore.setItemAsync(
       "userProfile",
@@ -110,6 +117,8 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>My Profile</Text>
+      <Text style={styles.calories}>Recommended Daily Calories</Text>
+      <Text style={styles.calories}>{userData.calorieIntake}</Text>
       <Text>Age: {userData.age}</Text>
 
       <Text>Weight (kg): {userData.weight}</Text>
@@ -262,6 +271,9 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
+  },
+  calories: {
+    fontSize: 16,
   },
 });
 

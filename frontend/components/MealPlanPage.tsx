@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  ScrollView,
+  TouchableOpacity,
+} from "react-native";
 import { fetchMealPlan } from "../apis/api";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import * as SecureStore from "expo-secure-store";
 
 type Meal = {
   title: string;
@@ -24,11 +30,30 @@ type WeeklyPlan = Record<string, DailyPlan>;
 type MealPlanPageProps = {
   navigation: any;
 };
+interface UserData {
+  [key: string]: any;
+  calorieIntake?: number;
+}
 
 const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
+  const [userData, setUserData] = useState<UserData>({});
   const [mealData, setMealData] = useState<WeeklyPlan>({});
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
+  
+  useEffect(() => {
+    fetchUserData();
+  }, [userData]);
+  
+  const fetchUserData = async () => {
+    const storedData = await SecureStore.getItemAsync("userProfile");
+    if (storedData) {
+      const storedUserData = JSON.parse(storedData);
+      setUserData(storedUserData);
+    }
+  };
+
+  // console.log(userData);
   let calorieRequirement: number = 1600; // data from CALCULATION RESULTS (using user inputs)
 
   useEffect(() => {
@@ -74,7 +99,8 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
             </TouchableOpacity>
           ))}
           <Text>
-            Total Calories for the day: {Math.round(mealData[day].nutrients.calories)} kcal
+            Total Calories for the day:{" "}
+            {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
         </View>
       ))}
