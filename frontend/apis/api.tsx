@@ -13,7 +13,7 @@ export const fetchExercises = () => {
     .catch((err: Error) => console.log(err));
 };
 
-export const fetchMealPlan = (calorieRequirement: number) => {
+export const fetchMealPlan = (calorieRequirement: string) => {
   return fitnessApi
     .get(`/meal-plan/${calorieRequirement}`)
     .then((res: AxiosResponse) => {
