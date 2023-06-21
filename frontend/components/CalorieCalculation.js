@@ -26,7 +26,6 @@ function calculateCalorieIntake(userData) {
     ageMultiplier * age;
 
   const calorieIntake = Math.round(bmr * getActivityLevel(activityLevel) - 500);
-  console.log('calorieIntake: ', calorieIntake);
 
   return calorieIntake;
 }
