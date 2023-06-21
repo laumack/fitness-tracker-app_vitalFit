@@ -3,11 +3,19 @@ import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { fetchExercises } from "../apis/api";
 
 interface Exercise {
+  name: string;
+  description: string;
   category: string;
+  exercises: Array<{
+    sets: number;
+    name: string;
+    description: string;
+    repetitions: number;
+  }>;
 }
 
 const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
-  const [exercises, setExercises] = useState<Exercise[]>([]);
+  const [routines, setRoutines] = useState<Exercise[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [showDifficultyButtons, setShowDifficultyButtons] =
     useState<boolean>(true);
@@ -15,7 +23,6 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
     null
   );
   const [selectedWorkout, setSelectedWorkout] = useState<string | null>(null);
-  const [workoutClicked, setWorkoutClicked] = useState<boolean>(false);
 
   const difficulties: string[] = ["Beginner", "Intermediate", "Advanced"];
   const workouts: string[] = [
@@ -26,8 +33,8 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
   ];
 
   useEffect(() => {
-    fetchExercises().then((exercises) => {
-      setExercises(exercises);
+    fetchExercises().then((data) => {
+      setRoutines(data);
       setIsLoading(false);
     });
   }, []);
@@ -37,66 +44,74 @@ const ExercisePlan: React.FC<{ navigation: any }> = ({ navigation }) => {
     setShowDifficultyButtons(false);
   };
 
-  let routines = exercises.exercises;
-
-  const handleWorkout = (workout: string) => {
-    setWorkoutClicked(true);
+  const handleWorkout = (workout: string): void => {
     setSelectedWorkout(workout);
+  };
+
+  const handleBack = (): void => {
+    setSelectedWorkout(null);
+    setShowDifficultyButtons(true);
   };
 
   if (isLoading) return <Text>Loading...</Text>;
 
-  if (workoutClicked === true)
-    return (
-      <>
-        {routines.map((obj) => {
-          if (obj.name === `${selectedDifficulty} ${selectedWorkout}`) {
-            <Text key={obj.name}>{obj.name}</Text>;
-            let arr = obj.exercises;
-            console.log(arr);
+  let content;
 
-            // arr.map((e) => {
-            //   console.log(e.name);
-            //   return (
-            //     <View style={styles.container}>
-            //       <Text key={e.name}>{e.name}</Text>
-            //     </View>
-            //   );
-            // });
-          }
-        })}
-      </>
+  if (showDifficultyButtons) {
+    content = difficulties.map((difficulty) => (
+      <TouchableOpacity
+        key={difficulty}
+        style={styles.button}
+        onPress={() => handleDifficulty(difficulty)}
+      >
+        <Text style={styles.buttonText}>{difficulty}</Text>
+      </TouchableOpacity>
+    ));
+  } else if (!selectedWorkout) {
+    content = workouts.map((workout) => (
+      <TouchableOpacity
+        key={workout}
+        style={styles.button}
+        onPress={() => handleWorkout(workout)}
+      >
+        <Text
+          style={styles.buttonText}
+        >{`${selectedDifficulty} ${workout}`}</Text>
+      </TouchableOpacity>
+    ));
+  } else {
+    const workout = routines.exercises.find(
+      (exercise) =>
+        exercise.category.toLowerCase() === selectedDifficulty.toLowerCase() &&
+        exercise.name.includes(selectedWorkout)
     );
 
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Exercise Plan page</Text>
+    content = workout ? (
       <View>
-        {showDifficultyButtons
-          ? difficulties.map((difficulty) => (
-              <TouchableOpacity
-                key={difficulty}
-                style={styles.button}
-                onPress={() => handleDifficulty(difficulty)}
-              >
-                <Text style={styles.buttonText}>{difficulty}</Text>
-              </TouchableOpacity>
-            ))
-          : workouts.map((workout) => (
-              <TouchableOpacity
-                key={workout}
-                style={styles.button}
-                onPress={() => handleWorkout(workout)}
-              >
-                <Text
-                  style={styles.buttonText}
-                >{`${selectedDifficulty} ${workout}`}</Text>
-              </TouchableOpacity>
-            ))}
-        {/* (workoutClicked && (<h1> hello </h1>)) */}
+        <Text style={styles.title}>{workout.name}</Text>
+        <Text>{workout.description}</Text>
+        {workout.exercises.map((exercise, index) => (
+          <View key={index}>
+            <Text>{exercise.name}</Text>
+            <Text>{exercise.description}</Text>
+            <Text>Sets: {exercise.sets}</Text>
+            <Text>
+              {exercise.repetitions
+                ? `Repetitions: ${exercise.repetitions}`
+                : `Duration: ${exercise.duration_in_seconds}s`}
+            </Text>
+          </View>
+        ))}
+        <TouchableOpacity style={styles.button} onPress={handleBack}>
+          <Text style={styles.buttonText}>Back to routines</Text>
+        </TouchableOpacity>
       </View>
-    </View>
-  );
+    ) : (
+      <Text>No workout found</Text>
+    );
+  }
+
+  return <View style={styles.container}>{content}</View>;
 };
 
 export default ExercisePlan;
