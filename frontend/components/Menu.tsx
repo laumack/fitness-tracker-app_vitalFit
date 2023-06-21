@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 20,
+    fontWeight: "bold",
     color: "#f9f3d0",
     alignSelf: "center",
     padding: 10,

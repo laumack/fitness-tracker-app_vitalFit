@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  TouchableOpacity,
+  SafeAreaView,
+  ScrollView,
+} from "react-native";
 import { fetchExercises } from "../apis/api";
 
 interface Exercise {
@@ -85,7 +92,9 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
             style={styles.button}
             onPress={() => handleWorkout(workout)}
           >
-            <Text style={styles.buttonText}>{`${selectedDifficulty} ${workout}`}</Text>
+            <Text
+              style={styles.buttonText}
+            >{`${selectedDifficulty} ${workout}`}</Text>
           </TouchableOpacity>
         ))}
       </>
@@ -99,26 +108,32 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
 
     if (workout) {
       content = (
-        <View>
-          <Text style={styles.title}>{workout.name}</Text>
-          <Text>{workout.description}</Text>
-          {workout.exercises.map((exercise, index) => (
-            <View key={index}>
-              <Text>{exercise.name}</Text>
-              <Text>{exercise.description}</Text>
-              <Text>Sets: {exercise.sets}</Text>
-              {exercise.repetitions !== undefined && (
-                <Text>Repetitions: {exercise.repetitions}</Text>
-              )}
-              {exercise.duration_in_seconds !== undefined && (
-                <Text>Duration: {exercise.duration_in_seconds}s</Text>
-              )}
-            </View>
-          ))}
-          <TouchableOpacity style={styles.button} onPress={handleBack}>
-            <Text style={styles.buttonText}>Back to routines</Text>
-          </TouchableOpacity>
-        </View>
+        <SafeAreaView style={styles.container}>
+          <ScrollView style={styles.scrollView}>
+            <Text style={styles.title}>{workout.name}</Text>
+            <Text style={styles.description}>{workout.description}</Text>
+            {workout.exercises.map((exercise, index) => (
+              <View style={styles.exerciseBox} key={index}>
+                <Text style={styles.exerciseTitle}>{exercise.name}</Text>
+                <Text style={styles.exerciseDesc}>{exercise.description}</Text>
+                <Text style={styles.exerciseSet}>Sets: {exercise.sets}</Text>
+                {exercise.repetitions !== undefined && (
+                  <Text style={styles.exerciseTime}>
+                    Repetitions: {exercise.repetitions}
+                  </Text>
+                )}
+                {exercise.duration_in_seconds !== undefined && (
+                  <Text style={styles.exerciseTime}>
+                    Duration: {exercise.duration_in_seconds}s
+                  </Text>
+                )}
+              </View>
+            ))}
+            <TouchableOpacity style={styles.button} onPress={handleBack}>
+              <Text style={styles.buttonText}>Back to routines</Text>
+            </TouchableOpacity>
+          </ScrollView>
+        </SafeAreaView>
       );
     } else {
       content = <Text>No workout found</Text>;
@@ -136,19 +151,57 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  scrollView: {
+    marginHorizontal: 10,
+  },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
   },
   button: {
     alignItems: "center",
-    backgroundColor: "#DDDDDD",
+    backgroundColor: "#499096",
     padding: 10,
     marginTop: 10,
     borderRadius: 5,
   },
   buttonText: {
     fontSize: 20,
+    color: "#f9f3d0",
+    fontWeight: "bold",
+  },
+  description: {
+    paddingBottom: 20,
+    marginLeft: 5,
+  },
+  exerciseBox: {
+    paddingBottom: 20,
+  },
+  exerciseTitle: {
+    color: "#499096",
+    fontSize: 16,
+    fontWeight: "bold",
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 3,
+  },
+  exerciseDesc: {
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 3,
+  },
+  exerciseSet: {
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 3,
+  },
+  exerciseTime: {
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 3,
   },
 });
