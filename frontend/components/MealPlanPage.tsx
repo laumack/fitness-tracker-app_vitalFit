@@ -6,6 +6,7 @@ import {
   ScrollView,
   Image,
   TouchableOpacity,
+  ActivityIndicator,
 } from "react-native";
 import { fetchMealPlan, fetchRecipe } from "../apis/api";
 import * as SecureStore from "expo-secure-store";
@@ -106,8 +107,6 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     navigation.navigate("RecipeDetails", { mealId: id });
   };
 
-  if (isLoading) return <Text>Loading...</Text>;
-
   const daysOfWeek = [
     "monday",
     "tuesday",
@@ -118,6 +117,12 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     "sunday",
   ];
   const mealLabels = ["Breakfast", "Lunch", "Dinner"];
+
+  if (isLoading) {
+    return (
+      <ActivityIndicator size="large" color="#499096" style={styles.spinner} />
+    );
+  }
 
   return (
     <ScrollView style={styles.container}>
@@ -188,5 +193,10 @@ const styles = StyleSheet.create({
   calories: {
     fontWeight: "bold",
     marginBottom: 15,
+  },
+  spinner: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
