@@ -98,7 +98,6 @@ const CreateProfileForm = ({ navigation }) => {
         <Text style={styles.radioLabel}>Gain Weight</Text>
       </View>
       <Button title="Submit" onPress={handleSubmit} />
-      <Button title="Go back" onPress={() => navigation.goBack()} />
     </View>
   );
 };
