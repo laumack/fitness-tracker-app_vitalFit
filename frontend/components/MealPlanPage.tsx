@@ -40,11 +40,10 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
   const [mealData, setMealData] = useState<WeeklyPlan>({});
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  
   useEffect(() => {
     fetchUserData();
   }, []);
-  
+
   const fetchUserData = async () => {
     const storedData = await SecureStore.getItemAsync("userProfile");
     if (storedData) {
@@ -56,21 +55,24 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
   const roundToNearestValidCalories = (calorieIntake: number): number => {
     const validCalories = [1200, 1600, 2000, 2500];
     return validCalories.reduce((prev, curr) =>
-      Math.abs(curr - calorieIntake) < Math.abs(prev - calorieIntake) ? curr : prev
+      Math.abs(curr - calorieIntake) < Math.abs(prev - calorieIntake)
+        ? curr
+        : prev
     );
   };
 
   useEffect(() => {
     const fetchMealPlanData = async () => {
-      let calorieRequirement: number = roundToNearestValidCalories(userData.calorieIntake || 0);
+      let calorieRequirement: number = roundToNearestValidCalories(
+        userData.calorieIntake || 0
+      );
       const data: WeeklyPlan = await fetchMealPlan(calorieRequirement);
       setMealData(data);
       setIsLoading(false);
     };
-  
+
     fetchMealPlanData();
   }, [userData]);
-  
 
   const handleMealPress = (id: number) => {
     navigation.navigate("RecipeDetails", { mealId: id });
@@ -107,7 +109,7 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
               </View>
             </TouchableOpacity>
           ))}
-          <Text>
+          <Text style={styles.calories}>
             Total Calories for the day:{" "}
             {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
@@ -125,20 +127,27 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   title: {
+    color: "#499096",
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
   },
   subtitle: {
     fontSize: 20,
-    marginTop: 8,
+    // marginTop: 8,
     marginBottom: 8,
+    color: "#499096",
   },
   mealCard: {
+    backgroundColor: "white",
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 8,
     padding: 10,
     marginBottom: 16,
+  },
+  calories: {
+    fontWeight: "bold",
+    marginBottom: 15,
   },
 });
