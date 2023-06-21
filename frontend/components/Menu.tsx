@@ -1,7 +1,11 @@
 import React from "react";
 import { StyleSheet, View, Text, Button } from "react-native";
 
-const Menu = ({ navigation }) => {
+interface Props {
+  navigation: any;
+}
+
+const Menu: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Menu</Text>
@@ -29,9 +33,7 @@ const Menu = ({ navigation }) => {
           onPress={() => navigation.navigate("ProgressPage")}
         />
       </View>
-
     </View>
-    
   );
 };
 

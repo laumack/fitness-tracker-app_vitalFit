@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, Image } from "react-native";
 
-const ProgressPage = ({ navigation }) => {
+const ProgressPage: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>User progress page</Text>

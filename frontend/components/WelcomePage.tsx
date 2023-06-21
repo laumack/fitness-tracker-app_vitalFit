@@ -1,15 +1,27 @@
 import React, { useEffect } from "react";
-import { StyleSheet, Text, View, Image, Button, Animated } from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 import logo from "../assets/vitalFit_logo.png";
+import * as SecureStore from 'expo-secure-store';
 
-const WelcomePage = ({ navigation }) => {
+interface Props {
+  navigation: any;
+}
 
+const WelcomePage: React.FC<Props> = ({ navigation }) => {
   useEffect(() => {
-    const timer = setTimeout(() => {
-      navigation.navigate("CreateProfileForm");
-    }, 5000);
-
-    return () => clearTimeout(timer);
+    const checkForProfile = async () => {
+      const userProfile = await SecureStore.getItemAsync("userProfile");
+      if (userProfile !== null) {
+        navigation.navigate("Menu");
+      } else {
+        const timer = setTimeout(() => {
+          navigation.navigate("CreateProfileForm");
+        }, 5000);
+        return () => clearTimeout(timer);
+      }
+    };
+  
+    checkForProfile();
   }, []);
 
   return (
@@ -18,8 +30,6 @@ const WelcomePage = ({ navigation }) => {
     </View>
   );
 };
-
-export default WelcomePage;
 
 const styles = StyleSheet.create({
   container: {
@@ -37,3 +47,5 @@ const styles = StyleSheet.create({
     borderColor: "rgba(249, 243, 208, 0.72)",
   },
 });
+
+export default WelcomePage;
