@@ -60,6 +60,8 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     if (storedData) {
       const storedUserData = JSON.parse(storedData);
       setUserData(storedUserData);
+
+      fetchMealPlanData(storedUserData);
     }
   };
 
@@ -72,39 +74,33 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     );
   };
 
-  useEffect(() => {
-    const fetchMealPlanData = async () => {
-      let calorieRequirement: number = roundToNearestValidCalories(
-        userData.calorieIntake || 0
-      );
+  const fetchMealPlanData = async (userData: UserData) => {
+    let calorieRequirement: number = roundToNearestValidCalories(
+      userData.calorieIntake || 0
+    );
 
+    let calorieString: string = `${calorieRequirement}`;
 
-      let calorieString: string = `${calorieRequirement}`;
+    if (userData.preferences && userData.preferences.vegan) {
+      calorieString += "_vegan";
+    }
 
-      if (userData.preferences && userData.preferences.vegan) {
-        calorieString += "_vegan";
-      }
+    const data: WeeklyPlan = await fetchMealPlan(calorieString);
 
-      const data: WeeklyPlan = await fetchMealPlan(calorieString);
-
-      for (const day in data) {
-        for (const meal of data[day].meals) {
-          const mealDetails = await fetchRecipe(meal.id);
-          if (mealDetails && mealDetails.meal) {
-            meal.image = mealDetails.meal.image;
-          } else {
-            console.log(`Failed to fetch details for meal with id ${meal.id}`);
-          }
+    for (const day in data) {
+      for (const meal of data[day].meals) {
+        const mealDetails = await fetchRecipe(meal.id);
+        if (mealDetails && mealDetails.meal) {
+          meal.image = mealDetails.meal.image;
+        } else {
+          console.log(`Failed to fetch details for meal with id ${meal.id}`);
         }
       }
+    }
 
-
-      setMealData(data);
-      setIsLoading(false);
-    };
-
-    fetchMealPlanData();
-  }, [userData]);
+    setMealData(data);
+    setIsLoading(false);
+  };
 
   const handleMealPress = (id: number) => {
     navigation.navigate("RecipeDetails", { mealId: id });
@@ -152,7 +148,6 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
             Total Calories for the day:{" "}
             {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
-
         </View>
       ))}
     </ScrollView>
