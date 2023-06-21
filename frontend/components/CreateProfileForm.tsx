@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     marginTop: 20,
-    marginBottom: 30
+    marginBottom: 30,
   },
 });
 
