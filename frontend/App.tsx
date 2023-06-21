@@ -8,6 +8,8 @@ import MealPlanPage from "./components/MealPlanPage";
 import Menu from "./components/Menu";
 import ProgressPage from "./components/ProgressPage";
 import ExercisePlan from "./components/ExercisePlan";
+import MealCard from './components/MealCard'
+import ShowRecipe from './components/MealCardRSteps'
 
 const Stack = createStackNavigator();
 
@@ -28,6 +30,7 @@ export default function App() {
         <Stack.Screen name="Menu" component={Menu} />
         <Stack.Screen name="ExercisePlan" component={ExercisePlan} />
         <Stack.Screen name="ProgressPage" component={ProgressPage} />
+        
       </Stack.Navigator>
     </NavigationContainer>
   );

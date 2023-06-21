@@ -23,4 +23,14 @@ export const fetchMealPlan = (calorieRequirement) => {
     .catch((err) => console.log(err));
 };
 
+export const fetchRecipe = (id) => {
+  return fitnessApi
+    .get(`/recipe/${id}`)
+    .then((res) => {
+      console.log(res.data);
+      return res.data;
+    })
+    .catch((err) => console.log(err));
+};
+
 export default fetchMealPlan;
