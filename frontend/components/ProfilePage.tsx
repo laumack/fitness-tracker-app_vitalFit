@@ -81,6 +81,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       key === "gender"
     ) {
       updatedUserData.calorieIntake = calculateCalorieIntake(updatedUserData);
+      setCalorieIntake(updatedUserData.calorieIntake); 
     }
 
     await SecureStore.setItemAsync(

@@ -15,7 +15,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
           style={styles.menuButton}
           onPress={() => navigation.navigate("ProfilePage")}
         >
-          <Text style={styles.buttonText}>my Profile</Text>
+          <Text style={styles.buttonText}>My Profile</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.menuItem}>
