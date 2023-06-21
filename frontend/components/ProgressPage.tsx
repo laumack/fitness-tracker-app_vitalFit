@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, View, Image } from "react-native";
+import bmiChart from "../assets/bmi-chart.png"
 
 const ProgressPage: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>User progress page</Text>
+      <Image source={bmiChart} style={styles.bmi} />
     </View>
   );
 };
@@ -21,5 +22,11 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
+  },
+  bmi: {
+    width: 380,
+    height: 300,
+    marginBottom: 32,
+    borderRadius: 30,
   }
 });

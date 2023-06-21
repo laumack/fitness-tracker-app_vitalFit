@@ -8,18 +8,17 @@ interface Props {
 const Menu: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Menu</Text>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.button}
           onPress={() => navigation.navigate("ProfilePage")}
         >
-          <Text style={styles.buttonText}>my Profile</Text>
+          <Text style={styles.buttonText}>My Profile</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.button}
           onPress={() => navigation.navigate("MealPlanPage")}
         >
           <Text style={styles.buttonText}>My Meal Plan</Text>
@@ -27,7 +26,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.button}
           onPress={() => navigation.navigate("ExercisePlan")}
         >
           <Text style={styles.buttonText}>My Exercise Plan</Text>
@@ -35,7 +34,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.button}
           onPress={() => navigation.navigate("ProgressPage")}
         >
           <Text style={styles.buttonText}>Check My Progress</Text>
@@ -51,15 +50,10 @@ const styles = StyleSheet.create({
     padding: 16,
     alignItems: "center",
     justifyContent: "center",
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 16,
-    color: "#499096",
+    marginTop: 50,
   },
   menuItem: { flex: 2 },
-  test: {
+  button: {
     backgroundColor: "#499096",
     width: 300,
     height: 50,

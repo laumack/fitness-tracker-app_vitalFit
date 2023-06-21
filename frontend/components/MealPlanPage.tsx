@@ -129,7 +129,7 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
         <View key={day}>
           <Text style={styles.title}>{day.toUpperCase()}</Text>
           <Text>
-            Total Calories: {Math.round(mealData[day].nutrients.calories)} kcal
+            Your daily target: {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
           {mealData[day].meals.map((meal, index) => (
             <TouchableOpacity
@@ -149,8 +149,8 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
           ))}
 
           <Text style={styles.calories}>
-            Total Calories for the day:{" "}
-            {Math.round(mealData[day].nutrients.calories)} kcal
+            Total calories for this meal plan:{" "}
+            {(mealData[day].nutrients.calories)} kcal
           </Text>
 
         </View>
