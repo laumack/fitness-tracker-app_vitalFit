@@ -35,7 +35,20 @@ export default function App() {
             headerShown: false,
           }}
         />
-        <Stack.Screen name="CreateProfileForm" component={CreateProfileForm} />
+        <Stack.Screen
+          name="CreateProfileForm"
+          component={CreateProfileForm}
+          options={{
+            title: "My Details",
+          }}
+        />
+        <Stack.Screen
+          name="Menu"
+          component={Menu}
+          options={{
+            title: "Dashboard",
+          }}
+        />
         <Stack.Screen
           name="ProfilePage"
           component={ProfilePage}
@@ -51,10 +64,10 @@ export default function App() {
           }}
         />
         <Stack.Screen
-          name="Menu"
-          component={Menu}
+          name="RecipeDetails"
+          component={RecipeDetails}
           options={{
-            title: "Dashboard",
+            title: "Recipes",
           }}
         />
         <Stack.Screen
@@ -72,13 +85,6 @@ export default function App() {
           }}
         />
         <Stack.Screen name="MealPlan" component={MealPlanPage} />
-        <Stack.Screen
-          name="RecipeDetails"
-          component={RecipeDetails}
-          options={{
-            title: "Recipes",
-          }}
-        />
       </Stack.Navigator>
     </NavigationContainer>
   );
