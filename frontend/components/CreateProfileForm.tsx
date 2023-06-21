@@ -1,104 +1,158 @@
 import React, { useState } from "react";
-import { StyleSheet, View, Text, TextInput, Button } from "react-native";
-import { RadioButton } from "react-native-paper";
+import {
+  StyleSheet,
+  ScrollView,
+  View,
+  Text,
+  Button,
+  Switch,
+} from "react-native";
+import { Picker } from "@react-native-picker/picker";
+import * as SecureStore from "expo-secure-store";
 
-const CreateProfileForm = ({ navigation }) => {
+interface Preferences {
+  vegetarian: boolean;
+  vegan: boolean;
+  glutenFree: boolean;
+  nutFree: boolean;
+}
+
+interface Props {
+  navigation: any;
+}
+
+const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
   const [gender, setGender] = useState("");
   const [age, setAge] = useState("");
-  const [activityLevel, setActivityLevel] = useState("0");
-  const [goal, setGoal] = useState("lose weight");
+  const [activityLevel, setActivityLevel] = useState<string | null>(null);
+  const [goal, setGoal] = useState<string | null>(null);
+  const [preferences, setPreferences] = useState<Preferences>({
+    vegetarian: false,
+    vegan: false,
+    glutenFree: false,
+    nutFree: false,
+  });
 
-  const handleSubmit = () => {
-    console.log("Weight:", weight);
-    console.log("Height:", height);
-    console.log("Gender:", gender);
-    console.log("Age:", age);
-    console.log("Activity Level:", activityLevel);
-    console.log("Goal:", goal);
+  const toggleSwitch = (preference: keyof Preferences) => {
+    setPreferences({ ...preferences, [preference]: !preferences[preference] });
+  };
+
+  const handleSubmit = async () => {
+    const userData = {
+      weight,
+      height,
+      gender,
+      age,
+      activityLevel,
+      goal,
+      preferences,
+    };
+
+    await SecureStore.setItemAsync("userProfile", JSON.stringify(userData));
 
     setWeight("");
     setHeight("");
     setGender("");
     setAge("");
-    setActivityLevel("0");
-    setGoal("lose weight");
+    setActivityLevel(null);
+    setGoal(null);
+    setPreferences({
+      vegetarian: false,
+      vegan: false,
+      glutenFree: false,
+      nutFree: false,
+    });
+
     navigation.navigate("Menu");
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Text style={styles.title}>Welcome to Fitness Tracker!</Text>
       <Text style={styles.label}>Weight (kg)</Text>
-      <TextInput
-        style={styles.input}
-        value={weight}
-        onChangeText={setWeight}
-        placeholder="Enter your weight"
-        keyboardType="numeric"
-      />
+      <Picker
+        selectedValue={weight}
+        onValueChange={(itemValue) => setWeight(itemValue)}
+      >
+        {[...Array(251)].map((_, i) => (
+          <Picker.Item key={i} label={`${i + 50}`} value={`${i + 50}`} />
+        ))}
+      </Picker>
+
       <Text style={styles.label}>Height (cm)</Text>
-      <TextInput
-        style={styles.input}
-        value={height}
-        onChangeText={setHeight}
-        placeholder="Enter your height"
-        keyboardType="numeric"
-      />
+      <Picker
+        selectedValue={height}
+        onValueChange={(itemValue) => setHeight(itemValue)}
+      >
+        {[...Array(181)].map((_, i) => (
+          <Picker.Item key={i} label={`${i + 120}`} value={`${i + 120}`} />
+        ))}
+      </Picker>
       <Text style={styles.label}>Gender</Text>
-      <TextInput
-        style={styles.input}
-        value={gender}
-        onChangeText={setGender}
-        placeholder="Enter your gender"
-      />
+      <Picker
+        selectedValue={gender}
+        onValueChange={(itemValue) => setGender(itemValue)}
+      >
+        <Picker.Item label="Male" value="male" />
+        <Picker.Item label="Female" value="female" />
+      </Picker>
       <Text style={styles.label}>Age</Text>
-      <TextInput
-        style={styles.input}
-        value={age}
-        onChangeText={setAge}
-        placeholder="Enter your age"
-        keyboardType="numeric"
-      />
+      <Picker
+        selectedValue={age}
+        onValueChange={(itemValue) => setAge(itemValue)}
+      >
+        {[...Array(53)].map((_, i) => (
+          <Picker.Item key={i} label={`${i + 13}`} value={`${i + 13}`} />
+        ))}
+      </Picker>
       <Text style={styles.label}>Activity Level</Text>
-      <View style={styles.radioContainer}>
-        <RadioButton
-          value="0"
-          status={activityLevel === "0" ? "checked" : "unchecked"}
-          onPress={() => setActivityLevel("0")}
-        />
-        <Text style={styles.radioLabel}>0</Text>
-        <RadioButton
-          value="1"
-          status={activityLevel === "1" ? "checked" : "unchecked"}
-          onPress={() => setActivityLevel("1")}
-        />
-        <Text style={styles.radioLabel}>1</Text>
-        <RadioButton
-          value="2"
-          status={activityLevel === "2" ? "checked" : "unchecked"}
-          onPress={() => setActivityLevel("2")}
-        />
-        <Text style={styles.radioLabel}>2</Text>
-      </View>
+      <Picker
+        selectedValue={activityLevel}
+        onValueChange={(itemValue) => setActivityLevel(itemValue)}
+      >
+        <Picker.Item label="Low" value="low" />
+        <Picker.Item label="Moderate" value="moderate" />
+        <Picker.Item label="Intense" value="intense" />
+      </Picker>
       <Text style={styles.label}>Goal</Text>
-      <View style={styles.radioContainer}>
-        <RadioButton
-          value="lose weight"
-          status={goal === "lose weight" ? "checked" : "unchecked"}
-          onPress={() => setGoal("lose weight")}
-        />
-        <Text style={styles.radioLabel}>Lose Weight</Text>
-        <RadioButton
-          value="gain weight"
-          status={goal === "gain weight" ? "checked" : "unchecked"}
-          onPress={() => setGoal("gain weight")}
-        />
-        <Text style={styles.radioLabel}>Gain Weight</Text>
+      <Picker
+        selectedValue={goal}
+        onValueChange={(itemValue) => setGoal(itemValue)}
+      >
+        <Picker.Item label="Weight Loss" value="weight_loss" />
+        <Picker.Item label="Bulk Up" value="bulk_up" />
+      </Picker>
+      <Text style={styles.label}>Preferences</Text>
+
+      <Text>Vegetarian</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("vegetarian")}
+        value={preferences.vegetarian}
+      />
+
+      <Text>Vegan</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("vegan")}
+        value={preferences.vegan}
+      />
+
+      <Text>Gluten Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("glutenFree")}
+        value={preferences.glutenFree}
+      />
+
+      <Text>Nut Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("nutFree")}
+        value={preferences.nutFree}
+      />
+      <View style={styles.buttonContainer}>
+        <Button title="Submit" onPress={handleSubmit} />
       </View>
-      <Button title="Submit" onPress={handleSubmit} />
-    </View>
+    </ScrollView>
   );
 };
 
@@ -106,6 +160,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    paddingBottom: 50,
   },
   title: {
     fontSize: 24,
@@ -116,21 +171,9 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginBottom: 8,
   },
-  input: {
-    height: 40,
-    borderColor: "gray",
-    borderWidth: 1,
-    marginBottom: 16,
-    paddingHorizontal: 8,
-  },
-  radioContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 16,
-  },
-  radioLabel: {
-    marginLeft: 8,
-    marginRight: 16,
+  buttonContainer: {
+    marginTop: 20,
+    marginBottom: 30
   },
 });
 
