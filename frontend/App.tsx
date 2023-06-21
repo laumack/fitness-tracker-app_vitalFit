@@ -5,6 +5,7 @@ import WelcomePage from "./components/WelcomePage";
 import CreateProfileForm from "./components/CreateProfileForm";
 import ProfilePage from "./components/ProfilePage";
 import MealPlanPage from "./components/MealPlanPage";
+import RecipeDetails from './components/RecipeDetails';
 import Menu from "./components/Menu";
 import ProgressPage from "./components/ProgressPage";
 import ExercisePlan from "./components/ExercisePlan";
@@ -28,8 +29,9 @@ export default function App() {
         <Stack.Screen name="Menu" component={Menu} />
         <Stack.Screen name="ExercisePlan" component={ExercisePlan} />
         <Stack.Screen name="ProgressPage" component={ProgressPage} />
+        <Stack.Screen name="MealPlan" component={MealPlanPage} />
+        <Stack.Screen name="RecipeDetails" component={RecipeDetails} />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
-

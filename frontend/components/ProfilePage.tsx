@@ -112,7 +112,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Text style={styles.title}>My Profile</Text>
       <Text>Age: {userData.age}</Text>
 
-      <Text>Weight: {userData.weight}</Text>
+      <Text>Weight (kg): {userData.weight}</Text>
       {!editingField && (
         <Button
           title="Update Weight"
@@ -140,7 +140,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
         </View>
       )}
 
-      <Text>Height: {userData.height}</Text>
+      <Text>Height (cm): {userData.height}</Text>
       {!editingField && (
         <Button
           title="Update Height"
