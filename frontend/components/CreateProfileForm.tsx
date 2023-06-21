@@ -15,6 +15,8 @@ interface Preferences {
   vegan: boolean;
   glutenFree: boolean;
   nutFree: boolean;
+  dairyFree: boolean;
+  shellfish: boolean;
 }
 
 interface Props {
@@ -24,15 +26,17 @@ interface Props {
 const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
   const [weight, setWeight] = useState("");
   const [height, setHeight] = useState("");
-  const [gender, setGender] = useState("");
+  const [gender, setGender] = useState("Male");
   const [age, setAge] = useState("");
-  const [activityLevel, setActivityLevel] = useState<string | null>(null);
-  const [goal, setGoal] = useState<string | null>(null);
+  const [activityLevel, setActivityLevel] = useState<string | null>("Low");
+  const [goal, setGoal] = useState<string | null>("Weight Loss");
   const [preferences, setPreferences] = useState<Preferences>({
     vegetarian: false,
     vegan: false,
     glutenFree: false,
     nutFree: false,
+    dairyFree: false,
+    shellfish: false,
   });
 
   const toggleSwitch = (preference: keyof Preferences) => {
@@ -54,15 +58,17 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
     setWeight("");
     setHeight("");
-    setGender("");
+    setGender("Male");
     setAge("");
-    setActivityLevel(null);
-    setGoal(null);
+    setActivityLevel("Low");
+    setGoal("Weight Loss");
     setPreferences({
       vegetarian: false,
       vegan: false,
       glutenFree: false,
       nutFree: false,
+      dairyFree: false,
+      shellfish: false,
     });
 
     navigation.navigate("Menu");
@@ -70,7 +76,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Welcome to Fitness Tracker!</Text>
+      <Text style={styles.title}>VitalFit Details</Text>
       <Text style={styles.label}>Weight (kg)</Text>
       <Picker
         selectedValue={weight}
@@ -95,8 +101,8 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
         selectedValue={gender}
         onValueChange={(itemValue) => setGender(itemValue)}
       >
-        <Picker.Item label="Male" value="male" />
-        <Picker.Item label="Female" value="female" />
+        <Picker.Item label="Male" value="Male" />
+        <Picker.Item label="Female" value="Female" />
       </Picker>
       <Text style={styles.label}>Age</Text>
       <Picker
@@ -112,17 +118,17 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
         selectedValue={activityLevel}
         onValueChange={(itemValue) => setActivityLevel(itemValue)}
       >
-        <Picker.Item label="Low" value="low" />
-        <Picker.Item label="Moderate" value="moderate" />
-        <Picker.Item label="Intense" value="intense" />
+        <Picker.Item label="Low" value="Low" />
+        <Picker.Item label="Moderate" value="Moderate" />
+        <Picker.Item label="Intense" value="Intense" />
       </Picker>
       <Text style={styles.label}>Goal</Text>
       <Picker
         selectedValue={goal}
         onValueChange={(itemValue) => setGoal(itemValue)}
       >
-        <Picker.Item label="Weight Loss" value="weight_loss" />
-        <Picker.Item label="Bulk Up" value="bulk_up" />
+        <Picker.Item label="Weight Loss" value="Weight Loss" />
+        <Picker.Item label="Bulk Up" value="Bulk Up" />
       </Picker>
       <Text style={styles.label}>Preferences</Text>
 
@@ -131,23 +137,30 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
         onValueChange={() => toggleSwitch("vegetarian")}
         value={preferences.vegetarian}
       />
-
       <Text>Vegan</Text>
       <Switch
         onValueChange={() => toggleSwitch("vegan")}
         value={preferences.vegan}
       />
-
       <Text>Gluten Free</Text>
       <Switch
         onValueChange={() => toggleSwitch("glutenFree")}
         value={preferences.glutenFree}
       />
-
       <Text>Nut Free</Text>
       <Switch
         onValueChange={() => toggleSwitch("nutFree")}
         value={preferences.nutFree}
+      />
+      <Text>Dairy Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("dairyFree")}
+        value={preferences.dairyFree}
+      />
+      <Text>Shellfish Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("shellfish")}
+        value={preferences.shellfish}
       />
       <View style={styles.buttonContainer}>
         <Button title="Submit" onPress={handleSubmit} />

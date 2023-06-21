@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, Switch, Button, TextInput } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Switch,
+  Button,
+} from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
 
@@ -12,6 +18,8 @@ interface Preferences {
   vegan: boolean;
   glutenFree: boolean;
   nutFree: boolean;
+  dairyFree: boolean;
+  shellfish: boolean;
 }
 
 interface Props {
@@ -25,6 +33,8 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
     vegan: false,
     glutenFree: false,
     nutFree: false,
+    dairyFree: false,
+    shellfish: false,
   });
   const [editingField, setEditingField] = useState<string | null>(null);
   const [fieldValue, setFieldValue] = useState("");
@@ -73,6 +83,8 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       vegan: false,
       glutenFree: false,
       nutFree: false,
+      dairyFree: false,
+      shellfish: false,
     });
     navigation.navigate("CreateProfileForm");
   };
@@ -164,7 +176,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           title="Update Activity Level"
           onPress={() => {
             setEditingField("activityLevel");
-            setFieldValue(userData.activityLevel || "low");
+            setFieldValue(userData.activityLevel || "Low");
           }}
         />
       )}
@@ -174,9 +186,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
             selectedValue={fieldValue}
             onValueChange={(value) => setFieldValue(value)}
           >
-            <Picker.Item label="Low" value="low" />
-            <Picker.Item label="Moderate" value="moderate" />
-            <Picker.Item label="Intense" value="intense" />
+            <Picker.Item label="Low" value="Low" />
+            <Picker.Item label="Moderate" value="Moderate" />
+            <Picker.Item label="Intense" value="Intense" />
           </Picker>
           {renderUpdateButton("activityLevel")}
         </View>
@@ -188,7 +200,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           title="Update Goal"
           onPress={() => {
             setEditingField("goal");
-            setFieldValue(userData.goal || "weight_loss");
+            setFieldValue(userData.goal || "Weight Loss");
           }}
         />
       )}
@@ -198,8 +210,8 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
             selectedValue={fieldValue}
             onValueChange={(value) => setFieldValue(value)}
           >
-            <Picker.Item label="Weight Loss" value="weight_loss" />
-            <Picker.Item label="Bulk Up" value="bulk_up" />
+            <Picker.Item label="Weight Loss" value="Weight Loss" />
+            <Picker.Item label="Bulk Up" value="Bulk Up" />
           </Picker>
           {renderUpdateButton("goal")}
         </View>
@@ -225,6 +237,16 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Switch
         onValueChange={() => toggleSwitch("nutFree")}
         value={preferences.nutFree}
+      />
+      <Text>Dairy Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("dairyFree")}
+        value={preferences.dairyFree}
+      />
+      <Text>Shellfish Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("shellfish")}
+        value={preferences.shellfish}
       />
       <Button title="Clear User Data" onPress={clearUserData} />
     </View>
