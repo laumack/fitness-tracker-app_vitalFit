@@ -67,9 +67,6 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
     };
 
     userData.calorieIntake = calculateCalorieIntake(userData);
-
-    console.log(userData);
-
     await SecureStore.setItemAsync("userProfile", JSON.stringify(userData));
 
     setWeight(null);

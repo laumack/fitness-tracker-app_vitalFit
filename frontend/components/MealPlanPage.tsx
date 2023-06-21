@@ -53,15 +53,24 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     }
   };
 
-  // console.log(userData);
-  let calorieRequirement: number = 1600; // data from CALCULATION RESULTS (using user inputs)
+  const roundToNearestValidCalories = (calorieIntake: number): number => {
+    const validCalories = [1200, 1600, 2000, 2500];
+    return validCalories.reduce((prev, curr) =>
+      Math.abs(curr - calorieIntake) < Math.abs(prev - calorieIntake) ? curr : prev
+    );
+  };
 
   useEffect(() => {
-    fetchMealPlan(calorieRequirement).then((data: WeeklyPlan) => {
+    const fetchMealPlanData = async () => {
+      let calorieRequirement: number = roundToNearestValidCalories(userData.calorieIntake || 0);
+      const data: WeeklyPlan = await fetchMealPlan(calorieRequirement);
       setMealData(data);
       setIsLoading(false);
-    });
-  }, []);
+    };
+  
+    fetchMealPlanData();
+  }, [userData]);
+  
 
   const handleMealPress = (id: number) => {
     navigation.navigate("RecipeDetails", { mealId: id });
