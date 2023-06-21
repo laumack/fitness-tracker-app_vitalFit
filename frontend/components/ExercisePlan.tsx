@@ -147,7 +147,7 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
         style={styles.backButton}
         onPress={() => navigation.navigate("Menu")}
       >
-        <Text style={styles.backButtonText}>Go Back</Text>
+        <Text style={styles.backButtonText}>Go Home</Text>
       </TouchableOpacity>
     </View>
   );
