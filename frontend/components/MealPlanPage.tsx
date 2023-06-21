@@ -126,6 +126,14 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container}>
+      <View style={styles.menuItem}>
+        <TouchableOpacity
+          style={styles.backToMenu}
+          onPress={() => navigation.navigate("Menu")}
+        >
+          <Text style={styles.buttonText}>my Profile</Text>
+        </TouchableOpacity>
+      </View>
       {daysOfWeek.map((day) => (
         <View key={day}>
           <Text style={styles.title}>{day.toUpperCase()}</Text>
@@ -165,6 +173,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    marginTop: 50,
+    marginBottom: 50,
   },
   title: {
     color: "#499096",
@@ -198,5 +208,22 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+  },
+  menuItem: {
+    flex: 2,
+  },
+  backToMenu: {
+    backgroundColor: "#499096",
+    width: 300,
+    height: 50,
+    borderRadius: 10,
+    justifyContent: "center",
+  },
+  buttonText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    padding: 10,
   },
 });

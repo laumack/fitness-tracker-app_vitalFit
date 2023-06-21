@@ -91,7 +91,7 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
         <Text>{mealDetails.sourceUrl}</Text>
       </View>
       <TouchableOpacity style={styles.button} onPress={handleBack}>
-        <Text style={styles.buttonText}>Back to meal plan</Text>
+        <Text style={styles.buttonText}>Go Back</Text>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -108,9 +108,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: "bold",
+    marginTop: 50,
     marginBottom: 16,
   },
-
+  
   text: {
     textAlign: "center",
   },
@@ -122,7 +123,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#DDDDDD",
     padding: 10,
-    marginTop: 10,
+    marginTop: 30,
+    marginBottom: 50,
     borderRadius: 5,
   },
   buttonText: {

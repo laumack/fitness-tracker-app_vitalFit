@@ -1,5 +1,6 @@
 import React from "react";
-import { StyleSheet, View, Text, Button, TouchableOpacity } from "react-native";
+import logo from "../assets/vitalFit_logo.png";
+import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
 
 interface Props {
   navigation: any;
@@ -8,10 +9,10 @@ interface Props {
 const Menu: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Menu</Text>
+      <Image source={logo} style={styles.logo} />
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.menuButton}
           onPress={() => navigation.navigate("ProfilePage")}
         >
           <Text style={styles.buttonText}>my Profile</Text>
@@ -19,7 +20,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.menuButton}
           onPress={() => navigation.navigate("MealPlanPage")}
         >
           <Text style={styles.buttonText}>My Meal Plan</Text>
@@ -27,7 +28,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.menuButton}
           onPress={() => navigation.navigate("ExercisePlan")}
         >
           <Text style={styles.buttonText}>My Exercise Plan</Text>
@@ -35,7 +36,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       </View>
       <View style={styles.menuItem}>
         <TouchableOpacity
-          style={styles.test}
+          style={styles.menuButton}
           onPress={() => navigation.navigate("ProgressPage")}
         >
           <Text style={styles.buttonText}>Check My Progress</Text>
@@ -51,6 +52,7 @@ const styles = StyleSheet.create({
     padding: 16,
     alignItems: "center",
     justifyContent: "center",
+    marginTop: 50,
   },
   title: {
     fontSize: 24,
@@ -58,8 +60,10 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     color: "#499096",
   },
-  menuItem: { flex: 2 },
-  test: {
+  menuItem: {
+    marginBottom: 50,
+  },
+  menuButton: {
     backgroundColor: "#499096",
     width: 300,
     height: 50,
@@ -71,6 +75,14 @@ const styles = StyleSheet.create({
     color: "#f9f3d0",
     alignSelf: "center",
     padding: 10,
+  },
+  logo: {
+    width: 200,
+    height: 200,
+    marginBottom: 80,
+    borderRadius: 150,
+    borderWidth: 2,
+    borderColor: "rgba(249, 243, 208, 0.72)",
   },
 });
 
