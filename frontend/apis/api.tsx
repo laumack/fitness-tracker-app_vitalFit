@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, { AxiosResponse } from "axios";
 
 const fitnessApi = axios.create({
   baseURL: "https://fitness-backend-p0d5.onrender.com/api",
@@ -7,30 +7,28 @@ const fitnessApi = axios.create({
 export const fetchExercises = () => {
   return fitnessApi
     .get("/exercises")
-    .then((res) => {
+    .then((res: AxiosResponse) => {
       return res.data;
     })
-    .catch((err) => console.log(err));
+    .catch((err: Error) => console.log(err));
 };
 
-export const fetchMealPlan = (calorieRequirement) => {
+export const fetchMealPlan = (calorieRequirement: number) => {
   return fitnessApi
     .get(`/meal-plan/${calorieRequirement}`)
-    .then((res) => {
-      //console.log(res.data.meal.week);
+    .then((res: AxiosResponse) => {
       return res.data.meal.week;
     })
-    .catch((err) => console.log(err));
+    .catch((err: Error) => console.log(err));
 };
 
-export const fetchRecipe = (id) => {
+export const fetchRecipe = (id: number) => {
   return fitnessApi
     .get(`/recipe/${id}`)
-    .then((res) => {
-      console.log(res.data);
+    .then((res: AxiosResponse) => {
       return res.data;
     })
-    .catch((err) => console.log(err));
+    .catch((err: Error) => console.log(err));
 };
 
 export default fetchMealPlan;
