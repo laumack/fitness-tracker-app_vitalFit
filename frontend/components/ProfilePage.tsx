@@ -358,6 +358,8 @@ const styles = StyleSheet.create({
   caloriesBox: {
     paddingTop: 20,
     paddingBottom: 10,
+    justifyContent: "center",
+    textAlign: "center",
     marginBottom: 20,
     backgroundColor: "white",
     borderWidth: 1,
@@ -382,12 +384,12 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
   },
   subheading: {
-      fontSize: 20,
-      fontWeight: "bold",
-      marginBottom: 16,
-      marginTop: 10,
-      color: "#499096",
-      marginLeft: 5,
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 16,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
   },
   button: {
     backgroundColor: "#499096",
