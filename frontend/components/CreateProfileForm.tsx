@@ -143,38 +143,52 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
         <Picker.Item label="Weight Loss" value="Weight Loss" />
         <Picker.Item label="Bulk Up" value="Bulk Up" />
       </Picker>
-      <Text style={styles.label}>Preferences</Text>
-
-      <Text>Vegetarian</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("vegetarian")}
-        value={preferences.vegetarian}
-      />
-      <Text>Vegan</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("vegan")}
-        value={preferences.vegan}
-      />
-      <Text>Gluten Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("glutenFree")}
-        value={preferences.glutenFree}
-      />
-      <Text>Nut Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("nutFree")}
-        value={preferences.nutFree}
-      />
-      <Text>Dairy Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("dairyFree")}
-        value={preferences.dairyFree}
-      />
-      <Text>Shellfish Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("shellfish")}
-        value={preferences.shellfish}
-      />
+      <View style={styles.grid}>
+        <View style={styles.gridRow}>
+          <Text>Vegetarian</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("vegetarian")}
+            value={preferences.vegetarian}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Vegan</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("vegan")}
+            value={preferences.vegan}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Gluten Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("glutenFree")}
+            value={preferences.glutenFree}
+          />
+        </View>
+      </View>
+      <View style={styles.grid}>
+        <View style={styles.gridRow}>
+          <Text>Nut Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("nutFree")}
+            value={preferences.nutFree}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Dairy Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("dairyFree")}
+            value={preferences.dairyFree}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Shellfish Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("shellfish")}
+            value={preferences.shellfish}
+          />
+        </View>
+      </View>
       <View style={styles.buttonContainer}>
         <Button title="Submit" onPress={handleSubmit} />
       </View>
@@ -187,6 +201,8 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     paddingBottom: 50,
+    marginTop: 50,
+    MarginBottom: 50,
   },
   title: {
     fontSize: 24,
@@ -198,8 +214,17 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   buttonContainer: {
-    marginTop: 20,
-    marginBottom: 30,
+    marginTop: 40,
+    marginBottom: 60,
+  },
+  grid: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop: 30,
+  },
+  gridRow: {
+    width: "30%",
+    alignItems: "center",
   },
 });
 
