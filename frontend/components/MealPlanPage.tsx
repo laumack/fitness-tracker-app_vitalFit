@@ -131,15 +131,14 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
           style={styles.backToMenu}
           onPress={() => navigation.navigate("Menu")}
         >
-          <Text style={styles.buttonText}>my Profile</Text>
+          <Text style={styles.buttonText}>Home</Text>
         </TouchableOpacity>
       </View>
       {daysOfWeek.map((day) => (
         <View key={day}>
           <Text style={styles.title}>{day.toUpperCase()}</Text>
           <Text style={styles.calories}>
-            Total Calories:{" "}
-            {Math.round(mealData[day].nutrients.calories)} kcal
+            Total Calories: {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
           {mealData[day].meals.map((meal, index) => (
             <TouchableOpacity
@@ -207,6 +206,9 @@ const styles = StyleSheet.create({
   },
   menuItem: {
     flex: 2,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 20,
   },
   backToMenu: {
     backgroundColor: "#499096",
@@ -214,6 +216,7 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 10,
     justifyContent: "center",
+    alignSelf: "center",
   },
   buttonText: {
     fontSize: 20,
