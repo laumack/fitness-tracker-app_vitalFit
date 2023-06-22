@@ -82,7 +82,7 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
 
     let calorieString: string = `${calorieRequirement}`;
 
-    if (userData.preferences && userData.preferences.vegan) {
+    if (userData.preferences && userData.preferences.vegan || userData.preferences && userData.preferences.vegetarian) {
       calorieString += "_vegan";
     }
 
