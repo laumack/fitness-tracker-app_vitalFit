@@ -81,7 +81,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       key === "gender"
     ) {
       updatedUserData.calorieIntake = calculateCalorieIntake(updatedUserData);
-      setCalorieIntake(updatedUserData.calorieIntake); 
+      setCalorieIntake(updatedUserData.calorieIntake);
     }
 
     await SecureStore.setItemAsync(
@@ -261,58 +261,6 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           {renderUpdateButton("goal")}
         </View>
       )}
-
-
-      <Text>Preferences: </Text>
-      <Text>Vegetarian</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("vegetarian")}
-        value={preferences.vegetarian}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Text>Vegan</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("vegan")}
-        value={preferences.vegan}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Text>Gluten Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("glutenFree")}
-        value={preferences.glutenFree}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Text>Nut Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("nutFree")}
-        value={preferences.nutFree}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Text>Dairy Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("dairyFree")}
-        value={preferences.dairyFree}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Text>Shellfish Free</Text>
-      <Switch
-        onValueChange={() => toggleSwitch("shellfish")}
-        value={preferences.shellfish}
-        ios_backgroundColor="#f9f3d0"
-        thumbColor="#fcfbf5"
-        trackColor={{ true: "#499096" }}
-      />
-      <Button title="Clear User Data" onPress={clearUserData} />
       <View style={styles.grid}>
         <View style={styles.gridRow}>
           <Text>Vegetarian</Text>
@@ -415,7 +363,7 @@ const styles = StyleSheet.create({
   grid: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 30
+    marginTop: 30,
   },
   gridRow: {
     width: "30%",

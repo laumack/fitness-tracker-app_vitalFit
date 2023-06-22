@@ -1,7 +1,6 @@
 import React from "react";
-import { StyleSheet, View, Image } from "react-native";
+import { StyleSheet, Image, Text, View, TouchableOpacity } from "react-native";
 import bmiChart from "../assets/bmi-chart.png"
-import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
 
 interface Props {
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
     height: 300,
     marginBottom: 32,
     borderRadius: 30,
-  }
+  },
   button: {
     alignItems: "center",
     backgroundColor: "#499096",
