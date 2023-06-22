@@ -89,7 +89,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>VitalFit Details</Text>
+      <Text style={styles.title}>Your details</Text>
       <Text style={styles.label}>Weight (kg)</Text>
       <Picker
         selectedValue={weight}
