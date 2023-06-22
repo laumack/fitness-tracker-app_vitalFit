@@ -10,13 +10,13 @@ interface Props {
 const ProgressPage: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>My progress</Text>
       <Image source={bmiChart} style={styles.bmi} />
-      <Text style={styles.title}>User progress page</Text>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate("Menu")}
       >
-        <Text style={styles.buttonText}>Go to Menu</Text>
+        <Text style={styles.buttonText}>Home</Text>
       </TouchableOpacity>
     </View>
   );
@@ -47,11 +47,15 @@ const styles = StyleSheet.create({
     padding: 10,
     marginTop: 10,
     marginBottom: 10,
-    borderRadius: 5,
+    width: 300,
+    height: 50,
+    borderRadius: 10,
   },
   buttonText: {
     fontSize: 20,
-    color: "#f9f3d0",
     fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    justifyContent: "flex-end"
   },
 });
