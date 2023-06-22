@@ -155,7 +155,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
+      <ScrollView>
         <View style={styles.container}>
           <View style={styles.caloriesBox}>
             <Text style={styles.caloriesText}>
