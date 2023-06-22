@@ -15,6 +15,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
+
       <Stack.Navigator screenOptions={{ gestureEnabled: true }}>
         <Stack.Screen
           name="Welcome"

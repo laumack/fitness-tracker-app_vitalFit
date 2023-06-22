@@ -1,5 +1,8 @@
 import React from "react";
+import { StyleSheet, View, Image } from "react-native";
+import bmiChart from "../assets/bmi-chart.png"
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+
 
 interface Props {
   navigation: any;
@@ -8,6 +11,7 @@ interface Props {
 const ProgressPage: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.container}>
+      <Image source={bmiChart} style={styles.bmi} />
       <Text style={styles.title}>User progress page</Text>
       <TouchableOpacity
         style={styles.button}
@@ -32,6 +36,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
   },
+  bmi: {
+    width: 380,
+    height: 300,
+    marginBottom: 32,
+    borderRadius: 30,
+  }
   button: {
     alignItems: "center",
     backgroundColor: "#499096",

@@ -13,6 +13,7 @@ const Menu: React.FC<Props> = ({ navigation }) => {
       <View style={styles.menuItem}>
         <TouchableOpacity
           style={styles.menuButton}
+
           onPress={() => navigation.navigate("ProfilePage")}
         >
           <Text style={styles.buttonText}>My Profile</Text>
@@ -53,6 +54,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     marginTop: 50,
+
   },
   title: {
     fontSize: 24,

@@ -153,8 +153,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>My Profile</Text>
-      <Text style={styles.calories}>Recommended Daily Calories</Text>
+      <Text style={styles.calories}>Recommended Daily Calories:</Text>
       <Text style={styles.calories}>{calorieIntake}</Text>
       <Text>Age: {userData.age}</Text>
 
@@ -263,6 +262,57 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
         </View>
       )}
 
+
+      <Text>Preferences: </Text>
+      <Text>Vegetarian</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("vegetarian")}
+        value={preferences.vegetarian}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Text>Vegan</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("vegan")}
+        value={preferences.vegan}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Text>Gluten Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("glutenFree")}
+        value={preferences.glutenFree}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Text>Nut Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("nutFree")}
+        value={preferences.nutFree}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Text>Dairy Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("dairyFree")}
+        value={preferences.dairyFree}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Text>Shellfish Free</Text>
+      <Switch
+        onValueChange={() => toggleSwitch("shellfish")}
+        value={preferences.shellfish}
+        ios_backgroundColor="#f9f3d0"
+        thumbColor="#fcfbf5"
+        trackColor={{ true: "#499096" }}
+      />
+      <Button title="Clear User Data" onPress={clearUserData} />
       <View style={styles.grid}>
         <View style={styles.gridRow}>
           <Text>Vegetarian</Text>
@@ -327,11 +377,11 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginBottom: 50,
   },
-  title: {
-    fontSize: 24,
-    fontWeight: "bold",
-    marginBottom: 16,
-  },
+  // title: {
+  //   fontSize: 24,
+  //   fontWeight: "bold",
+  //   marginBottom: 16,
+  // },
   calories: {
     fontSize: 16,
   },
