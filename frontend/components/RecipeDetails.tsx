@@ -102,7 +102,7 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
         </View>
       </View>
       <TouchableOpacity style={styles.button} onPress={handleBack}>
-        <Text style={styles.buttonText}>Go Back</Text>
+        <Text style={styles.buttonText}>Go back</Text>
       </TouchableOpacity>
     </ScrollView>
   );
@@ -113,7 +113,7 @@ export default RecipeDetails;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 20,
+    marginTop: 40,
   },
   title: {
     fontSize: 24,
@@ -144,13 +144,18 @@ const styles = StyleSheet.create({
   },
   button: {
     alignItems: "center",
-    backgroundColor: "#DDDDDD",
+    backgroundColor: "#499096",
     padding: 10,
     marginTop: 10,
     marginBottom: 10,
+    width: 300,
+    height: 50,
     borderRadius: 5,
+    alignSelf: "center",
   },
   buttonText: {
     fontSize: 20,
+    color: "#f9f3d0",
+    fontWeight: "bold",
   },
 });
