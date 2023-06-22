@@ -173,14 +173,16 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "#499096",
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: "bold",
     marginBottom: 16,
+    marginTop: 8,
+    paddingLeft: 2,
   },
   subtitle: {
     fontSize: 20,
-    // marginTop: 8,
-    marginBottom: 8,
+    marginTop: 6,
+    marginBottom: 6,
     color: "#499096",
   },
   image: {
@@ -198,6 +200,7 @@ const styles = StyleSheet.create({
   calories: {
     fontWeight: "bold",
     marginBottom: 15,
+    paddingLeft: 2,
   },
   spinner: {
     flex: 1,
