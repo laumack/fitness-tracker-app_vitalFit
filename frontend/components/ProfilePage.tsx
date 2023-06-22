@@ -314,7 +314,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={handleBack}>
-        <Text style={styles.buttonText}>Return to Menu</Text>
+        <Text style={styles.buttonText}>Home</Text>
       </TouchableOpacity>
     </View>
   );
