@@ -92,6 +92,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       <Text style={styles.title}>About me</Text>
       <Text style={styles.label}>Weight (kg)</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={weight}
         onValueChange={(itemValue) => setWeight(itemValue)}
       >
@@ -102,6 +103,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
       <Text style={styles.label}>Height (cm)</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={height}
         onValueChange={(itemValue) => setHeight(itemValue)}
       >
@@ -111,6 +113,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Gender</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={gender}
         onValueChange={(itemValue) => setGender(itemValue)}
       >
@@ -119,6 +122,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Age</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={age}
         onValueChange={(itemValue) => setAge(itemValue)}
       >
@@ -128,6 +132,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Activity Level</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={activityLevel}
         onValueChange={(itemValue) => setActivityLevel(itemValue)}
       >
@@ -137,6 +142,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Goal</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={goal}
         onValueChange={(itemValue) => setGoal(itemValue)}
       >
