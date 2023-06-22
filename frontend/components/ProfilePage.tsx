@@ -153,8 +153,10 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.calories}>Recommended Daily Calories:</Text>
-      <Text style={styles.calories}>{calorieIntake}</Text>
+      <View style={styles.caloriesBox}>
+      <Text style={styles.caloriesText}>My recommended daily calories:</Text>
+      <Text style={styles.caloriesNum}>{calorieIntake}</Text>
+      </View>
       <Text>Age: {userData.age}</Text>
 
       <Text>Weight (kg): {userData.weight}</Text>
@@ -343,8 +345,31 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginBottom: 50,
   },
-  calories: {
-    fontSize: 16,
+  caloriesBox: {
+    paddingTop: 10,
+    paddingBottom: 10,
+    marginBottom: 20,
+    backgroundColor: "white",
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
+  },
+  caloriesText: {
+    color: "#499096",
+    fontSize: 20,
+    fontWeight: "bold",
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 10,
+  },
+  caloriesNum: {
+    fontSize: 30,
+    fontWeight: "bold",
+    textAlign: "center",
+    paddingBottom: 5,
+    color: "#499096",
+    paddingRight: 15,
+    paddingLeft: 15,
   },
   button: {
     backgroundColor: "#499096",
