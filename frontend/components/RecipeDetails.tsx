@@ -82,14 +82,18 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
         <View style={styles.mealIntro}>
           <Text style={styles.dietTitle}>Dietary Information:</Text>
           {mealDetails.diets.map((diet, index) => (
-            <Text key={index}>{diet}</Text>
+            <Text key={index}>
+              {diet.charAt(0).toUpperCase() + diet.slice(1)}
+            </Text>
           ))}
         </View>
 
         {mealDetails.analyzedInstructions[0].steps.map((step: Step) => (
           <View style={styles.mealIntro} key={step.number}>
             <Text style={styles.stepTitle}>Step {step.number}</Text>
-            <Text>{step.step.charAt(0).toUpperCase() + step.step.slice(1)}</Text>
+            <Text>
+              {step.step.charAt(0).toUpperCase() + step.step.slice(1)}
+            </Text>
           </View>
         ))}
         <View style={styles.mealIntro}>
