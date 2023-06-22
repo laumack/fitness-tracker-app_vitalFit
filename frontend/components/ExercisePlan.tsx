@@ -141,8 +141,8 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
   }
 
   return (
-    <View style={styles.container}>
-      {content}
+    <View style={styles.outerContainer}>
+      <View style={styles.container}>{content}</View>
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.navigate("Menu")}
@@ -190,15 +190,19 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#DDDDDD",
     padding: 10,
-    marginTop: 10,
-    marginBottom: 10,
+    marginBottom: 50,
     borderRadius: 5,
+    width: "100%",
   },
   backButtonText: {
     color: "black",
     fontSize: 20,
     fontWeight: "bold",
     textAlign: "center",
+  },
+  outerContainer: {
+    flex: 1,
+    justifyContent: "space-between",
   },
   description: {
     paddingBottom: 20,
