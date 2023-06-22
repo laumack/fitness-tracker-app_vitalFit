@@ -160,7 +160,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Text>Weight (kg): {userData.weight}</Text>
       {!editingField && (
         <Button
-          title="Update Weight"
+          title="Update weight"
           onPress={() => {
             setEditingField("weight");
             setFieldValue(userData.weight || "50");
@@ -188,7 +188,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Text>Height (cm): {userData.height}</Text>
       {!editingField && (
         <Button
-          title="Update Height"
+          title="Update height"
           onPress={() => {
             setEditingField("height");
             setFieldValue(userData.height || "120");
@@ -218,7 +218,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Text>Activity Level: {userData.activityLevel}</Text>
       {!editingField && (
         <Button
-          title="Update Activity Level"
+          title="Update activity level"
           onPress={() => {
             setEditingField("activityLevel");
             setFieldValue(userData.activityLevel || "Low");
@@ -242,7 +242,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       <Text>Goal: {userData.goal}</Text>
       {!editingField && (
         <Button
-          title="Update Goal"
+          title="Update goal"
           onPress={() => {
             setEditingField("goal");
             setFieldValue(userData.goal || "Weight Loss");
@@ -267,6 +267,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("vegetarian")}
             value={preferences.vegetarian}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -274,6 +277,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("vegan")}
             value={preferences.vegan}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -281,6 +287,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("glutenFree")}
             value={preferences.glutenFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
       </View>
@@ -290,6 +299,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("nutFree")}
             value={preferences.nutFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -297,6 +309,9 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("dairyFree")}
             value={preferences.dairyFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -304,11 +319,14 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("shellfish")}
             value={preferences.shellfish}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
       </View>
       <TouchableOpacity style={styles.clearButton} onPress={clearUserData}>
-        <Text style={styles.clearText}>Clear User Data</Text>
+        <Text style={styles.clearText}>Clear my data</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={handleBack}>
@@ -349,11 +367,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   clearButton: {
-    backgroundColor: "#FF0000",
+    backgroundColor: "#e05353",
+    alignSelf: "center",
+    width: 300,
+    height: 50,
     padding: 10,
-    marginTop: 30,
+    marginTop: 40,
     marginBottom: 40,
-    borderRadius: 5,
+    borderRadius: 10,
   },
   grid: {
     flexDirection: "row",
