@@ -190,8 +190,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#DDDDDD",
     padding: 10,
-    marginTop: 60,
-    marginBottom: 50,
+    marginTop: 10,
+    marginBottom: 10,
     borderRadius: 5,
   },
   backButtonText: {

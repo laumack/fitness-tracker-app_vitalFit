@@ -64,31 +64,38 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
   };
 
   return (
-    <ScrollView>
+    <ScrollView style={styles.container}>
       <View>
         <Text style={styles.title}>{mealDetails.title}</Text>
         <Image style={styles.image} source={{ uri: mealDetails.image }} />
-        <Text>Ready in: {mealDetails.readyInMinutes} minutes</Text>
-        <Text>Servings: {mealDetails.servings}</Text>
-        {mealDetails.nutrition.nutrients.map((nutrient, index) => (
-          <Text key={index}>
-            {nutrient.name}: {Math.round(nutrient.amount)} {nutrient.unit} per
-            serving
-          </Text>
-        ))}
-        <Text>Dietary Information:</Text>
-        {mealDetails.diets.map((diet, index) => (
-          <Text key={index}>{diet}</Text>
-        ))}
+        <View style={styles.mealIntro}>
+          <Text>Ready in: {mealDetails.readyInMinutes} minutes</Text>
+          <Text>Servings: {mealDetails.servings}</Text>
+          {mealDetails.nutrition.nutrients.map((nutrient, index) => (
+            <Text key={index}>
+              {nutrient.name}: {Math.round(nutrient.amount)} {nutrient.unit} per
+              serving
+            </Text>
+          ))}
+        </View>
+
+        <View style={styles.mealIntro}>
+          <Text style={styles.dietTitle}>Dietary Information:</Text>
+          {mealDetails.diets.map((diet, index) => (
+            <Text key={index}>{diet}</Text>
+          ))}
+        </View>
 
         {mealDetails.analyzedInstructions[0].steps.map((step: Step) => (
-          <View key={step.number}>
-            <Text>Step {step.number}</Text>
+          <View style={styles.mealIntro} key={step.number}>
+            <Text style={styles.stepTitle}>Step {step.number}</Text>
             <Text>{step.step}</Text>
           </View>
         ))}
-        <Text>Source:</Text>
-        <Text>{mealDetails.sourceUrl}</Text>
+        <View style={styles.mealIntro}>
+          <Text style={styles.stepTitle}>Source:</Text>
+          <Text>{mealDetails.sourceUrl}</Text>
+        </View>
       </View>
       <TouchableOpacity style={styles.button} onPress={handleBack}>
         <Text style={styles.buttonText}>Go Back</Text>
@@ -102,16 +109,28 @@ export default RecipeDetails;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
+    marginTop: 20,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginTop: 50,
+    marginTop: 10,
     marginBottom: 16,
+    color: "#499096",
+    marginLeft: 5,
   },
-  
+  mealIntro: {
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 10,
+  },
+  dietTitle: {
+    fontWeight: "bold",
+  },
+  stepTitle: {
+    fontWeight: "bold",
+    color: "#499096",
+  },
   text: {
     textAlign: "center",
   },
@@ -123,8 +142,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#DDDDDD",
     padding: 10,
-    marginTop: 30,
-    marginBottom: 50,
+    marginTop: 10,
+    marginBottom: 10,
     borderRadius: 5,
   },
   buttonText: {
