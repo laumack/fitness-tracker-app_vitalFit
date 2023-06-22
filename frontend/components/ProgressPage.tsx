@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, Image, Text, View, TouchableOpacity } from "react-native";
-import bmiChart from "../assets/bmi-chart.png"
-
+import bmiChart from "../assets/bmi-chart.png";
 
 interface Props {
   navigation: any;
@@ -9,14 +8,18 @@ interface Props {
 
 const ProgressPage: React.FC<Props> = ({ navigation }) => {
   return (
-    <View style={styles.container}>
-      <Image source={bmiChart} style={styles.bmi} />
-      <Text style={styles.title}>User progress page</Text>
+    <View style={styles.outerContainer}>
+      <View style={styles.titleContainer}>
+        <Text style={styles.title}>My progress</Text>
+      </View>
+      <View style={styles.container}>
+        <Image source={bmiChart} style={styles.bmi} />
+      </View>
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate("Menu")}
       >
-        <Text style={styles.buttonText}>Go to Menu</Text>
+        <Text style={styles.buttonText}>Home</Text>
       </TouchableOpacity>
     </View>
   );
@@ -25,6 +28,11 @@ const ProgressPage: React.FC<Props> = ({ navigation }) => {
 export default ProgressPage;
 
 const styles = StyleSheet.create({
+  outerContainer: {
+    flex: 1,
+    justifyContent: "space-between",
+    paddingBottom: 10,
+  },
   container: {
     flex: 1,
     alignItems: "center",
@@ -35,6 +43,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginBottom: 16,
   },
+  titleContainer: {
+    paddingTop: 10,
+    alignSelf: "center",
+    marginTop: 50
+  },
   bmi: {
     width: 380,
     height: 300,
@@ -44,14 +57,19 @@ const styles = StyleSheet.create({
   button: {
     alignItems: "center",
     backgroundColor: "#499096",
+    alignSelf: "center",
     padding: 10,
     marginTop: 10,
-    marginBottom: 10,
-    borderRadius: 5,
+    marginBottom: 40,
+    width: 300,
+    height: 50,
+    borderRadius: 10,
   },
   buttonText: {
     fontSize: 20,
-    color: "#f9f3d0",
     fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    justifyContent: "flex-end",
   },
 });

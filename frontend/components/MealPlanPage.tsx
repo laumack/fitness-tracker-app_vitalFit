@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     marginTop: 50,
-    marginBottom: 50,
+    marginBottom: 10,
   },
   title: {
     color: "#499096",

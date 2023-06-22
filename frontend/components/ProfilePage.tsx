@@ -7,6 +7,8 @@ import {
   Button,
   TouchableOpacity,
   Alert,
+  SafeAreaView,
+  ScrollView,
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
@@ -152,169 +154,197 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
   };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.calories}>Recommended Daily Calories:</Text>
-      <Text style={styles.calories}>{calorieIntake}</Text>
-      <Text>Age: {userData.age}</Text>
+    <SafeAreaView style={styles.container}>
+      <ScrollView>
+        <View style={styles.container}>
+          <View style={styles.caloriesBox}>
+            <Text style={styles.caloriesText}>
+              My recommended daily calories:
+            </Text>
+            <Text style={styles.caloriesNum}>{calorieIntake}</Text>
+          </View>
+          <Text style={styles.subheading}>Age: {userData.age}</Text>
 
-      <Text>Weight (kg): {userData.weight}</Text>
-      {!editingField && (
-        <Button
-          title="Update Weight"
-          onPress={() => {
-            setEditingField("weight");
-            setFieldValue(userData.weight || "50");
-          }}
-        />
-      )}
-      {editingField === "weight" && (
-        <View>
-          <Picker
-            selectedValue={fieldValue}
-            onValueChange={(value) => setFieldValue(value)}
-          >
-            {weightRange.map((value) => (
-              <Picker.Item
-                key={value}
-                label={value.toString()}
-                value={value.toString()}
+          <Text style={styles.subheading}>Weight (kg): {userData.weight}</Text>
+          {!editingField && (
+            <Button
+              title="Update weight"
+              onPress={() => {
+                setEditingField("weight");
+                setFieldValue(userData.weight || "50");
+              }}
+            />
+          )}
+          {editingField === "weight" && (
+            <View>
+              <Picker
+                selectedValue={fieldValue}
+                onValueChange={(value) => setFieldValue(value)}
+              >
+                {weightRange.map((value) => (
+                  <Picker.Item
+                    key={value}
+                    label={value.toString()}
+                    value={value.toString()}
+                  />
+                ))}
+              </Picker>
+              {renderUpdateButton("weight")}
+            </View>
+          )}
+
+          <Text style={styles.subheading}>Height (cm): {userData.height}</Text>
+          {!editingField && (
+            <Button
+              title="Update height"
+              onPress={() => {
+                setEditingField("height");
+                setFieldValue(userData.height || "120");
+              }}
+            />
+          )}
+          {editingField === "height" && (
+            <View>
+              <Picker
+                selectedValue={fieldValue}
+                onValueChange={(value) => setFieldValue(value)}
+              >
+                {heightRange.map((value) => (
+                  <Picker.Item
+                    key={value}
+                    label={value.toString()}
+                    value={value.toString()}
+                  />
+                ))}
+              </Picker>
+              {renderUpdateButton("height")}
+            </View>
+          )}
+
+          <Text style={styles.subheading}>Gender: {userData.gender}</Text>
+
+          <Text style={styles.subheading}>
+            Activity Level: {userData.activityLevel}
+          </Text>
+          {!editingField && (
+            <Button
+              title="Update activity level"
+              onPress={() => {
+                setEditingField("activityLevel");
+                setFieldValue(userData.activityLevel || "Low");
+              }}
+            />
+          )}
+          {editingField === "activityLevel" && (
+            <View>
+              <Picker
+                selectedValue={fieldValue}
+                onValueChange={(value) => setFieldValue(value)}
+              >
+                <Picker.Item label="Low" value="Low" />
+                <Picker.Item label="Moderate" value="Moderate" />
+                <Picker.Item label="Intense" value="Intense" />
+              </Picker>
+              {renderUpdateButton("activityLevel")}
+            </View>
+          )}
+
+          <Text style={styles.subheading}>Goal: {userData.goal}</Text>
+          {!editingField && (
+            <Button
+              title="Update goal"
+              onPress={() => {
+                setEditingField("goal");
+                setFieldValue(userData.goal || "Weight Loss");
+              }}
+            />
+          )}
+          {editingField === "goal" && (
+            <View>
+              <Picker
+                selectedValue={fieldValue}
+                onValueChange={(value) => setFieldValue(value)}
+              >
+                <Picker.Item label="Weight Loss" value="Weight Loss" />
+                <Picker.Item label="Bulk Up" value="Bulk Up" />
+              </Picker>
+              {renderUpdateButton("goal")}
+            </View>
+          )}
+          <View style={styles.grid}>
+            <View style={styles.gridRow}>
+              <Text>Vegetarian</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("vegetarian")}
+                value={preferences.vegetarian}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
               />
-            ))}
-          </Picker>
-          {renderUpdateButton("weight")}
-        </View>
-      )}
-
-      <Text>Height (cm): {userData.height}</Text>
-      {!editingField && (
-        <Button
-          title="Update Height"
-          onPress={() => {
-            setEditingField("height");
-            setFieldValue(userData.height || "120");
-          }}
-        />
-      )}
-      {editingField === "height" && (
-        <View>
-          <Picker
-            selectedValue={fieldValue}
-            onValueChange={(value) => setFieldValue(value)}
-          >
-            {heightRange.map((value) => (
-              <Picker.Item
-                key={value}
-                label={value.toString()}
-                value={value.toString()}
+            </View>
+            <View style={styles.gridRow}>
+              <Text>Vegan</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("vegan")}
+                value={preferences.vegan}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
               />
-            ))}
-          </Picker>
-          {renderUpdateButton("height")}
-        </View>
-      )}
+            </View>
+            <View style={styles.gridRow}>
+              <Text>Gluten Free</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("glutenFree")}
+                value={preferences.glutenFree}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
+              />
+            </View>
+          </View>
+          <View style={styles.grid}>
+            <View style={styles.gridRow}>
+              <Text>Nut Free</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("nutFree")}
+                value={preferences.nutFree}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
+              />
+            </View>
+            <View style={styles.gridRow}>
+              <Text>Dairy Free</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("dairyFree")}
+                value={preferences.dairyFree}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
+              />
+            </View>
+            <View style={styles.gridRow}>
+              <Text>Shellfish Free</Text>
+              <Switch
+                onValueChange={() => toggleSwitch("shellfish")}
+                value={preferences.shellfish}
+                ios_backgroundColor="#f9f3d0"
+                thumbColor="#fcfbf5"
+                trackColor={{ true: "#499096" }}
+              />
+            </View>
+          </View>
+          <TouchableOpacity style={styles.clearButton} onPress={clearUserData}>
+            <Text style={styles.clearText}>Clear my data</Text>
+          </TouchableOpacity>
 
-      <Text>Gender: {userData.gender}</Text>
-
-      <Text>Activity Level: {userData.activityLevel}</Text>
-      {!editingField && (
-        <Button
-          title="Update Activity Level"
-          onPress={() => {
-            setEditingField("activityLevel");
-            setFieldValue(userData.activityLevel || "Low");
-          }}
-        />
-      )}
-      {editingField === "activityLevel" && (
-        <View>
-          <Picker
-            selectedValue={fieldValue}
-            onValueChange={(value) => setFieldValue(value)}
-          >
-            <Picker.Item label="Low" value="Low" />
-            <Picker.Item label="Moderate" value="Moderate" />
-            <Picker.Item label="Intense" value="Intense" />
-          </Picker>
-          {renderUpdateButton("activityLevel")}
+          <TouchableOpacity style={styles.button} onPress={handleBack}>
+            <Text style={styles.buttonText}>Home</Text>
+          </TouchableOpacity>
         </View>
-      )}
-
-      <Text>Goal: {userData.goal}</Text>
-      {!editingField && (
-        <Button
-          title="Update Goal"
-          onPress={() => {
-            setEditingField("goal");
-            setFieldValue(userData.goal || "Weight Loss");
-          }}
-        />
-      )}
-      {editingField === "goal" && (
-        <View>
-          <Picker
-            selectedValue={fieldValue}
-            onValueChange={(value) => setFieldValue(value)}
-          >
-            <Picker.Item label="Weight Loss" value="Weight Loss" />
-            <Picker.Item label="Bulk Up" value="Bulk Up" />
-          </Picker>
-          {renderUpdateButton("goal")}
-        </View>
-      )}
-      <View style={styles.grid}>
-        <View style={styles.gridRow}>
-          <Text>Vegetarian</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("vegetarian")}
-            value={preferences.vegetarian}
-          />
-        </View>
-        <View style={styles.gridRow}>
-          <Text>Vegan</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("vegan")}
-            value={preferences.vegan}
-          />
-        </View>
-        <View style={styles.gridRow}>
-          <Text>Gluten Free</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("glutenFree")}
-            value={preferences.glutenFree}
-          />
-        </View>
-      </View>
-      <View style={styles.grid}>
-        <View style={styles.gridRow}>
-          <Text>Nut Free</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("nutFree")}
-            value={preferences.nutFree}
-          />
-        </View>
-        <View style={styles.gridRow}>
-          <Text>Dairy Free</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("dairyFree")}
-            value={preferences.dairyFree}
-          />
-        </View>
-        <View style={styles.gridRow}>
-          <Text>Shellfish Free</Text>
-          <Switch
-            onValueChange={() => toggleSwitch("shellfish")}
-            value={preferences.shellfish}
-          />
-        </View>
-      </View>
-      <TouchableOpacity style={styles.clearButton} onPress={clearUserData}>
-        <Text style={styles.clearText}>Clear User Data</Text>
-      </TouchableOpacity>
-
-      <TouchableOpacity style={styles.button} onPress={handleBack}>
-        <Text style={styles.buttonText}>Home</Text>
-      </TouchableOpacity>
-    </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 
@@ -325,27 +355,55 @@ const styles = StyleSheet.create({
     marginTop: 50,
     marginBottom: 50,
   },
-  // title: {
-  //   fontSize: 24,
-  //   fontWeight: "bold",
-  //   marginBottom: 16,
-  // },
-  calories: {
-    fontSize: 16,
+  caloriesBox: {
+    paddingTop: 20,
+    paddingBottom: 10,
+    justifyContent: "center",
+    marginBottom: 20,
+    backgroundColor: "white",
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
   },
-  button: {
-    alignItems: "center",
-    backgroundColor: "#DDDDDD",
-    padding: 10,
-    marginTop: 10,
-    marginBottom: 50,
-    borderRadius: 5,
-  },
-  buttonText: {
-    color: "black",
+  caloriesText: {
+    color: "#499096",
     fontSize: 20,
     fontWeight: "bold",
+    paddingRight: 15,
+    paddingLeft: 15,
+    paddingBottom: 10,
+    textAlign: "center"
+  },
+  caloriesNum: {
+    fontSize: 30,
+    fontWeight: "bold",
     textAlign: "center",
+    paddingBottom: 5,
+    color: "#499096",
+    paddingRight: 15,
+    paddingLeft: 15,
+  },
+  subheading: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginBottom: 16,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
+  },
+  button: {
+    backgroundColor: "#499096",
+    width: 300,
+    height: 50,
+    borderRadius: 10,
+    alignSelf: "center",
+  },
+  buttonText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    padding: 10,
   },
   clearText: {
     color: "white",
@@ -354,11 +412,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   clearButton: {
-    backgroundColor: "#FF0000",
+    backgroundColor: "#e05353",
+    alignSelf: "center",
+    width: 300,
+    height: 50,
     padding: 10,
-    marginTop: 30,
+    marginTop: 40,
     marginBottom: 40,
-    borderRadius: 5,
+    borderRadius: 10,
   },
   grid: {
     flexDirection: "row",

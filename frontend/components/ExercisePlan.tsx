@@ -141,13 +141,13 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
   }
 
   return (
-    <View style={styles.container}>
-      {content}
+    <View style={styles.outerContainer}>
+      <View style={styles.container}>{content}</View>
       <TouchableOpacity
         style={styles.backButton}
         onPress={() => navigation.navigate("Menu")}
       >
-        <Text style={styles.backButtonText}>Go Home</Text>
+        <Text style={styles.backButtonText}>Home</Text>
       </TouchableOpacity>
     </View>
   );
@@ -175,7 +175,10 @@ const styles = StyleSheet.create({
   },
   button: {
     alignItems: "center",
+    alignSelf: "center",
     backgroundColor: "#499096",
+    width: 300,
+    height: 50,
     padding: 10,
     marginTop: 20,
     marginBottom: 10,
@@ -188,17 +191,25 @@ const styles = StyleSheet.create({
   },
   backButton: {
     alignItems: "center",
-    backgroundColor: "#DDDDDD",
+    alignSelf: "center",
+    backgroundColor: "#499096",
+    width: 300,
+    height: 50,
+    borderRadius: 10,
     padding: 10,
-    marginTop: 60,
-    marginBottom: 50,
-    borderRadius: 5,
+    marginTop: 10,
+    marginBottom: 10,
   },
   backButtonText: {
-    color: "black",
     fontSize: 20,
     fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
     textAlign: "center",
+  },
+  outerContainer: {
+    flex: 1,
+    justifyContent: "space-between",
   },
   description: {
     paddingBottom: 20,
@@ -209,10 +220,6 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
     marginBottom: 20,
     backgroundColor: "white",
-    // shadowColor: "#171717",
-    // shadowOffset: { width: 4, height: 4 },
-    // shadowOpacity: 0.2,
-    // shadowRadius: 5,
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 8,

@@ -89,9 +89,10 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>VitalFit Details</Text>
+      <Text style={styles.title}>About me</Text>
       <Text style={styles.label}>Weight (kg)</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={weight}
         onValueChange={(itemValue) => setWeight(itemValue)}
       >
@@ -102,6 +103,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
 
       <Text style={styles.label}>Height (cm)</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={height}
         onValueChange={(itemValue) => setHeight(itemValue)}
       >
@@ -111,6 +113,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Gender</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={gender}
         onValueChange={(itemValue) => setGender(itemValue)}
       >
@@ -119,6 +122,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Age</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={age}
         onValueChange={(itemValue) => setAge(itemValue)}
       >
@@ -128,6 +132,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Activity Level</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={activityLevel}
         onValueChange={(itemValue) => setActivityLevel(itemValue)}
       >
@@ -137,6 +142,7 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
       </Picker>
       <Text style={styles.label}>Goal</Text>
       <Picker
+        itemStyle={{ color: "#499096" }}
         selectedValue={goal}
         onValueChange={(itemValue) => setGoal(itemValue)}
       >
@@ -149,6 +155,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("vegetarian")}
             value={preferences.vegetarian}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -156,6 +165,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("vegan")}
             value={preferences.vegan}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -163,6 +175,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("glutenFree")}
             value={preferences.glutenFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
       </View>
@@ -172,6 +187,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("nutFree")}
             value={preferences.nutFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -179,6 +197,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("dairyFree")}
             value={preferences.dairyFree}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
         <View style={styles.gridRow}>
@@ -186,6 +207,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
           <Switch
             onValueChange={() => toggleSwitch("shellfish")}
             value={preferences.shellfish}
+            ios_backgroundColor="#f9f3d0"
+            thumbColor="#fcfbf5"
+            trackColor={{ true: "#499096" }}
           />
         </View>
       </View>
