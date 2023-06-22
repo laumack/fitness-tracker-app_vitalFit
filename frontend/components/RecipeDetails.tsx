@@ -89,7 +89,7 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
         {mealDetails.analyzedInstructions[0].steps.map((step: Step) => (
           <View style={styles.mealIntro} key={step.number}>
             <Text style={styles.stepTitle}>Step {step.number}</Text>
-            <Text>{step.step}</Text>
+            <Text>{step.step.charAt(0).toUpperCase() + step.step.slice(1)}</Text>
           </View>
         ))}
         <View style={styles.mealIntro}>
