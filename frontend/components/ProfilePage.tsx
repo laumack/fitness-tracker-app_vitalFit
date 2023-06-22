@@ -359,7 +359,6 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     paddingBottom: 10,
     justifyContent: "center",
-    textAlign: "center",
     marginBottom: 20,
     backgroundColor: "white",
     borderWidth: 1,
@@ -373,6 +372,7 @@ const styles = StyleSheet.create({
     paddingRight: 15,
     paddingLeft: 15,
     paddingBottom: 10,
+    textAlign: "center"
   },
   caloriesNum: {
     fontSize: 30,
