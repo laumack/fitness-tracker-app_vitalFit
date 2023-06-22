@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { StyleSheet, View, Image } from "react-native";
+import { StyleSheet, View, Image, TouchableOpacity } from "react-native";
 import logo from "../assets/vitalFit_logo.png";
 import * as SecureStore from "expo-secure-store";
 
@@ -24,10 +24,21 @@ const WelcomePage: React.FC<Props> = ({ navigation }) => {
     checkForProfile();
   }, []);
 
+  const handleScreenPress = async () => {
+    const userProfile = await SecureStore.getItemAsync("userProfile");
+    if (userProfile !== null) {
+      navigation.navigate("Menu");
+    } else {
+      navigation.navigate("CreateProfileForm");
+    }
+  };
+
   return (
-    <View style={styles.container}>
-      <Image source={logo} style={styles.logo} />
-    </View>
+    <TouchableOpacity style={styles.container} onPress={handleScreenPress}>
+      <View>
+        <Image source={logo} style={styles.logo} />
+      </View>
+    </TouchableOpacity>
   );
 };
 

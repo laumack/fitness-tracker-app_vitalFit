@@ -15,76 +15,53 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        screenOptions={{
-          headerStyle: {
-            backgroundColor: "#499096",
-          },
-          headerTintColor: "#f9f3d0",
-          headerTitleStyle: {
-            fontWeight: "bold",
-            fontSize: 25,
-          },
-          headerBackTitleVisible: false,
-        }}
-      >
+
+      <Stack.Navigator screenOptions={{ gestureEnabled: true }}>
         <Stack.Screen
           name="Welcome"
           component={WelcomePage}
-          options={{
-            headerShown: false,
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
           name="CreateProfileForm"
           component={CreateProfileForm}
-          options={{
-            title: "My Details",
-          }}
-        />
-        <Stack.Screen
-          name="Menu"
-          component={Menu}
-          options={{
-            title: "Dashboard",
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
           name="ProfilePage"
           component={ProfilePage}
-          options={{
-            title: "My Profile",
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
           name="MealPlanPage"
           component={MealPlanPage}
-          options={{
-            title: "Meal Plans",
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
-          name="RecipeDetails"
-          component={RecipeDetails}
-          options={{
-            title: "Recipes",
-          }}
+          name="Menu"
+          component={Menu}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
           name="ExercisePlan"
           component={ExercisePlan}
-          options={{
-            title: "Exercise Plans",
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
         <Stack.Screen
           name="ProgressPage"
           component={ProgressPage}
-          options={{
-            title: "My Progress",
-          }}
+          options={{ headerShown: false, gestureEnabled: true }}
         />
-        <Stack.Screen name="MealPlan" component={MealPlanPage} />
+        <Stack.Screen
+          name="MealPlan"
+          component={MealPlanPage}
+          options={{ headerShown: false, gestureEnabled: true }}
+        />
+        <Stack.Screen
+          name="RecipeDetails"
+          component={RecipeDetails}
+          options={{ headerShown: false, gestureEnabled: true }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

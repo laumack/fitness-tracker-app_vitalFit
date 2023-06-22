@@ -6,6 +6,7 @@ import {
   ScrollView,
   Image,
   TouchableOpacity,
+  ActivityIndicator,
 } from "react-native";
 import { fetchMealPlan, fetchRecipe } from "../apis/api";
 import * as SecureStore from "expo-secure-store";
@@ -60,6 +61,8 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     if (storedData) {
       const storedUserData = JSON.parse(storedData);
       setUserData(storedUserData);
+
+      fetchMealPlanData(storedUserData);
     }
   };
 
@@ -72,45 +75,37 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
     );
   };
 
-  useEffect(() => {
-    const fetchMealPlanData = async () => {
-      let calorieRequirement: number = roundToNearestValidCalories(
-        userData.calorieIntake || 0
-      );
+  const fetchMealPlanData = async (userData: UserData) => {
+    let calorieRequirement: number = roundToNearestValidCalories(
+      userData.calorieIntake || 0
+    );
 
+    let calorieString: string = `${calorieRequirement}`;
 
-      let calorieString: string = `${calorieRequirement}`;
+    if (userData.preferences && userData.preferences.vegan) {
+      calorieString += "_vegan";
+    }
 
-      if (userData.preferences && userData.preferences.vegan) {
-        calorieString += "_vegan";
-      }
+    const data: WeeklyPlan = await fetchMealPlan(calorieString);
 
-      const data: WeeklyPlan = await fetchMealPlan(calorieString);
-
-      for (const day in data) {
-        for (const meal of data[day].meals) {
-          const mealDetails = await fetchRecipe(meal.id);
-          if (mealDetails && mealDetails.meal) {
-            meal.image = mealDetails.meal.image;
-          } else {
-            console.log(`Failed to fetch details for meal with id ${meal.id}`);
-          }
+    for (const day in data) {
+      for (const meal of data[day].meals) {
+        const mealDetails = await fetchRecipe(meal.id);
+        if (mealDetails && mealDetails.meal) {
+          meal.image = mealDetails.meal.image;
+        } else {
+          console.log(`Failed to fetch details for meal with id ${meal.id}`);
         }
       }
+    }
 
-
-      setMealData(data);
-      setIsLoading(false);
-    };
-
-    fetchMealPlanData();
-  }, [userData]);
+    setMealData(data);
+    setIsLoading(false);
+  };
 
   const handleMealPress = (id: number) => {
     navigation.navigate("RecipeDetails", { mealId: id });
   };
-
-  if (isLoading) return <Text>Loading...</Text>;
 
   const daysOfWeek = [
     "monday",
@@ -123,13 +118,27 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
   ];
   const mealLabels = ["Breakfast", "Lunch", "Dinner"];
 
+  if (isLoading) {
+    return (
+      <ActivityIndicator size="large" color="#499096" style={styles.spinner} />
+    );
+  }
+
   return (
     <ScrollView style={styles.container}>
+      <View style={styles.menuItem}>
+        <TouchableOpacity
+          style={styles.backToMenu}
+          onPress={() => navigation.navigate("Menu")}
+        >
+          <Text style={styles.buttonText}>Home</Text>
+        </TouchableOpacity>
+      </View>
       {daysOfWeek.map((day) => (
         <View key={day}>
           <Text style={styles.title}>{day.toUpperCase()}</Text>
-          <Text>
-            Your daily target: {Math.round(mealData[day].nutrients.calories)} kcal
+          <Text style={styles.calories}>
+            Total Calories: {Math.round(mealData[day].nutrients.calories)} kcal
           </Text>
           {mealData[day].meals.map((meal, index) => (
             <TouchableOpacity
@@ -147,12 +156,6 @@ const MealPlanPage: React.FC<MealPlanPageProps> = ({ navigation }) => {
               </View>
             </TouchableOpacity>
           ))}
-
-          <Text style={styles.calories}>
-            Total calories for this meal plan:{" "}
-            {(mealData[day].nutrients.calories)} kcal
-          </Text>
-
         </View>
       ))}
     </ScrollView>
@@ -165,6 +168,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    marginTop: 50,
+    marginBottom: 50,
   },
   title: {
     color: "#499096",
@@ -193,5 +198,31 @@ const styles = StyleSheet.create({
   calories: {
     fontWeight: "bold",
     marginBottom: 15,
+  },
+  spinner: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  menuItem: {
+    flex: 2,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 20,
+  },
+  backToMenu: {
+    backgroundColor: "#499096",
+    width: 300,
+    height: 50,
+    borderRadius: 10,
+    justifyContent: "center",
+    alignSelf: "center",
+  },
+  buttonText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    padding: 10,
   },
 });

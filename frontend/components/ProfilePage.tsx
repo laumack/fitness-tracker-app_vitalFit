@@ -1,5 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, Switch, Button } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Switch,
+  Button,
+  TouchableOpacity,
+  Alert,
+} from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
 import calculateCalorieIntake from "./CalorieCalculation";
@@ -42,13 +50,16 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
 
   const fetchUserData = async () => {
     const storedData = await SecureStore.getItemAsync("userProfile");
-  
+
     if (storedData) {
       const storedUserData = JSON.parse(storedData);
       const calculatedCalorieIntake = calculateCalorieIntake(storedUserData);
       if (calculatedCalorieIntake !== storedUserData.calorieIntake) {
         storedUserData.calorieIntake = calculatedCalorieIntake;
-        await SecureStore.setItemAsync("userProfile", JSON.stringify(storedUserData));
+        await SecureStore.setItemAsync(
+          "userProfile",
+          JSON.stringify(storedUserData)
+        );
       }
       setUserData(storedUserData);
       setCalorieIntake(calculatedCalorieIntake);
@@ -70,6 +81,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       key === "gender"
     ) {
       updatedUserData.calorieIntake = calculateCalorieIntake(updatedUserData);
+      setCalorieIntake(updatedUserData.calorieIntake); 
     }
 
     await SecureStore.setItemAsync(
@@ -89,17 +101,32 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
   };
 
   const clearUserData = async () => {
-    await SecureStore.deleteItemAsync("userProfile");
-    setUserData({});
-    setPreferences({
-      vegetarian: false,
-      vegan: false,
-      glutenFree: false,
-      nutFree: false,
-      dairyFree: false,
-      shellfish: false,
-    });
-    navigation.navigate("CreateProfileForm");
+    Alert.alert(
+      "Clear User Data",
+      "Are you sure you want to clear all user data?",
+      [
+        {
+          text: "Cancel",
+          style: "cancel",
+        },
+        {
+          text: "OK",
+          onPress: async () => {
+            await SecureStore.deleteItemAsync("userProfile");
+            setUserData({});
+            setPreferences({
+              vegetarian: false,
+              vegan: false,
+              glutenFree: false,
+              nutFree: false,
+              dairyFree: false,
+              shellfish: false,
+            });
+            navigation.navigate("CreateProfileForm");
+          },
+        },
+      ]
+    );
   };
 
   const weightRange = Array.from({ length: 251 }, (_, i) => i + 50);
@@ -118,6 +145,10 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
       );
     }
     return null;
+  };
+
+  const handleBack = (): void => {
+    navigation.navigate("Menu");
   };
 
   return (
@@ -231,6 +262,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
         </View>
       )}
 
+
       <Text>Preferences: </Text>
       <Text>Vegetarian</Text>
       <Switch
@@ -281,6 +313,59 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
         trackColor={{ true: "#499096" }}
       />
       <Button title="Clear User Data" onPress={clearUserData} />
+      <View style={styles.grid}>
+        <View style={styles.gridRow}>
+          <Text>Vegetarian</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("vegetarian")}
+            value={preferences.vegetarian}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Vegan</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("vegan")}
+            value={preferences.vegan}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Gluten Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("glutenFree")}
+            value={preferences.glutenFree}
+          />
+        </View>
+      </View>
+      <View style={styles.grid}>
+        <View style={styles.gridRow}>
+          <Text>Nut Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("nutFree")}
+            value={preferences.nutFree}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Dairy Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("dairyFree")}
+            value={preferences.dairyFree}
+          />
+        </View>
+        <View style={styles.gridRow}>
+          <Text>Shellfish Free</Text>
+          <Switch
+            onValueChange={() => toggleSwitch("shellfish")}
+            value={preferences.shellfish}
+          />
+        </View>
+      </View>
+      <TouchableOpacity style={styles.clearButton} onPress={clearUserData}>
+        <Text style={styles.clearText}>Clear User Data</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={handleBack}>
+        <Text style={styles.buttonText}>Home</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -289,6 +374,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    marginTop: 50,
+    marginBottom: 50,
   },
   // title: {
   //   fontSize: 24,
@@ -297,6 +384,42 @@ const styles = StyleSheet.create({
   // },
   calories: {
     fontSize: 16,
+  },
+  button: {
+    alignItems: "center",
+    backgroundColor: "#DDDDDD",
+    padding: 10,
+    marginTop: 10,
+    marginBottom: 50,
+    borderRadius: 5,
+  },
+  buttonText: {
+    color: "black",
+    fontSize: 20,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  clearText: {
+    color: "white",
+    fontSize: 20,
+    fontWeight: "bold",
+    textAlign: "center",
+  },
+  clearButton: {
+    backgroundColor: "#FF0000",
+    padding: 10,
+    marginTop: 30,
+    marginBottom: 40,
+    borderRadius: 5,
+  },
+  grid: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginTop: 30
+  },
+  gridRow: {
+    width: "30%",
+    alignItems: "center",
   },
 });
 
