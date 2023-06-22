@@ -227,18 +227,29 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    paddingBottom: 50,
+    paddingBottom: 5,
     marginTop: 50,
     MarginBottom: 50,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginBottom: 16,
+    marginBottom: 40,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
+    alignSelf: "center",
   },
   label: {
-    fontSize: 18,
-    marginBottom: 8,
+    color: "#499096",
+    fontSize: 20,
+    fontWeight: "bold",
+    paddingRight: 15,
+    paddingLeft: 15,
+  },
+  buttonContainer: {
+    marginTop: 40,
+    marginBottom: 60,
   },
   grid: {
     flexDirection: "row",
