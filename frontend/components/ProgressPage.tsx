@@ -10,7 +10,7 @@ const ProgressPage: React.FC<Props> = ({ navigation }) => {
   return (
     <View style={styles.outerContainer}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>My progress</Text>
+        <Text style={styles.title}>My Progress</Text>
       </View>
       <View style={styles.container}>
         <Image source={bmiChart} style={styles.bmi} />
@@ -42,11 +42,15 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 16,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
+    alignSelf: "center",
   },
   titleContainer: {
     paddingTop: 10,
     alignSelf: "center",
-    marginTop: 50
+    marginTop: 50,
   },
   bmi: {
     width: 380,

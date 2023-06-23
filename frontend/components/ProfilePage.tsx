@@ -169,6 +169,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           {!editingField && (
             <Button
               title="Update weight"
+              color="#e05353"
               onPress={() => {
                 setEditingField("weight");
                 setFieldValue(userData.weight || "50");
@@ -197,6 +198,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           {!editingField && (
             <Button
               title="Update height"
+              color="#e05353"
               onPress={() => {
                 setEditingField("height");
                 setFieldValue(userData.height || "120");
@@ -229,6 +231,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           {!editingField && (
             <Button
               title="Update activity level"
+              color="#e05353"
               onPress={() => {
                 setEditingField("activityLevel");
                 setFieldValue(userData.activityLevel || "Low");
@@ -253,6 +256,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           {!editingField && (
             <Button
               title="Update goal"
+              color="#e05353"
               onPress={() => {
                 setEditingField("goal");
                 setFieldValue(userData.goal || "Weight Loss");
@@ -273,7 +277,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           )}
           <View style={styles.grid}>
             <View style={styles.gridRow}>
-              <Text>Vegetarian</Text>
+              <Text style={styles.dietLabel}>Vegetarian</Text>
               <Switch
                 onValueChange={() => toggleSwitch("vegetarian")}
                 value={preferences.vegetarian}
@@ -283,7 +287,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
               />
             </View>
             <View style={styles.gridRow}>
-              <Text>Vegan</Text>
+              <Text style={styles.dietLabel}>Vegan</Text>
               <Switch
                 onValueChange={() => toggleSwitch("vegan")}
                 value={preferences.vegan}
@@ -293,7 +297,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
               />
             </View>
             <View style={styles.gridRow}>
-              <Text>Gluten Free</Text>
+              <Text style={styles.dietLabel}>Gluten Free</Text>
               <Switch
                 onValueChange={() => toggleSwitch("glutenFree")}
                 value={preferences.glutenFree}
@@ -305,7 +309,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
           </View>
           <View style={styles.grid}>
             <View style={styles.gridRow}>
-              <Text>Nut Free</Text>
+              <Text style={styles.dietLabel}>Nut Free</Text>
               <Switch
                 onValueChange={() => toggleSwitch("nutFree")}
                 value={preferences.nutFree}
@@ -315,7 +319,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
               />
             </View>
             <View style={styles.gridRow}>
-              <Text>Dairy Free</Text>
+              <Text style={styles.dietLabel}>Dairy Free</Text>
               <Switch
                 onValueChange={() => toggleSwitch("dairyFree")}
                 value={preferences.dairyFree}
@@ -325,7 +329,7 @@ const ProfilePage: React.FC<Props> = ({ navigation }) => {
               />
             </View>
             <View style={styles.gridRow}>
-              <Text>Shellfish Free</Text>
+              <Text style={styles.dietLabel}>Shellfish Free</Text>
               <Switch
                 onValueChange={() => toggleSwitch("shellfish")}
                 value={preferences.shellfish}
@@ -352,7 +356,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    marginTop: 50,
+    marginTop: 20,
     marginBottom: 50,
   },
   caloriesBox: {
@@ -372,7 +376,7 @@ const styles = StyleSheet.create({
     paddingRight: 15,
     paddingLeft: 15,
     paddingBottom: 10,
-    textAlign: "center"
+    textAlign: "center",
   },
   caloriesNum: {
     fontSize: 30,
@@ -386,10 +390,15 @@ const styles = StyleSheet.create({
   subheading: {
     fontSize: 20,
     fontWeight: "bold",
-    marginBottom: 16,
-    marginTop: 10,
+    marginBottom: 20,
+    marginTop: 20,
     color: "#499096",
     marginLeft: 5,
+  },
+  dietLabel: {
+    color: "#499096",
+    fontSize: 16,
+    marginBottom: 10,
   },
   button: {
     backgroundColor: "#499096",

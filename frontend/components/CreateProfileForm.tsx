@@ -6,6 +6,7 @@ import {
   Text,
   Button,
   Switch,
+  TouchableOpacity,
 } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 import * as SecureStore from "expo-secure-store";
@@ -214,7 +215,9 @@ const CreateProfileForm: React.FC<Props> = ({ navigation }) => {
         </View>
       </View>
       <View style={styles.buttonContainer}>
-        <Button title="Submit" onPress={handleSubmit} />
+        <TouchableOpacity style={styles.submitButton} onPress={handleSubmit}>
+          <Text style={styles.submitText}>Submit</Text>
+        </TouchableOpacity>
       </View>
     </ScrollView>
   );
@@ -224,18 +227,25 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    paddingBottom: 50,
+    paddingBottom: 5,
     marginTop: 50,
     MarginBottom: 50,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
-    marginBottom: 16,
+    marginBottom: 40,
+    marginTop: 10,
+    color: "#499096",
+    marginLeft: 5,
+    alignSelf: "center",
   },
   label: {
-    fontSize: 18,
-    marginBottom: 8,
+    color: "#499096",
+    fontSize: 20,
+    fontWeight: "bold",
+    paddingRight: 15,
+    paddingLeft: 15,
   },
   buttonContainer: {
     marginTop: 40,
@@ -249,6 +259,24 @@ const styles = StyleSheet.create({
   gridRow: {
     width: "30%",
     alignItems: "center",
+  },
+  submitButton: {
+    alignItems: "center",
+    alignSelf: "center",
+    backgroundColor: "#499096",
+    width: 300,
+    height: 50,
+    borderRadius: 10,
+    padding: 10,
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  submitText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#f9f3d0",
+    alignSelf: "center",
+    textAlign: "center",
   },
 });
 

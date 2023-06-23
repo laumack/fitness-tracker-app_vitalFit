@@ -57,7 +57,11 @@ const RecipeDetails: React.FC<Props> = ({ route, navigation }) => {
     });
   }, [mealId]);
 
-  if (!mealDetails) return <Text>Loading...</Text>;
+  if (!mealDetails) {
+    return (
+      <ActivityIndicator size="large" color="#499096" style={styles.spinner} />
+    );
+  }
 
   const handleBack = (): void => {
     navigation.navigate("MealPlan");
@@ -157,5 +161,10 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "#f9f3d0",
     fontWeight: "bold",
+  },
+  spinner: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

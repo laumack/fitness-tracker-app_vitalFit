@@ -65,8 +65,12 @@ const ExercisePlan: React.FC<Props> = ({ navigation }) => {
     setShowDifficultyButtons(true);
   };
 
-  if (isLoading) return <Text>Loading...</Text>;
-
+if (isLoading) {
+  return (
+    <ActivityIndicator size="large" color="#499096" style={styles.spinner} />
+  );
+}
+  
   let content: JSX.Element | null = null;
 
   if (showDifficultyButtons) {
@@ -248,5 +252,10 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingBottom: 3,
     fontWeight: "bold",
+  },
+  spinner: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
